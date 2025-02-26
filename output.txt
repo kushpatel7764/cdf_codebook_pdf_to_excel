@@ -1,0 +1,101 @@
+--- Page ---
+VARIABLE DESCRIPTION
+VERSION VERSION NUMBER OF RELEASE
+Question Version of Cumulative Data File
+Notes GENERAL NOTE:
+This character variable appears in the data as:
+ANES_cdf_VERSION:YYYY-mmm-DD
+where mmm is standard 3-character month abbreviation
+(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec).
+VCF0004 YEAR OF STUDY
+Question Year of study (4-digit)
+VCF0006 STUDY RESPONDENT NUMBER: YEAR-LEVEL CASE ID
+Question Case identification number
+Notes GENERAL NOTE:
+In Pre-Post studies, this is the Pre case ID.
+2016 NOTE:
+This is the revised 2016 case id number.
+Weight VCF0009x/VCF0009y/VCF0009z
+Sources 1948: V480002
+1952: V520002
+1956: V560002
+1958: V580002
+1960: V600002
+1962: V620002
+1964: V640002
+1966: V660002
+1968: V680002
+1970: V700002(type 0)
+1972: V720002
+1974: V742002
+1976: V763002
+1978: V780002
+1980: V800004
+1982: V820004
+1984: V840004
+1986: V860004
+1988: V880004
+1990: V900004
+1992: V923004
+1994: V940001
+1996: V960001
+1998: V980001
+2000: V000001
+7
+
+--- Page ---
+8 VARIABLE DESCRIPTION
+2002: V020001
+2004: V040001
+2008: V080001
+2012: caseid
+2016: V160001
+2020: V200001
+UNIQUE RESPONDENT NUMBER (CROSS-YEAR ID FOR
+VCF0006a
+PANEL CASES)
+Question Unique identification number
+Notes GENERAL NOTE:
+For non-panel cases this corresponds to 4-digit year of study followed
+by 4-digit case id from the study as found in VCF0006.
+For panel cases, this corresponds to 4-digit year of first year of
+time-series participation followed by 4-digit case id from first
+participation study . For example, 1958 ANES panel cases (first
+interviewed in the 1956 anes) are numbered 1956xxxx where xxxx
+corresponds to the case ID the respondent had been assigned previously
+in the 1956 study; VCF0006, by contrast, includes the respondent’s 1958
+ANES case ID.
+Studies including panel cases as part of the overall study cross-section
+are flagged in VCF00016.
+1958 NOTE:
+In the 1958 anes time-series study, V580007 and V580008 flags whether
+1958 respondents were previously interviewed in 1956. However, some
+respondents flagged in these variables had been interviewed in 1956 not
+as part of the 1956 anes study’s cross-section sample, but as part of a
+sample component intended for a separate ‘panel’ (non-cross-section)
+file. Thus the actual count of cases from the 1958 study having 1956
+unique IDs in VCF0006a (as 1956xxxx, where xxxx is the 1956 ANES
+cross-section case ID) does not correspond with the count of cases
+flagged in V580007 and V580008 for previous participation in 1956.
+1960 NOTE:
+see 1958 NOTE; cases flagged in the 1960 ANES study for participation
+prior to 1960 may have participated outside of the time-series cross-
+section(s) in the year(s) of prior participation and may not correspond
+to the count of cases found here for initial time-series participation.
+VCF0009x WEIGHT: FOR 1970 TYPE 0 - 2012,2016 FTF SAMPLE
+Question CDF Weight: 1970 type 0 - 2012 FTF sample
+Notes GENERAL NOTE:
+See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+Sources 1958: V580003
+1960: V600003
+1974: V742003
+1976: V763003
+1992: V927000
+1994: V940007a
+1996: V960005a
+1998: V980002
+2000: V000002
+2002: V020101
+2004: V040101
+2008: V080101
+
