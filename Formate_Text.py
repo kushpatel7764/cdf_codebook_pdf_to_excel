@@ -1,77 +1,77 @@
-import pdfplumber
-import pandas as pd
 import re
+import pandas as pd
 
-pdf_path = "Test1.pdf"  
-output_path = "extracted_tables1.xlsx"
-text_file_path = "output.txt"  
-
-# Read the text file
-with open(text_file_path, "r", encoding="utf-8") as file:
-    text = file.readlines()
-
-# Initialize storage lists
-ids, questions, weights, notes, sources = [], [], [], [], []
-
-# Temporary variables to store current data
-current_id = None
-current_question = ""
-current_weights = ""
-current_notes = ""
-current_sources = ""
-in_notes_section = False
-
-# Process each line
-for line in text:
-    line = line.strip()
-
-    # Detect new ID (lines starting with 'VCF' or similar identifiers)
-    if re.match(r"VCF\d{2,}", line):  
-        if current_id:  # Save the previous entry before starting a new one
-            ids.append(current_id)
-            questions.append(current_question.strip())
-            weights.append(current_weights.strip())
-            notes.append(current_notes.strip())
-            sources.append(current_sources.strip())
+# Function to extract IDs and sources from the file
+def extract_ids_and_sources(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    
+    # Regular expressions to identify IDs and sources
+    id_pattern = re.compile(r'^(VCF\d{4,5}[a-zA-Z]?)')
+    #source_header_pattern = re.compile(r'^Sources\s(.+)')
+    source_header_pattern = re.compile(r'^Sources\s*\n*(.+)*')
+    source_line_pattern = re.compile(r'^(\d{4}):\s(.+)')
+    
+    # Data storage
+    extracted_data = []
+    current_id = None
+    current_sources = []
+    collecting_sources = False  # Flag to track source collection
+    
+    for i, line in enumerate(lines):
+        # Match ID pattern
+        id_match = id_pattern.search(line)
+        next_line = i + 1
+        next_line = lines[next_line] if len(lines) > next_line else ""
         
-        current_id = line.split()[0]  # Capture ID
-        current_question, current_weights, current_notes, current_sources = "", "", "", ""  # Reset fields
-        in_notes_section = False
+        question_match_regex = re.compile(r"^Question")
+        question_match = question_match_regex.search(next_line)
 
-    # Capture question-related lines
-    elif line.lower().startswith("question"):
-        current_question += " " + line.replace("Question", "").strip()
-        in_notes_section = False
+        if not question_match:
+            second_line = i + 2
+            if len(lines) > second_line:
+                second_next_line = lines[second_line]
+                question_match = question_match_regex.search(second_next_line)
+                
+        if id_match and question_match:
+            # If an ID is found, save the previous ID and its sources
+            if current_id:
+                extracted_data.append([current_id, " ".join(current_sources) if current_sources else "No sources"])
+            
+            # Update current ID and reset sources
+            current_id = id_match.group(1)
+            current_sources = []
+            collecting_sources = False  # Reset source collection flag
+        
+        elif current_id:
+            # Match sources patterns
+            source_header_match = source_header_pattern.search(line)
+            source_line_match = source_line_pattern.search(line)
+            
+            # If a sources header is found, start collecting sources
+            if source_header_match:
+                if source_header_match.group(1):
+                    current_sources.extend(source_header_match.group(1).split())
+                collecting_sources = True  # Enable source collection
+            
+            # If collecting sources, keep adding source lines
+            elif collecting_sources and source_line_match:
+                current_sources.append(f"{source_line_match.group(1)}: {source_line_match.group(2)}")
     
-    # Capture weight-related lines
-    elif line.lower().startswith("weight"):
-        current_weights += " " + line.replace("Weight", "").strip()
-        in_notes_section = False
+    # Add the last ID and its sources to the data list
+    if current_id:
+        extracted_data.append([current_id, " ".join(current_sources) if current_sources else "No sources"])
     
-    # Capture note-related lines
-    elif "notes" in line.lower() or "general note" in line.lower():
-        current_notes += " " + line.replace("Notes", "").replace("GENERAL NOTE:", "").strip()
-        in_notes_section = True
-    elif in_notes_section:
-        current_notes += " " + line.strip()
-    
-    # Capture source lines (lines that look like "1958: V580003")
-    elif re.match(r"\d{4}:\s*V\d+", line):
-        current_sources += " " + line.strip()
-        in_notes_section = False
+    return extracted_data
 
-# Append last collected data
-if current_id:
-    ids.append(current_id)
-    questions.append(current_question.strip())
-    weights.append(current_weights.strip())
-    notes.append(current_notes.strip())
-    sources.append(current_sources.strip())
+# File path to input file
+file_path = './output2.txt'
+# Extract data from file
+data = extract_ids_and_sources(file_path)
 
-# Store extracted data in a DataFrame
-df = pd.DataFrame({"ID": ids, "Question": questions, "Weight": weights, "Notes": notes, "Sources": sources})
+# Convert data to DataFrame and save as Excel file
+df = pd.DataFrame(data, columns=['ID', 'Sources'])
+df.to_excel('extracted_ids_sources1.xlsx', index=False)
 
-# Save to an Excel file
-df.to_excel(output_path, index=False)
-
-print("Data extracted and saved successfully.")
+# Print confirmation message
+print("Excel file created: extracted_ids_sources.xlsx")
