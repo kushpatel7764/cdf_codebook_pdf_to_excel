@@ -1,4 +1,3 @@
-
 VARIABLE DESCRIPTION
 VERSION VERSION NUMBER OF RELEASE
 Question Version of Cumulative Data File
@@ -42,9 +41,6 @@ Sources 1948: V480002
 1998: V980001
 2000: V000001
 7
-
-
-8 VARIABLE DESCRIPTION
 2002: V020001
 2004: V040001
 2008: V080001
@@ -98,9 +94,6 @@ Sources 1958: V580003
 2002: V020101
 2004: V040101
 2008: V080101
-
-
-9
 2012: weight_ftf
 2016: V160101f
 VCF0009y WEIGHT: FOR 1970 TYPE 0 - 2012,2016 WEB SAMPLE
@@ -143,9 +136,6 @@ Sources 1958: V580003
 2016: V160101
 2020: V200010a
 VCF0010x WEIGHT: FOR 1970 TYPE 1 - 2012,2016 FTF SAMPLE
-
-
-10 VARIABLE DESCRIPTION
 Question CDF Weight: 1970 type 1 - 2012 FTF sample
 Notes GENERAL NOTE:
 See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
@@ -196,9 +186,6 @@ Sources 1958: V580003
 1994: V940006a
 1996: V960005a
 1998: V980002
-
-
-11
 2000: V000002
 2002: V020101
 2004: V040101
@@ -243,9 +230,6 @@ Sources 1958: V580003
 2008: V080101
 2012: weight_web
 2016: V160101w
-
-
-12 VARIABLE DESCRIPTION
 VCF0011z WEIGHT: FOR 1970 TYPE 2 - 2012,2016 FULL SAMPLE
 Question CDF Weight: 1970 type 2 - 2012,2016 full sample
 Notes GENERAL NOTE:
@@ -293,9 +277,6 @@ mail questionnaires that contained most, but not all, of Form I/ Form
 II Post personal questions. Rs who were Form I in the Pre but
 administered Post mail questionnaires were designated ‘FORM III’ in the
 Post, while Rs who were Form II in the Pre but who completed mail
-
-
-13
 questionnaires for the Post were Post ‘FORM IV’.
 1972 NOTE 2:
 The same Form type was assigned in the Post as in the Pre.
@@ -357,9 +338,6 @@ appropriate.
 **ALL YEARS 2002-2008:
 Post variable numbering begins Vxx5001, where xx is the 2-digit year
 of the time-series study.
-
-
-14 VARIABLE DESCRIPTION
 Sources 1952: V520003
 1960: V600016
 1964: V640276
@@ -411,9 +389,6 @@ VCF0015a ABBREVIATED INTERVIEW - PRE
 Question Abbreviated interview form - Pre
 Valid 0. Pre IW not abbreviated [1992:‘Long’ form Pre]
 1. Abbreviated pre IW
-
-
-15
 [1980 N=44: CA29,TX03 ; 1992 short-form Pre N=150;
 1996 VQ date 09/25/96 or later N=1074; 2000 VQ date
 09/28/00 or later N=999]
@@ -473,9 +448,6 @@ contained fewer questions than in the full face-to-face questionnaire.
 In the 1972 post, some respondents were sent mail questionnaires which
 contained fewer questions than in the full face-to-face questionnaire:
 respondents who were Form I in the Pre (see VCF0012) and who were
-
-
-16 VARIABLE DESCRIPTION
 interviewed in the Post using the mail questionnaire were designated
 ‘Form III’ in the Post; respondents who were Form II in the Pre and who
 were interviewed in the Post using the mail questionnaire were
@@ -538,9 +510,6 @@ number of panel cases in the 1975 time-series data file does not
 correspond with the number of 1976 panel cases in the 1972-1974-1976
 merged panel file)
 1992 NOTE:
-
-
-17
 Panel cases had previously been interviewed in 1990.
 1994 NOTE:
 Panel cases had previously been interviewed in 1992, as 1992 new fresh
@@ -598,9 +567,6 @@ Sources 1984: V840004
 2012: mode
 2016: V160501
 2020: V200002
-
-
-18 VARIABLE DESCRIPTION
 VCF0018a LANGUAGE OF INTERVIEW - PRE
 Question 1980: Was this interview conducted in English? (IF NO:) In What language
 was this interview conducted?
@@ -658,9 +624,6 @@ VCF0018b LANGUAGE OF INTERVIEW - POST
 Question 1978-1982: Was this interview conducted in English? (IF NO:) In What language
 was this interview conducted?
 1984,1986,1990-1994: Was this interview conducted entirely in English, or was
-
-
-19
 it necessary to translate some (or all) questions into another language?
 What language?
 Valid 0. IW conducted entirely in English; 2008,2012: beginning language
@@ -729,9 +692,6 @@ Sources 1978: V780645
 2008: V084011
 2012: admin_post_lang_start
 2020: V202001
-
-
-20 VARIABLE DESCRIPTION
 VCF0019 R RELATIONSHIP TO HEAD OF HH 1952-1986
 Question R’s relationship to head
 Valid 1. R is head of household
@@ -786,9 +746,6 @@ Sources 1968: V680269
 2008: V083303
 2012: iwrobspre_levinfo
 2016: V168016
-
-
-21
 VCF0050b RESPONDENT LEVEL OF POLITICAL INFO - POST
 Question POST INTERVIEWER OBSERVATION:
 Respondent’s general level of information about politics and public
@@ -844,9 +801,6 @@ Sources 1988: V880037
 2002: V022025
 2004: V042103
 2008: V082252
-
-
-22 VARIABLE DESCRIPTION
 2012: iwrdesc_pre_gender
 2016: V168257
 2020: V203403
@@ -894,9 +848,6 @@ of race codes after 2002 [see VCF0071c].
 1988 NOTE:
 Categories ‘Asian’ and ‘Other’ were not used.
 Sources
-
-
-23
 1988: V880033
 1992: V923085
 1996: V960092
@@ -944,9 +895,6 @@ previous years, code 2 represented specific mentions of Black,
 Asian, Native American, Asian, or Pacific Islander/Native Hawaiian
 and mentions outside of those specific categories were coded to 7.
 Sources
-
-
-24 VARIABLE DESCRIPTION
 1988: V880033
 1992: V923085
 1996: V960092
@@ -996,9 +944,6 @@ Question Pre interviewer ethnicity
 Valid 1. Non-Hispanic
 2. Hispanic
 7. Other
-
-
-25
 Missing 9. NA; Web mode
 INAP. question not used
 Notes GENERAL NOTE:
@@ -1046,9 +991,6 @@ Valid 17-96. Age as coded (1992: 91=91 or older; 2012,2016: 90=90 or older, 2020
 97. 97 years old (1952, 1974, 1996 and later: or older)
 98. 98 years old (1958-1962, 1966, 1968: or older)
 99. 99 years old (1976-1990,1994,2002: or older)
-
-
-26 VARIABLE DESCRIPTION
 Missing 00. NA; DK; RF; no Pre IW
 INAP. question not used
 Notes GENERAL NOTE:
@@ -1118,9 +1060,6 @@ Sources 1952: V520142
 2012: dem_age_r_x
 2016: V161267
 2020: V201507x
-
-
-27
 VCF0102 RESPONDENT - AGE GROUP
 Question 1964-1976: What is your date of birth?
 1978-1982: What is the month and year of your birth?
@@ -1175,9 +1114,6 @@ cohort categories. The original age categories were:
 1954: 1.21-24; 2.25-34; 3.35-44; 4.45-54; 5.55-64; 6.over 65.
 The 1954 recode used was: 1=4, 2-3=5, 4-5=6, 6=7.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-28 VARIABLE DESCRIPTION
 Sources 2016: V161267
 2020: V201506
 VCF0104 RESPONDENT - GENDER
@@ -1229,9 +1165,6 @@ Sources 1948: V480045
 2012: gender_respondent_x
 2016: V161342
 2020: V201600
-
-
-29
 VCF0105a RACE-ETHNICITY SUMMARY, 7 CATEGORIES
 Question 1948,1952,1956-1970: Interviewer observation of Race.
 1972-1976: Interviewer observation of Race.
@@ -1299,9 +1232,6 @@ parallel ANES Ethnicity/Nationality codes (1978-2008).
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1948: V480046
 1952: V520129
-
-
-30 VARIABLE DESCRIPTION
 1956: V560172
 1958: V580171
 1960: V600119
@@ -1366,9 +1296,6 @@ yourself to be: [MULTIPLE MENTIONS]: White / Black or
 African-American / American Indian or Alaska Native /
 Asian / Native Hawaiian or other Pacific Islander /
 Other.
-
-
-31
 Valid 1. White non-Hispanic
 2. Black non-Hispanic
 3. Hispanic
@@ -1429,9 +1356,6 @@ consider your main ethnic group or nationality
 group?
 1988-1998: Interviewer observation of Race.
 In addition to being American, what do you consider your
-
-
-32 VARIABLE DESCRIPTION
 main ethnic group or nationality group?
 [IF HISPANIC ETHNIC GROUP NOT MENTIONED] Are you of Spanish
 or Hispanic origin or descent?
@@ -1492,9 +1416,6 @@ dem_racecps_racedkrf,dem_racecps_white
 VCF0107 RESPONDENT - HISPANIC ORIGIN TYPE
 Question 1988-2008:
 In addition to being American, what do you consider
-
-
-33
 your main ethnic group or nationality group? (IF NO HISPANIC GROUP
 MENTIONED:) Are you of Spanish or Hispanic origin or descent?
 IF YES:) Please look at the booklet and tell me which category best
@@ -1564,9 +1485,6 @@ but who did not mention any country other than U.S.A. are coded 4.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1978: V780632
 1980: V800722
-
-
-34 VARIABLE DESCRIPTION
 1982: V820764
 1984: V840709
 1986: V860757
@@ -1618,9 +1536,6 @@ Sources 1978: V780632
 2012: dem_hisp
 2016: V161309
 2020: V201546
-
-
-35
 VCF0109 RESPONDENT - ETHNICITY
 Question In addition to being an American what do you consider your main
 ethnic group or nationality group?
@@ -1683,9 +1598,6 @@ Sources 1972: V720406
 2000: V001008
 2004: V043303x
 2008: V083254x
-
-
-36 VARIABLE DESCRIPTION
 VCF0110 RESPONDENT - EDUCATION 4-CATEGORY
 Question 1952-1972: How many grades of school did you finish?
 1974,1976: What is highest grade of school or year of college
@@ -1753,9 +1665,6 @@ Sources 1948: V480048
 1978: V780513
 1980: V800436
 1982: V820542
-
-
-37
 1984: V840438
 1986: V860602
 1988: V880422
@@ -1808,9 +1717,6 @@ Sources 1952: V520007
 1996: V960118
 1998: V980099
 2000: V000093
-
-
-38 VARIABLE DESCRIPTION
 VCF0112 CENSUS REGION
 Question Region - U.S. Census
 Valid 1. Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)
@@ -1868,9 +1774,6 @@ Sources 1952: V520005
 2016: V163001b
 2020: V203003
 VCF0113 POLITICAL SOUTH/NONSOUTH
-
-
-39
 Question Region - political south
 Valid 1. South
 2. Nonsouth
@@ -1932,9 +1835,6 @@ into which your family income will probably fall.
 Please look at this card/page (2000 FTF: the booklet) and tell me the
 letter of the income group that includes the income of all members of
 your family living here in [previous year] before taxes. This figure
-
-
-40 VARIABLE DESCRIPTION
 should include salaries, wages, pensions, dividends, interest, and all
 other income. (IF UNCERTAIN:) What would be your best guess?
 1992 SHORT FORM:
@@ -2006,9 +1906,6 @@ Personal data forms were completed for no-pre cases: data from
 these forms were incorporated.
 1996 NOTE:
 For 14 cases, interviewers entered responses where individual income
-
-
-41
 was higher than family income. In some of these cases, the responses
 for family income and R income may have been provided.entered in
 incorrect order.
@@ -2071,9 +1968,6 @@ What kind of work did you do before you retired?
 do you do on your job?] (IF UNEMPLOYED OR RETIRED:) What kind of work
 did you do when you were employed? [What exactly did you do on your job?]
 1972-1982:
-
-
-42 VARIABLE DESCRIPTION
 (IF R IS WORKING NOW OR IS TEMPORARILY LAID OFF:) What is your main
 occupation [What sort of work do you do? Tell me a little more about
 what you do.] (IF R IS UNEMPLOYED:) What kind of work did you do on
@@ -2137,9 +2031,6 @@ Sources 1952: V520132,V520134
 1998: V980579,V980639
 2000: V000919,V000980
 2004: V043262p
-
-
-43
 VCF0116 RESPONDENT - WORK STATUS 7-CATEGORY
 Question 1972-1978:
 (1972: We’d like to know if you are looking for work, working now) (1974-
@@ -2206,9 +2097,6 @@ Sources 1972: V720306
 2012: dem_empstatus_1digitfin_x
 2016: V161276x
 2020: V201534x
-
-
-44 VARIABLE DESCRIPTION
 VCF0117 HEAD OF HH - WORK STATUS 7-CATEGORY 1948-1986
 Question 1948: What is [head’s] occupation, I mean, what kind of work does
 head) do?
@@ -2266,9 +2154,6 @@ housewife), (a student), or what?
 retired, (a housewife) a (student), or what? (IF HOMEMAKER OR STUDENT)
 Are you doing any work for pay at the present time? (IF R IS HOMEMAKER
 OR STUDENT AND R IS WORKING FOR PAY:) About how many hours do you work
-
-
-45
 on your job in the average week?
 1980 AND LATER EXC. 2002 FRESH CROSS:
 We’d like to know if you are working now, temporarily laid off, or are
@@ -2338,9 +2223,6 @@ Sources 1952: V520132
 1994: V941216
 1996: V960616
 1998: V980579a
-
-
-46 VARIABLE DESCRIPTION
 2000: V000920
 2002: V023132x
 2004: V043260b
@@ -2401,9 +2283,6 @@ Sources 1952: V520135
 1972: V720329
 1974: V742466
 1976: V763431
-
-
-47
 1978: V780553
 1980: V800592
 1982: V820666
@@ -2454,9 +2333,6 @@ Score (3-digit code, see APPENDIX ‘DUNCAN S.E.I. AND NORC PRESTIGE
 SCALES 1976-1982’) based on 1970 U.S. Census occupation codes.
 Scores have 1 implied decimal point, i.e., code 578 represents a score
 of 57.8.
-
-
-48 VARIABLE DESCRIPTION
 1978 NOTE:
 See 1976 note.
 1980 NOTE:
@@ -2506,9 +2382,6 @@ Missing 998. Head is member of armed forces or former member; Head’s occupatio
 has no NORC code (2 categories: carpenter’s helpers, and fishermen
 and oystermen)
 999. NA if Head is working now/has ever worked; Head’s occupation NA
-
-
-49
 000. Head has never worked (unemployed or disabled)–all years; Head is
 nonworking student or housewife –all years; Head is housewife or
 student working less than 20 hours per week (1976,1978); identity
@@ -2557,9 +2430,6 @@ Sources 1968: V680163
 VCF0125 HEAD OF HH - PRESTIGE SCORE S.E.S. RANK 1968-1974
 Question Duncan S.E.S. score for Head
 Missing
-
-
-50 VARIABLE DESCRIPTION
 98. Head is member of armed forces or former member; Head’s occupation
 has no S.E.S. code (tobacco manufacturers)
 99. NA if Head is working now/has ever worked; Head’s occupation is NA
@@ -2618,9 +2488,6 @@ Sources 1952: V520141
 1964: V640259
 1966: V660228
 1968: V680252
-
-
-51
 1970: V700370(type 0)
 1972: V720413
 1974: V742534
@@ -2673,9 +2540,6 @@ Valid 01. Professional, technical and kindred workers
 07. Transport equipment operatives
 08. Laborers, except farm
 09. Farmers (owners and tenants), farm managers, farmer – NA type
-
-
-52 VARIABLE DESCRIPTION
 10. Farm foreman, farm laborer (wage-worker)
 11. Service workers, except private household and government protective services
 12. Government protective services: firemen; police; marshals and constables
@@ -2726,9 +2590,6 @@ Sources 1984: V840694
 1986: V860744
 1988: V880542
 1992: V924126
-
-
-53
 VCF0127 HOUSEHOLD - UNION MEMBERSHIP
 Question 1948:
 Does [head] belong to a labor union?
@@ -2787,9 +2648,6 @@ Sources 1948: V480030
 2012: dem_unionhh
 2016: V161302
 2020: V201544
-
-
-54 VARIABLE DESCRIPTION
 VCF0127a HOUSEHOLD - WHO BELONGS TO UNION 8-CATEGORY
 Question (1988-LATER EXC.2002: Do you or [1988: does] anyone else; 2002: Does
 anyone) in this household belong to a labor union?
@@ -2845,9 +2703,6 @@ Notes GENERAL NOTE:
 In 1948 and 1954 it was not possible to distinguish when R was head,
 and 1948 and 1954 are not included.
 1952 NOTE:
-
-
-55
 Only R’s or the head of household’s union affiliation was coded; for
 1952, codes 2 and 3 only include persons other than R if they were
 designated head of household.
@@ -2908,9 +2763,6 @@ Missing 0. NA; no Pre IW; no Post IW; short-form ‘new’ Cross Section (1992)
 INAP. question not used
 Notes GENERAL NOTE:
 See also VCF0129 and VCF0152.
-
-
-56 VARIABLE DESCRIPTION
 In all Pre-Post studies except 1960 this was a Pre var.
 This has been collapsed from the Study variable summarizing R’s
 religious self-identification, constructed from the complete set of
@@ -2973,9 +2825,6 @@ Is your Church (1962: religious) preference Protestant, Catholic or
 Jewish? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
 1966-1968:
 Are you Protestant, Catholic or Jewish? (IF PROTESTANT:) What church is
-
-
-57
 Jewish? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
 1966-1968:
 Are you Protestant, Catholic or Jewish? (IF PROTESTANT:) What church is
@@ -3036,9 +2885,6 @@ larger Baptist group or is this strictly a local church?
 in America, the Missouri Synod, or some other Lutheran group?
 (IF METHODIST:) Is your church part of the United Methodist Church,
 African Methodist Episcopal, or some other Methodist group?
-
-
-58 VARIABLE DESCRIPTION
 (IF PRESBYTERIAN:) Is this the Presbyterian Church in the USA or some
 other Presbyterian group?
 (IF REFORMED:) Is this the Christian Reformed Church, the Reformed
@@ -3099,9 +2945,6 @@ Are you Protestant, Catholic or Jewish? (IF PROTESTANT:) What church is
 that, Baptist, Methodist or what?
 1970:
 Is your religious preference Protestant, Catholic, Jewish, or something
-
-
-59
 else? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
 1972-1988:
 Is your religious preference Protestant, Catholic, Jewish, or something
@@ -3161,9 +3004,6 @@ your life these days, do you ever attend religious services, apart
 from occasional weddings, baptisms or funerals? (IF YES:) Do you go
 to religious services every week, almost every week, once or twice a
 month, a few times a year, or never?
-
-
-60 VARIABLE DESCRIPTION
 Valid 1. Every week (Except 1970: almost every week)
 2. Almost every week (no cases in 1970)
 3. Once or twice a month
@@ -3224,9 +3064,6 @@ few times a year, or never?
 (IF R SAYS HE/SHE GOES TO RELIGIOUS SERVICES EVERY WEEK:)
 Would you say you go to religious services once a week or more often
 than once a week?
-
-
-61
 Valid 0. Every week - more than once a week
 1. Every week - once a week or NA if once a week/more than once a week
 2. Almost every week
@@ -3277,9 +3114,6 @@ Sources 1952: V520159
 1964: V640236
 1966: V660222
 1968: V680214
-
-
-62 VARIABLE DESCRIPTION
 VCF0132 RESPONDENT - WHERE GREW UP: STATE 1968-
 Question Where was it that you grew up? (IF UNITED STATES: ) Which state or
 states?
@@ -3335,9 +3169,6 @@ here), while others were assigned a foreign country code.
 To reconcile the original 1958 Study data, Rs who did not grow up in
 the U.S. (and who were not asked this question) were coded into
 generalized foreign codes, e.g., ‘Central America,’ ‘Eastern Europe,’
-
-
-63
 etc., based upon parents’ foreign origins according to information
 obtained in questions about places of mother’s and father’s birth
 (VCF0144,VCF0145).
@@ -3396,9 +3227,6 @@ Sources 1952: V520145
 1980: V800710
 1982: V820752
 1984: V840699
-
-
-64 VARIABLE DESCRIPTION
 1986: V860749
 1988: V880547
 1990: V900680
@@ -3448,9 +3276,6 @@ Valid 1. Farm, rural, ‘country’
 5. Other; mixture of communities; ‘suburb’
 Missing 9. DK; NA; no Pre IW
 INAP. question not used
-
-
-65
 Notes GENERAL NOTE:
 See question text and wording VCF0134.
 See also VCF0135,VCF0137.
@@ -3501,9 +3326,6 @@ Sources 1978: V780623
 1994: V941422
 2000: V001019
 VCF0138 NUMBER OF CHILDREN IN FAMILY
-
-
-66 VARIABLE DESCRIPTION
 Question 1958: How many children are there under 18 years old in this family?
 1960: How many children under 18 years old are there in this family?
 1962: How many children under 18 are there in your family?
@@ -3563,9 +3385,6 @@ Valid 0. None
 2. Two
 3. Three
 4. Four
-
-
-67
 5. Five
 6. Six
 7. Seven
@@ -3615,9 +3434,6 @@ Sources 1978: V780040
 1998: V980038
 2002: V021107a,V021107b,V021107c,V021107d,V021107e,V021107f
 2004: V041106
-
-
-68 VARIABLE DESCRIPTION
 VCF0138c NUMBER CHILDREN AGES 10-13 IN HH
 Question Number of children 10-13 years old in household
 Valid 0. None
@@ -3671,9 +3487,6 @@ Sources 1978: V780042
 1990: V900033
 1992: V923082
 1996: V960051
-
-
-69
 1998: V980040
 2002: V021107a,V021107b,V021107c,V021107d,V021107e,V021107f
 2004: V041108
@@ -3723,9 +3536,6 @@ Questions were not comparable.
 same as 1992
 2000 NOTE:
 same as 1994
-
-
-70 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1970: V700265(type 0)
 1974: V742409
@@ -3785,9 +3595,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520131
 1956: V560181
 1958: V580180
-
-
-71
 1960: V600128
 1962: V620078
 1964: V640196
@@ -3848,9 +3655,6 @@ Sources 1952: V520131
 1970: V700269(type 0)
 1972: V720300
 1974: V742423
-
-
-72 VARIABLE DESCRIPTION
 1976: V763389
 1978: V780513
 1980: V800436
@@ -3904,9 +3708,6 @@ Sources 1962: V620076
 1982: V820549
 1984: V840447
 1986: V860607
-
-
-73
 VCF0142 RESPONDENT - PLACE OF BIRTH
 Question Where were you born? (IF UNITED STATES: ) Which state?
 Valid 101-997. State/Country as coded
@@ -3962,9 +3763,6 @@ This question was not part of the ‘short-form’ questionnaire; for short-
 form panel cases, however, 1990 study data were incorporated.
 1994 NOTE:
 For panel cases, 1992 data were incorporated.
-
-
-74 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520146
 1960: V600176
@@ -4024,9 +3822,6 @@ Sources 1952: V520151
 1974: V742530
 1976: V763491
 1978: V780613
-
-
-75
 1980: V800700
 1982: V820742
 VCF0145 RESPONDENT MOTHER - WHERE BORN
@@ -4074,9 +3869,6 @@ Sources 1952: V520156
 1986: V860754
 1988: V880552
 1990: V900685
-
-
-76 VARIABLE DESCRIPTION
 1992: V924135
 1994: V941427
 1996: V960714
@@ -4138,9 +3930,6 @@ most complete and up-to-date information known by the interviewer.
 For panel cases, 2000 data were included.
 2008 NOTE:
 This question was asked in 2 versions; data are combined in this
-
-
-77
 variable.
 2012 NOTE:
 Unmarried Rs were asked if they were living with a partner. If R
@@ -4201,9 +3990,6 @@ Valid 0. Lower class (VOLUNTEERED)
 Missing 9. DK; NA; other (incl. ‘refused to accept idea of class’)
 INAP. question not used
 Notes
-
-
-78 VARIABLE DESCRIPTION
 GENERAL NOTE:
 Respondents who answered No or DK to the initial question (think of self
 as belonging to either middle or working class) were administered
@@ -4266,9 +4052,6 @@ middle/working class or that you are in the upper part of the middle/
 working class?
 Valid 1. Average working
 2. Working–NA average or upper working
-
-
-79
 3. Upper working
 4. Average middle
 5. Middle class–NA average or upper middle
@@ -4329,9 +4112,6 @@ Most people say they belong either to the middle class or the working
 class.
 Do you ever think of yourself as belonging in one of these classes?
 Which one? /
-
-
-80 VARIABLE DESCRIPTION
 Well, if you had to make a choice, would you call yourself
 middle class or working class?
 Valid 1. Yes, think of self as member of class and that class is middle class
@@ -4391,9 +4171,6 @@ week? (RETIRED AND ANSWERED WORKING FOR PAY 1980:) In an average week do
 you work 20 or more hours on that job? (RETIRED OR DISABLED, AND R
 ANSWERED WORKING FOR PAY 1982,1988 AND LATER:) About how many hours do
 you work on your job in the average week? (RETIRED OR DISABLED AND R
-
-
-81
 VOLUNTEERED WORKING FOR PAY 1984,1986:) About how many hours do you work
 on your job in the average week?
 Valid 10. Working now
@@ -4454,9 +4231,6 @@ do you do on your job?] (IF UNEMPLOYED OR RETIRED:) What kind of work
 did you do when you were employed? [What exactly did you do on your job?]
 1972-1982:
 (IF R IS WORKING NOW OR IS TEMPORARILY LAID OFF:) What is your main
-
-
-82 VARIABLE DESCRIPTION
 occupation [What sort of work do you do? Tell me a little more about
 what you do.] (IF R IS UNEMPLOYED:) What kind of work did you do on
 your last regular job [What was your occupation?] (IF R IS RETIRED OR
@@ -4517,9 +4291,6 @@ part of a particular church or denomination? (IF YES:) Do you
 consider yourself Protestant, Roman Catholic, Jewish, or what?
 PROTESTANTS:
 (IF BAPTIST:) With which Baptist group is your church associated? Is
-
-
-83
 it the Southern Baptist Convention, the American Baptist Churches in
 the USA, the American Baptist Association, [1992-LATER: the National
 Baptist Convention U.S.A.,]an independent Baptist church or some other
@@ -4590,9 +4361,6 @@ Codes 750,795 were added.
 2002 NOTE:
 Religion questions were not comparable.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-84 VARIABLE DESCRIPTION
 Sources 1990: V900546
 1992: V923850
 1994: V941122
@@ -4644,9 +4412,6 @@ Valid 01. Professional, technical and kindred workers
 05. Craftsmen and kindred workers
 06. Operatives, except transport
 07. Transport equipment operatives
-
-
-85
 08. Laborers, except farm
 09. Farmers (owners and tenants), farm managers, farmer – NA type
 10. Farm foreman, farm laborer (wage-worker)
@@ -4699,9 +4464,6 @@ Sources 1984: V840695,V840696
 1986: V860745,V860746
 1988: V880543,V880544
 1992: V924127,V924128
-
-
-86 VARIABLE DESCRIPTION
 VCF0154a RESPONDENT - OCCUPATION 71-CATEGORY
 Question What is/was your main occupation? (What sort of work do/did
 you do?) (1984-1986: IF NOT CLEAR: tell me a little more about
@@ -4758,9 +4520,6 @@ Notes GENERAL NOTE:
 This variable combines employment data for all Rs except nonworking
 homemakers and students (i.e., their data for employment in the past 6
 months are omitted). The disabled and homemakers or students who are
-
-
-87
 also currently working have their current occupation coded here.
 Retirees who are also currently working have past occupation coded
 rather than current occupation. If R is disabled and not working but
@@ -4817,9 +4576,6 @@ Sources 1984: V840525
 1998: V980645
 2004: V043262j
 2008: V083244k,V083233b,V083240
-
-
-88 VARIABLE DESCRIPTION
 VCF0156 RESPONDENT - WORKING R LAID OFF LAST 6 MONTHS
 Question Were you out of work or laid off at any time during the last six
 months?
@@ -4874,9 +4630,6 @@ Sources 1984: V840475
 2000: V000978
 2004: V043286
 2008: V083242
-
-
-89
 2012: dem_hrsreduce
 2016: V161299
 VCF0170a COUNTY OF IW 1956-1960
@@ -4913,9 +4666,6 @@ Sources 1968: V680016
 1974: V742008
 1976: V763008
 1978: V780013
-
-
-90 VARIABLE DESCRIPTION
 1980: V800010
 1982: V820017
 VCF0170d COUNTY OF IW 1970,1978-1998
@@ -4969,9 +4719,6 @@ your feelings toward these groups or persons.) (1972,1974: We’d also
 like to get your feelings about some groups in American society, using
 the feeling thermometer just as we did for the [1972: candidates;
 1974: leaders]. If we come to a group you don’t know much about, just
-
-
-91
 tell me and we’ll move on to the next one.)
 1976:
 We’d also like to get your feelings about some groups in American
@@ -5030,9 +4777,6 @@ Sources 1964: V640242
 1972: V720719
 1974: V742364
 1976: V763833
-
-
-92 VARIABLE DESCRIPTION
 1980: V800871
 1982: V820146
 VCF0202 THERMOMETER - REPUBLICANS
@@ -5071,9 +4815,6 @@ Sources 1964: V640249
 1976: V763844
 2000: V001325
 2002: V025070
-
-
-93
 VCF0204 THERMOMETER - CATHOLICS
 Question Catholics – feeling thermometer
 Valid 00-96. Degrees as coded
@@ -5120,9 +4861,6 @@ Sources 1964: V640244
 2008: V085064f
 2016: V162108
 2020: V202170
-
-
-94 VARIABLE DESCRIPTION
 VCF0206 THERMOMETER - BLACKS
 Question Blacks – feeling thermometer
 Valid 00-96. Degrees as coded
@@ -5176,9 +4914,6 @@ Sources 1964: V640245
 1976: V763846
 1980: V800884
 1982: V820144
-
-
-95
 1984: V840769
 1988: V880625
 1992: V925333
@@ -5225,9 +4960,6 @@ Sources 1964: V640241
 1968: V680224
 1972: V720707
 1974: V742356
-
-
-96 VARIABLE DESCRIPTION
 1976: V763821
 1980: V800859
 1984: V840773
@@ -5278,9 +5010,6 @@ VCF0211 THERMOMETER - LIBERALS
 Question Liberals – feeling thermometer
 Valid 00-96. Degrees as coded
 97. 97-100 Degrees
-
-
-97
 Missing 98. DK (exc. 1964-1968: see VCF0201 note)
 99. NA; no Post IW; form III,IV (1972)
 INAP. question not used
@@ -5338,9 +5067,6 @@ Sources 1964: V640251
 1994: V940306
 1996: V961031
 1998: V980264
-
-
-98 VARIABLE DESCRIPTION
 2000: V001310
 2002: V025057
 2004: V045069
@@ -5387,9 +5113,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1966: V660125
 1968: V680228
 1970: V700240(type 0)
-
-
-99
 1972: V720714
 1974: V742360
 1976: V763828
@@ -5430,9 +5153,6 @@ Sources 1970: V700239(type 0)
 1980: V800875
 1984: V840779
 1988: V880606
-
-
-100 VARIABLE DESCRIPTION
 VCF0217 THERMOMETER - CHICANOS/HISPANICS
 Question 1976: Chicanos –feeling thermometer
 1980,1984,1988: Hispanics– feeling thermometer
@@ -5486,9 +5206,6 @@ Sources 1978: V780155
 1996: V960292
 1998: V980260
 2000: V000369
-
-
-101
 2004: V043049
 2008: V083044a
 2012: ft_dem
@@ -5534,9 +5251,6 @@ Sources 1976: V763834
 2000: V001315
 2002: V025062
 2004: V045068
-
-
-102 VARIABLE DESCRIPTION
 2008: V085064p
 2012: ftgr_welfare
 VCF0221 THERMOMETER - POLITICAL INDEPENDENTS
@@ -5576,9 +5290,6 @@ Sources 1980: V800171
 1994: V940303
 1996: V960294
 2000: V000372
-
-
-103
 VCF0223 THERMOMETER - POOR PEOPLE
 Question Poor people – feeling thermometer
 Valid 00-96. Degrees as coded
@@ -5632,9 +5343,6 @@ Sources 1978: V780156
 1996: V960293
 1998: V980261
 2000: V000370
-
-
-104 VARIABLE DESCRIPTION
 2004: V043050
 2008: V083044b
 2012: ft_rep
@@ -5679,9 +5387,6 @@ Sources 1972: V720723
 1976: V763837
 1980: V800876
 2004: V045080
-
-
-105
 VCF0227 THERMOMETER - ASIAN-AMERICANS
 Question Asian-Americans – thermometer
 Valid 00-96. Degrees as coded
@@ -5726,9 +5431,6 @@ Sources 1980: V800882
 2020: V202167
 VCF0229 THERMOMETER - ENVIRONMENTALISTS
 Question
-
-
-106 VARIABLE DESCRIPTION
 1980,1988,1990: people seeking to protect the environment –thermometer
 1994-later: environmentalists – thermometer
 Valid 00-96. Degrees as coded
@@ -5772,9 +5474,6 @@ Missing 98. DK; don’t recognize
 INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0201.
-
-
-107
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1980: V800868
 1988: V880615
@@ -5821,9 +5520,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1988: V880622
 1992: V925331
 1994: V940317
-
-
-108 VARIABLE DESCRIPTION
 2004: V045081
 2008: V085065a
 2012: ftcasi_illegal
@@ -5865,9 +5561,6 @@ Sources 1970: V700253(type 0)
 1974: V742359
 1976: V763827
 1980: V800864
-
-
-109
 VCF0236 THERMOMETER - FARMERS
 Question Farmers – thermometer
 Valid 00-96. Degrees as coded
@@ -5909,9 +5602,6 @@ Missing 998. DK in VCF0218 or VCF0224
 INAP. question not used
 Notes GENERAL NOTE:
 Built from VCF0218 and VCF0224 as: (VCF0218+VCF0224)/2. Fractional
-
-
-110 VARIABLE DESCRIPTION
 results are rounded to the next highest integer.
 Cases DK in either thermometer are coded DK; cases which are NA in one
 thermometer are coded NA unless the other thermometer is DK (in which
@@ -5959,9 +5649,6 @@ Pre IW
 INAP. question not used
 Notes GENERAL NOTE:
 This variable has been revised in accordance with the ANES memo on
-
-
-111
 construction of the Party Identification Summary (available from the
 ANES Web site).
 For all years, this variable has been reconstructed in the following
@@ -6022,9 +5709,6 @@ Valid 1. Republican
 Missing 8. DK
 9. NA; refused
 INAP. question not used
-
-
-112 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 This variable corresponds to R’s initial response, before follow-up
 questions determine strength or leaning.
@@ -6084,9 +5768,6 @@ Sources 1952: V520237
 1986: V860300
 1988: V880274
 1990: V900320
-
-
-113
 1992: V923634
 1994: V940655
 1996: V960420
@@ -6139,9 +5820,6 @@ Sources 1952: V520237
 2008: V083098x
 2020: V201231x
 VCF0306 PARTY IDENTIFICATION OF RESPONDENT’S FATHER
-
-
-114 VARIABLE DESCRIPTION
 Question (1970,1988,1990: When you were growing up) Did he/your father
 (1988,1992: or stepfather) think of himself mostly as a Democrat, as a
 Republican, or what?
@@ -6197,9 +5875,6 @@ DK was combined with ‘other’ codes (code 4).
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520069
 1958: V580071
-
-
-115
 1964: V640153
 1968: V680126
 1970: V700193(type 0)
@@ -6241,9 +5916,6 @@ Sources 1958: V580070
 1968: V680125
 1972: V720154
 1976: V763203
-
-
-116 VARIABLE DESCRIPTION
 VCF0310 INTEREST IN THE ELECTIONS
 Question Some people don’t pay much attention to political campaigns. How
 about you, would you say that you have been/were very much interested,
@@ -6302,9 +5974,6 @@ Sources 1952: V520044
 2012: interest_following
 2016: V161004
 2020: V201006
-
-
-117
 DOES RESPONDENT CARE WHICH PARTY WINS
 VCF0311
 PRESIDENTIAL ELECTION
@@ -6361,9 +6030,6 @@ Missing 0. NA; no Post IW
 INAP. question not used
 Notes 2002 NOTE:
 This question was asked in both the Pre and Post; the Pre is
-
-
-118 VARIABLE DESCRIPTION
 represented here.
 2008 NOTE:
 A half-sample of respondents were administered this question with
@@ -6422,9 +6088,6 @@ represented here.
 2016 NOTE:
 The 2016 version of this question was not comparable.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-119
 Sources 1960: V600225
 1962: V620040
 1964: V640324
@@ -6486,9 +6149,6 @@ Sources 1952: V520018
 1956: V560015
 1958: V580015
 1960: V600020
-
-
-120 VARIABLE DESCRIPTION
 1964: V640021
 1968: V680028
 1972: V720031
@@ -6549,9 +6209,6 @@ Sources 1952: V520019
 1976: V763094,V763095,V763096,V763097,V763098
 1978: V780097,V780098,V780099,V780100,V780101
 1980: V800179,V800180,V800181,V800182,V800183
-
-
-121
 1982: V820081,V820082,V820083,V820084
 1984: V840273,V840274,V840275,V840276,V840277
 1986: V860079,V860080,V860081,V860082,V860083
@@ -6591,9 +6248,6 @@ Question Is there anything in particular that you like about the Republican
 party?
 What is that? Anything else [you like about the Republican Party]?
 Valid
-
-
-122 VARIABLE DESCRIPTION
 0. Zero positive mentions (likes)
 1. One positive mention (likes)
 2. Two positive mentions (likes)
@@ -6654,9 +6308,6 @@ Valid 0. Zero negative mentions (dislikes)
 5. Five negative mentions (dislikes)
 Missing 9. No Pre IW; form II (1972); form B (1986); form A (1990); questions not
 administered in assigned half sample (1996)
-
-
-123
 INAP. question not used
 Notes GENERAL NOTE:
 Five possible mentions were coded in all original ANES datasets.
@@ -6707,9 +6358,6 @@ This is the number of Republican party ‘likes’ minus the number of
 Republican party ‘dislikes’ (VCF0318-VCF0319).
 Weight VCF0009x/VCF0009y/VCF0009z
 VCF0321 REPUBLICAN PARTY: SALIENCE (LIKES-DISLIKES)
-
-
-124 VARIABLE DESCRIPTION
 Question Salience of Republican Party
 Valid 0. Zero mentions
 .
@@ -6749,9 +6397,6 @@ the Democratic and Republican parties:
 [VCF0314 + VCF0315 + VCF0318 + VCF0319]
 which is the same as: VCF0317 + VCF0321
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-125
 VCF0324 MAJOR PARTIES: RELATIVE SALIENCE (LIKES-DISLIKES)
 Question Relative salience of major parties
 Missing 999. No Pre IW; form II (1972); form B (1986); form A (1990); questions not
@@ -6809,9 +6454,6 @@ Traits were administered in random order; order of Presidential
 candidates (including the President) was also in random order.
 A half-sample of respondents were administered the traits questions
 with response options in reverse order.
-
-
-126 VARIABLE DESCRIPTION
 2012 NOTE:
 Not coded comparably in 2012.
 VCF0338 PRESIDENT- INTELLIGENT
@@ -6858,9 +6500,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1984: V840321
 1986: V860551
 1988: V881015
-
-
-127
 1992: V923636
 1996: V960422
 VCF0340 PRESIDENT- DECENT
@@ -6907,9 +6546,6 @@ Sources 1980: V800397
 1988: V881017
 1992: V923638
 1996: V960425
-
-
-128 VARIABLE DESCRIPTION
 VCF0342 PRESIDENT- KNOWLEDGEABLE
 Question President trait - knowledgeable
 Valid 1. Extremely well
@@ -6963,9 +6599,6 @@ Carter 1980; Reagan 1982,1984,1986, 1988; George Bush Sr.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1980: V800392
 1982: V820377
-
-
-129
 1984: V840324
 1986: V860552
 1988: V881016
@@ -7015,9 +6648,6 @@ Valid 1. Extremely well
 2. Quite well
 3. Not too well
 4. Not well at all
-
-
-130 VARIABLE DESCRIPTION
 Missing 8. DK
 9. NA
 0. Form B (1986); R selected for Post administration and no Post IW
@@ -7079,9 +6709,6 @@ candidates (including the President) was also in random order.
 1998:
 Affects were administered in random order.
 2000 NOTE 1:
-
-
-131
 Respondents were randomly assigned to be administered affects in either
 the pre or the post.
 2000 NOTE 2:
@@ -7130,9 +6757,6 @@ Valid 1. Yes, have felt
 Missing 8. DK (exc. 1980-1984)
 9. NA (1984 only: DK)
 0. Form B (1986); no Post IW; R selected for Post administration and
-
-
-132 VARIABLE DESCRIPTION
 no Post IW (2000)
 INAP. question not used
 Notes 2016 NOTE:
@@ -7190,9 +6814,6 @@ Sources 1980: V800128
 2004: V043071
 2008: V083175
 2012: candaff_hpdpc
-
-
-133
 VCF0349 PRESIDENT- PROUD
 Question President affect: proud
 Valid 1. Yes, have felt
@@ -7246,9 +6867,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1984: V840339
 1988: V880284
 1992: V923644
-
-
-134 VARIABLE DESCRIPTION
 1996: V960421
 2000: V000529
 2004: V043128
@@ -7293,9 +6911,6 @@ John Kerry 2004; Barack Obama 2008.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1984: V840336
 1988: V880289
-
-
-135
 VCF0353 DEMOCRATIC PRESIDENTIAL CAND- INSPIRING
 Question Democratic Presidential candidate trait - inspiring
 Valid 1. Extremely well
@@ -7343,9 +6958,6 @@ Sources 1980: V800395
 2000: V000526
 2004: V043127
 2008: V083099d
-
-
-136 VARIABLE DESCRIPTION
 VCF0355 DEMOCRATIC PRESIDENTIAL CAND- MORAL
 Question Democratic Presidential candidate trait - moral
 Valid 1. Extremely well
@@ -7396,9 +7008,6 @@ Sources 1980: V800399
 2000: V000527
 2004: V043125
 2008: V083099b
-
-
-137
 VCF0357 DEMOCRATIC PRESIDENTIAL CAND- CARES
 Question Democratic Presidential candidate trait - really cares about people
 like you
@@ -7452,9 +7061,6 @@ Sources 1980: V800127
 2008: V083061
 2012: candaff_angdpc
 2016: V161116
-
-
-138 VARIABLE DESCRIPTION
 VCF0359 DEMOCRATIC PRESIDENTIAL CAND- AFRAID
 Question Democratic Presidential candidate affect: afraid (of him/her)
 Valid 1. Yes, have felt
@@ -7508,9 +7114,6 @@ Sources 1980: V800128
 1996: V960343
 2000: V000409
 2004: V043079
-
-
-139
 2008: V083062
 2012: candaff_hpdpc
 2016: V161117
@@ -7558,9 +7161,6 @@ Different traits have been asked in indvidual studies since
 1980 includes: Ronald Reagan 1980,1984; George Bush 1988,1992;
 Bob Dole 1996; George W. Bush 2000,2004; John McCain 2008.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-140 VARIABLE DESCRIPTION
 Sources 1984: V840323
 1988: V880275
 1992: V923635
@@ -7604,9 +7204,6 @@ Bob Dole 1996; George W. Bush 2000,2004; John McCain 2008.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1984: V840320
 1988: V880280
-
-
-141
 VCF0365 REPUBLICAN PRESIDENTIAL CAND- INSPIRING
 Question Republican Presidential candidate trait - inspiring
 Valid 1. Extremely well
@@ -7652,9 +7249,6 @@ Sources 1980: V800377
 2000: V000533
 2004: V043120
 2008: V083101d
-
-
-142 VARIABLE DESCRIPTION
 VCF0367 REPUBLICAN PRESIDENTIAL CAND- MORAL
 Question Republican Presidential candidate trait - moral
 Valid 1. Extremely well
@@ -7703,9 +7297,6 @@ Sources 1980: V800381
 2000: V000534
 2004: V043118
 2008: V083101b
-
-
-143
 VCF0369 REPUBLICAN PRESIDENTIAL CAND- CARES
 Question Republican Presidential candidate trait - really cares about people
 like you
@@ -7754,9 +7345,6 @@ Sources 1980: V800113
 2008: V083065
 2012: candaff_angrpc
 2016: V161121
-
-
-144 VARIABLE DESCRIPTION
 VCF0371 REPUBLICAN PRESIDENTIAL CAND- AFRAID
 Question Republican Presidential candidate affect: afraid (of him)
 Valid 1. Yes, have felt
@@ -7805,9 +7393,6 @@ Sources 1980: V800114
 2008: V083066
 2012: candaff_hprpc
 2016: V161122
-
-
-145
 VCF0373 REPUBLICAN PRESIDENTIAL CAND- PROUD
 Question Republican Presidential candidate affect: proud
 Valid 1. Yes, have felt
@@ -7861,9 +7446,6 @@ Sources 1972: V720030
 2000: V000373
 2004: V043052
 2008: V083045
-
-
-146 VARIABLE DESCRIPTION
 2012: ptylik_likdp
 2016: V161097
 2020: V201158
@@ -7915,9 +7497,6 @@ Valid 11. People within party (0001-0097)
 22. Candidate leadership qualities (0301-0397)
 23. Candidate personal qualities (0401-0498)
 24. Candidate party connections (0500-0597)
-
-
-147
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
 33. Domestic policies (0901-1097)
@@ -7968,9 +7547,6 @@ Sources 1952: V520018a
 1960: V600020a
 1964: V640021a
 1968: V680028a
-
-
-148 VARIABLE DESCRIPTION
 1952-1968 MENTION 1: LIKE ABOUT DEMOCRATIC
 VCF0375d
 PARTY COLLAPSED
@@ -8026,9 +7602,6 @@ Sources 1972: V720031b
 1980: V800174
 1982: V820075
 1984: V840268
-
-
-149
 1986: V860074
 1988: V880184
 1990: V900076
@@ -8081,9 +7654,6 @@ Sources 1972: V720031b
 VCF0376c
 PARTY
 Question
-
-
-150 VARIABLE DESCRIPTION
 Is there anything in particular that you like about the Democratic
 party?
 What is that? Anything else [you like about the Democratic Party]?
@@ -8131,9 +7701,6 @@ PARTY
 Question Is there anything in particular that you like about the Democratic
 party?
 What is that? Anything else [you like about the Democratic Party]?
-
-
-151
 Valid 0001-8877
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0374; form II (1972);
 form B (1986); form A (1990); questions not administered in
@@ -8191,9 +7758,6 @@ Sources 1972: V720031c
 1976: V763090
 1978: V780093
 1980: V800175
-
-
-152 VARIABLE DESCRIPTION
 1982: V820076
 1984: V840269
 1986: V860075
@@ -8242,9 +7806,6 @@ Missing INAP. Inap. no further mention; 5,8,9 in VCF0374; no Pre IW
 Notes GENERAL NOTE:
 Collapsed from full code VCF0377c.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-153
 Sources 1952: V520018c
 1956: V560015c
 1958: V580015c
@@ -8296,9 +7857,6 @@ Valid 11. People within party (0001-0097)
 22. Candidate leadership qualities (0301-0397)
 23. Candidate personal qualities (0401-0498)
 24. Candidate party connections (0500-0597)
-
-
-154 VARIABLE DESCRIPTION
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
 33. Domestic policies (0901-1097)
@@ -8347,9 +7905,6 @@ Sources 1952: V520018d
 VCF0378d
 PARTY COLLAPSED
 Question
-
-
-155
 Is there anything in particular that you like about the Democratic
 party?
 What is that? Anything else [you like about the Democratic Party]?
@@ -8406,9 +7961,6 @@ Sources 1976: V763092
 1996: V960330
 2000: V000378
 2004: V043053e
-
-
-156 VARIABLE DESCRIPTION
 1972-2004 MENTION 5: LIKE ABOUT DEMOCRATIC
 VCF0379b
 PARTY COLLAPSED
@@ -8463,9 +8015,6 @@ Sources 1952: V520018e
 1956: V560015e
 1958: V580015e
 1960: V600020e
-
-
-157
 1964: V640021e
 1968: V680028e
 1952-1968 MENTION 5: LIKE ABOUT DEMOCRATIC
@@ -8513,9 +8062,6 @@ Sources 1972: V720032
 1980: V800178
 1982: V820079
 1984: V840272
-
-
-158 VARIABLE DESCRIPTION
 1986: V860078
 1988: V880188
 1990: V900080
@@ -8568,9 +8114,6 @@ Sources 1972: V720033a
 VCF0381b
 PARTY COLLAPSED
 Question
-
-
-159
 Is there anything in particular that you don’t like about the Democratic
 party?
 What is that? Anything else [you don’t like about the Democratic Party]?
@@ -8627,9 +8170,6 @@ Sources 1952: V520019a
 1956: V560016a
 1958: V580016a
 1960: V600021a
-
-
-160 VARIABLE DESCRIPTION
 1964: V640022a
 1968: V680029a
 1952-1968 MENTION 1: DISLIKE ABOUT DEMOCRATIC
@@ -8679,9 +8219,6 @@ Note that VCF0315, which was created in the 1970s, was originally coded
 tallying a count of all 1972 mentions, including those (not extant)
 which were not part of the 1972 ANES release file. However, only the 3
 released mentions are represented in this file.
-
-
-161
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720033b
 1976: V763095
@@ -8736,9 +8273,6 @@ Sources 1972: V720033b
 1996: V960333
 2000: V000381
 2004: V043055b
-
-
-162 VARIABLE DESCRIPTION
 1952-1968 MENTION 2: DISLIKE ABOUT DEMOCRATIC
 VCF0382c
 PARTY
@@ -8785,9 +8319,6 @@ Sources 1952: V520019b
 1972-2004 MENTION 3: DISLIKE ABOUT DEMOCRATIC
 VCF0383a
 PARTY
-
-
-163
 Question Is there anything in particular that you don’t like about the Democratic
 party?
 What is that? Anything else [you don’t like about the Democratic Party]?
@@ -8844,9 +8375,6 @@ half sample (1996); question not used
 Notes GENERAL NOTE:
 Collapsed from full code VCF0383a.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-164 VARIABLE DESCRIPTION
 Sources 1972: V720033c
 1976: V763096
 1978: V780099
@@ -8896,9 +8424,6 @@ Valid 01. People within party
 10. Other
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0380; no Pre IW
 Notes
-
-
-165
 GENERAL NOTE:
 Collapsed from full code VCF0383c.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -8948,9 +8473,6 @@ Question Is there anything in particular that you don’t like about the Democra
 party?
 What is that? Anything else [you don’t like about the Democratic Party]?
 Valid
-
-
-166 VARIABLE DESCRIPTION
 11. People within party (0001-0097)
 12. Party characteristics (0101-0197)
 21. Candidate experience, ability (0201-0297)
@@ -9000,9 +8522,6 @@ Sources 1952: V520019d
 1960: V600021d
 1964: V640022d
 1968: V680029d
-
-
-167
 1952-1968 MENTION 4: DISLIKE ABOUT DEMOCRATIC
 VCF0384d
 PARTY COLLAPSED
@@ -9058,9 +8577,6 @@ Sources 1976: V763098
 1988: V880193
 1990: V900085
 1992: V923412
-
-
-168 VARIABLE DESCRIPTION
 1994: V940142
 1996: V960336
 2000: V000384
@@ -9111,9 +8627,6 @@ party?
 What is that? Anything else [you don’t like about the Democratic Party]?
 Valid 0011-9980
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0380; no Pre IW
-
-
-169
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1952-1968’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -9161,9 +8674,6 @@ question not administered in assigned half sample (1996);
 question not used
 Notes GENERAL NOTE:
 See NOTEs VCF0318.
-
-
-170 VARIABLE DESCRIPTION
 This question was not present as a separate variable until 1972.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520020
@@ -9223,9 +8733,6 @@ Sources 1972: V720035a
 1990: V900087
 1992: V923414
 1994: V940144
-
-
-171
 1996: V960314
 2000: V000392
 2004: V043057a
@@ -9277,9 +8784,6 @@ Question Is there anything in particular that you like about the Republican
 party?
 What is that? Anything else [you like about the Republican Party]?
 Valid 0011-9980
-
-
-172 VARIABLE DESCRIPTION
 Missing 9987.DK much about party
 9988. DK (mention 1 only)
 9989. RF; NA (mention 1 only)
@@ -9328,9 +8832,6 @@ Question Is there anything in particular that you like about the Republican
 party?
 What is that? Anything else [you like about the Republican Party]?
 Valid 0001-8877
-
-
-173
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0386; form II (1972);
 form B (1986); form A (1990); questions not administered in assigned
 half sample (1996); question not used
@@ -9389,9 +8890,6 @@ Sources 1972: V720035b
 1980: V800186
 1982: V820086
 1984: V840280
-
-
-174 VARIABLE DESCRIPTION
 1986: V860086
 1988: V880196
 1990: V900088
@@ -9440,9 +8938,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520020b
 1956: V560017b
 1958: V580017b
-
-
-175
 1960: V600022b
 1964: V640023b
 1968: V680030b
@@ -9494,9 +8989,6 @@ Valid 11. People within party (0001-0097)
 24. Candidate party connections (0500-0597)
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
-
-
-176 VARIABLE DESCRIPTION
 33. Domestic policies (0901-1097)
 34. Foreign policies (1101-1199,1300-1310)
 35. Group connections (1201-1299)
@@ -9545,9 +9037,6 @@ PARTY COLLAPSED
 Question Is there anything in particular that you like about the Republican
 party?
 What is that? Anything else [you like about the Republican Party]?
-
-
-177
 Valid 01. People within party
 02. Government management
 03. Government activity, government philosophy
@@ -9601,9 +9090,6 @@ Sources 1976: V763103
 1996: V960317
 2000: V000389
 2004: V043057d
-
-
-178 VARIABLE DESCRIPTION
 1972-2004 MENTION 4: LIKE ABOUT REPUBLICAN
 VCF0390b
 PARTY COLLAPSED
@@ -9659,9 +9145,6 @@ Sources 1952: V520020d
 1960: V600022d
 1964: V640023d
 1968: V680030d
-
-
-179
 1952-1968 MENTION 4: LIKE ABOUT REPUBLICAN
 VCF0390d
 PARTY COLLAPSED
@@ -9717,9 +9200,6 @@ Sources 1976: V763104
 1988: V880199
 1990: V900091
 1992: V923418
-
-
-180 VARIABLE DESCRIPTION
 1994: V940148
 1996: V960318
 2000: V000390
@@ -9770,9 +9250,6 @@ party?
 What is that? Anything else [you like about the Republican Party]?
 Valid 0011-9980
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0386; no Pre IW
-
-
-181
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1952-1968’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -9820,9 +9297,6 @@ question not administered in assigned half sample (1996);
 question not used
 Notes GENERAL NOTE:
 See NOTEs VCF0319.
-
-
-182 VARIABLE DESCRIPTION
 This question was not present as a separate variable until 1972.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720036
@@ -9879,9 +9353,6 @@ Sources 1972: V720037a
 1996: V960320
 2000: V000392
 2004: V043059a
-
-
-183
 1972-2004 MENTION 1: DISLIKE ABOUT REPUBLICAN
 VCF0393b
 PARTY COLLAPSED
@@ -9937,9 +9408,6 @@ INAP. 5,8,9 in VCF0392; no Pre IW
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1952-1968’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-184 VARIABLE DESCRIPTION
 Sources 1952: V520021a
 1956: V560018a
 1958: V580018a
@@ -9989,9 +9457,6 @@ See NOTEs VCF0319.
 See Appendix ‘PARTY-CANDIDATE 1972 AND LATER’ master code.
 1972 SPECIAL NOTE:
 Only 3 mentions were included in the 1972 ANES dataset release.
-
-
-185
 Note that VCF0319, which was created in the 1970s, was originally coded
 tallying a count of all 1972 mentions, including those (not extant)
 which were not part of the 1972 ANES release file. However, only the 3
@@ -10050,9 +9515,6 @@ Sources 1972: V720037b
 1996: V960321
 2000: V000393
 2004: V043059b
-
-
-186 VARIABLE DESCRIPTION
 1952-1968 MENTION 2: DISLIKE ABOUT REPUBLICAN
 VCF0394c
 PARTY
@@ -10099,9 +9561,6 @@ Sources 1952: V520021b
 1972-2004 MENTION 3: DISLIKE ABOUT REPUBLICAN
 VCF0395a
 PARTY
-
-
-187
 Question Is there anything in particular that you don’t like about the Republican
 party?
 What is that? Anything else [you don’t like about the Republican Party]?
@@ -10158,9 +9617,6 @@ half sample (1996); question not used
 Notes GENERAL NOTE:
 Collapsed from full code VCF0395a.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-188 VARIABLE DESCRIPTION
 Sources 1972: V720037c
 1976: V763108
 1978: V780111
@@ -10210,9 +9666,6 @@ Valid 01. People within party
 10. Other
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0392; no Pre IW
 Notes
-
-
-189
 GENERAL NOTE:
 Collapsed from full code VCF0395c.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -10262,9 +9715,6 @@ Question Is there anything in particular that you don’t like about the Republi
 party?
 What is that? Anything else [you don’t like about the Republican Party]?
 Valid
-
-
-190 VARIABLE DESCRIPTION
 11. People within party (0001-0097)
 12. Party characteristics (0101-0197)
 21. Candidate experience, ability (0201-0297)
@@ -10314,9 +9764,6 @@ Sources 1952: V520021d
 1960: V600023d
 1964: V640024d
 1968: V680031d
-
-
-191
 1952-1968 MENTION 4: DISLIKE ABOUT REPUBLICAN
 VCF0396d
 PARTY COLLAPSED
@@ -10372,9 +9819,6 @@ Sources 1976: V763110
 1988: V880205
 1990: V900097
 1992: V923424
-
-
-192 VARIABLE DESCRIPTION
 1994: V940154
 1996: V960324
 2000: V000396
@@ -10424,9 +9868,6 @@ party?
 What is that? Anything else [you don’t like about the Republican Party]?
 Valid 0011-9980
 Missing INAP. Inap. no further mention; 5,8,9 in VCF0392; no Pre IW
-
-
-193
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1952-1968’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -10476,9 +9917,6 @@ Valid 0. Zero positive mentions (likes)
 3. Three positive mentions (likes)
 4. Four positive mentions (likes)
 5. Five positive mentions (likes)
-
-
-194 VARIABLE DESCRIPTION
 Missing 9. No Pre IW; form II (1972); abbrev. IW form (1980: see VCF0015a)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -10539,9 +9977,6 @@ Rs who responded ‘no’ to ‘Is there anything in particular that
 you don’t like about [Democratic Presidential candidate]?’ have
 been coded here as 0 mentions; Rs coded DK or NA in response
 have also been coded here as 0 mentions. In addition, Rs who
-
-
-195
 responded ‘yes’ BUT who provided no mentions (DK or NA in first
 mention) have been coded 0. Democratic Presidential Candidates:
 Stevenson 1952,1956; Kennedy 1960; Johnson 1964; Humphrey 1968;
@@ -10591,9 +10026,6 @@ Valid 0. Zero mentions
 10. Ten mentions
 Missing 99. No Pre IW; form II (1972); abbrev. IW form (1980: see VCF0015a)
 INAP. question not used
-
-
-196 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 This is the number of Democratic presidential candidate ‘likes’ plus
 the number of Democratic presidential candidate ‘dislikes’
@@ -10651,9 +10083,6 @@ Sources 1952: V520029
 1996: V960218,V960219,V960220,V960221,V960222
 2000: V000318,V000319,V000320,V000321,V000322
 2004: V043007
-
-
-197
 REPUBLICAN PRESIDENTIAL CAND: RESPONDENT
 VCF0406
 DISLIKES - NUMBER OF MENTIONS
@@ -10711,9 +10140,6 @@ Question Affect toward Republican Presidential candidate
 Missing 99. No Pre IW; form II (1972); abbrev. IW form (1980)
 INAP. question not used
 Notes
-
-
-198 VARIABLE DESCRIPTION
 GENERAL NOTE:
 This is the number of Republican presidential candidate ‘likes’ minus
 the number of Republican presidential candidate ‘dislikes’
@@ -10751,9 +10177,6 @@ VCF0410 PRESIDENTIAL CANDIDATES: SALIENCE (LIKES-DISLIKES)
 Question Major party Presidential candidate salience
 Valid 0. Zero mentions
 .
-
-
-199
 0. Zero mentions
 .
 .
@@ -10791,9 +10214,6 @@ Fractional results are rounded to the next highest integer.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2020: VCF0424, VCF0426
 VCF0413 THERMOMETER INDEX - PRESIDENTIAL CANDIDATES
-
-
-200 VARIABLE DESCRIPTION
 Question Major party Presidential candidate thermometer index
 Valid 2. Most Republican
 .
@@ -10837,9 +10257,6 @@ Notes GENERAL NOTE:
 Built from VCF0425 and VCF0427 as: (VCF0425-VCF0427 +100)/2.
 Fractional results are rounded to the next highest integer.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-201
 Sources 2020: VCF0424, VCF0426
 Question POLITICAL FIGURE THERMOMETER INTRO
 1968-1974:
@@ -10904,9 +10321,6 @@ degree mark was labeled “50 degrees; no feeling”.
 The order of names read varied by form.
 1996 NOTE:
 The order of thermometers for all individuals except Presidential
-
-
-202 VARIABLE DESCRIPTION
 candidates was randomized.
 1998 NOTE:
 The order of thermometers for all individuals except the President
@@ -10958,9 +10372,6 @@ THERMOMETER - DEMOCRATIC VICE-PRESIDENTIAL
 VCF0425
 CANDIDATE
 Question Democratic vice-presidential candidate thermometer
-
-
-203
 Valid 00-96. Degrees as coded
 97. 97-100 Degrees
 Missing 98. DK (exc.1968); don’t recognize (1980 and later)
@@ -11016,9 +10427,6 @@ Sources 1968: V680480
 2012: ft_rpc
 2016: V161087
 2020: V201152
-
-
-204 VARIABLE DESCRIPTION
 THERMOMETER - REPUBLICAN VICE-PRESIDENTIAL
 VCF0427
 CANDIDATE
@@ -11073,9 +10481,6 @@ Sources 1968: V680484
 1986: V860130
 1988: V880158
 1990: V900134
-
-
-205
 1992: V923305
 1994: V940223
 1996: V960272
@@ -11125,9 +10530,6 @@ Valid 00-96. Degrees as coded
 97. 97-100 Degrees
 Missing 98. DK (exc.1968)
 99. NA; no Post IW
-
-
-206 VARIABLE DESCRIPTION
 INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0424.
@@ -11169,9 +10571,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680481
 1970: V700238(type 0)
 1976: V763311
-
-
-207
 VCF0435 THERMOMETER - GEORGE MCGOVERN
 Question George Mcgovern – thermometer
 Valid 00-96. Degrees as coded
@@ -11212,9 +10611,6 @@ Missing 98. DK (exc.1968)
 INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0424.
-
-
-208 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680487
 1970: V700234(type 0)
@@ -11254,9 +10650,6 @@ Sources 1968: V680478
 1976: V763297
 1978: V780136
 1980: V800166
-
-
-209
 VCF0440 THERMOMETER - SPIRO AGNEW
 Question Spiro Agnew – thermometer
 Valid 00-96. Degrees as coded
@@ -11297,9 +10690,6 @@ See thermometer question text and notes preceding VCF0424.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680480
 1970: V700231(type 0)
-
-
-210 VARIABLE DESCRIPTION
 1972: V720255
 1974: V742354
 1976: V763307
@@ -11341,9 +10731,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680483
 1974: V742342
 1976: V763304
-
-
-211
 VCF0445 THERMOMETER - ROBERT DOLE
 Question Robert Dole – thermometer
 Valid 00-96. Degrees as coded
@@ -11385,9 +10772,6 @@ Missing 98. DK; don’t recognize
 INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0424.
-
-
-212 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V923306
 1994: V940223
@@ -11427,9 +10811,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V923307
 1994: V940224
 1996: V960274
-
-
-213
 VCF0450 APPROVE OF PRESIDENT PERFORMANCE
 Question Do you approve or disapprove of the way that [the president] is
 handling his/her job as President?
@@ -11484,9 +10865,6 @@ This var appeared in both the pre and post; Pre data are included.
 same as 1984
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-214 VARIABLE DESCRIPTION
 1980: V800063
 1982: V820066
 1984: V840259
@@ -11534,9 +10912,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0424.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-215
 Sources 1992: V923315
 1996: V960282
 1998: V980249
@@ -11584,9 +10959,6 @@ Sources 1972: V720038
 1984: V840093
 1988: V880115
 1992: V923121
-
-
-216 VARIABLE DESCRIPTION
 1996: V960205
 2000: V000305
 2004: V043010
@@ -11638,9 +11010,6 @@ Valid 11. People within party (0001-0097)
 24. Candidate party connections (0500-0597)
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
-
-
-217
 33. Domestic policies (0901-1097)
 34. Foreign policies (1101-1199,1300-1310)
 35. Group connections (1201-1299)
@@ -11689,9 +11058,6 @@ CANDIDATE} that might make you want to vote for him?
 What was that? Anything else [that you liked about this candidate]?
 Valid 21. Experience and abilities
 22. Character and background
-
-
-218 VARIABLE DESCRIPTION
 23. Personal attraction
 24. Issues - NA whether domestic or foreign
 25. Stand on domestic policies
@@ -11740,9 +11106,6 @@ Sources 1972: V720039b
 1996: V960213
 2000: V000307
 2004: V043011b
-
-
-219
 1972-2004 MENTION 2: LIKE ABOUT DEMOCRATIC
 VCF0477b
 PRESIDENTIAL CAND COLLAPSED
@@ -11793,9 +11156,6 @@ Sources 1952: V520027b
 1960: V600024b
 1964: V640025b
 1968: V680032b
-
-
-220 VARIABLE DESCRIPTION
 1952-1968 MENTION 2: LIKE ABOUT DEMOCRATIC
 VCF0477d
 PRESIDENTIAL CAND COLLAPSED
@@ -11851,9 +11211,6 @@ Sources 1972: V720039c
 1996: V960208
 2000: V000308
 2004: V043011c
-
-
-221
 1972-2004 MENTION 3: LIKE ABOUT DEMOCRATIC
 VCF0478b
 PRESIDENTIAL CAND COLLAPSED
@@ -11904,9 +11261,6 @@ Sources 1952: V520027c
 1960: V600024c
 1964: V640025c
 1968: V680032c
-
-
-222 VARIABLE DESCRIPTION
 1952-1968 MENTION 3: LIKE ABOUT DEMOCRATIC
 VCF0478d
 PRESIDENTIAL CAND COLLAPSED
@@ -11961,9 +11315,6 @@ Sources 1976: V763115
 1996: V960209
 2000: V000309
 2004: V043011d
-
-
-223
 1972-2004 MENTION 4: LIKE ABOUT DEMOCRATIC
 VCF0479b
 PRESIDENTIAL CAND COLLAPSED
@@ -12015,9 +11366,6 @@ Sources 1952: V520027d
 1960: V600024d
 1964: V640025d
 1968: V680032d
-
-
-224 VARIABLE DESCRIPTION
 1952-1968 MENTION 4: LIKE ABOUT DEMOCRATIC
 VCF0479d
 PRESIDENTIAL CAND COLLAPSED
@@ -12072,9 +11420,6 @@ Sources 1976: V763116
 1996: V960210
 2000: V000310
 2004: V043011e
-
-
-225
 1972-2004 MENTION 5: LIKE ABOUT DEMOCRATIC
 VCF0480b
 PRESIDENTIAL CAND COLLAPSED
@@ -12126,9 +11471,6 @@ Sources 1952: V520027e
 1960: V600024e
 1964: V640025e
 1968: V680032e
-
-
-226 VARIABLE DESCRIPTION
 1952-1968 MENTION 5: LIKE ABOUT DEMOCRATIC
 VCF0480d
 PRESIDENTIAL CAND COLLAPSED
@@ -12184,9 +11526,6 @@ Sources 1972: V720040
 1984: V840099
 1988: V880121
 1992: V923127
-
-
-227
 1996: V960211
 2000: V000311
 2004: V043012
@@ -12238,9 +11577,6 @@ Valid 11. People within party (0001-0097)
 24. Candidate party connections (0500-0597)
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
-
-
-228 VARIABLE DESCRIPTION
 33. Domestic policies (0901-1097)
 34. Foreign policies (1101-1199,1300-1310)
 35. Group connections (1201-1299)
@@ -12289,9 +11625,6 @@ CANDIDATE} that might make you want to vote against him?
 What was that? Anything else [that you didn’t like about this candidate]?
 Valid 21. Experience and abilities
 22. Character and background
-
-
-229
 23. Personal attraction
 24. Issues - NA whether domestic or foreign
 25. Stand on domestic policies
@@ -12340,9 +11673,6 @@ Sources 1972: V720041b
 1996: V960213
 2000: V000313
 2004: V043013b
-
-
-230 VARIABLE DESCRIPTION
 1972-2004 MENTION 2: DISLIKE ABOUT DEMOCRATIC
 VCF0483b
 PRESIDENTIAL CAND COLLAPSED
@@ -12393,9 +11723,6 @@ Sources 1952: V520028b
 1960: V600025b
 1964: V640026b
 1968: V680033b
-
-
-231
 1952-1968 MENTION 2: DISLIKE ABOUT DEMOCRATIC
 VCF0483d
 PRESIDENTIAL CAND COLLAPSED
@@ -12451,9 +11778,6 @@ Sources 1972: V720041c
 1996: V960214
 2000: V000314
 2004: V043013c
-
-
-232 VARIABLE DESCRIPTION
 1972-2004 MENTION 3: DISLIKE ABOUT DEMOCRATIC
 VCF0484b
 PRESIDENTIAL CAND COLLAPSED
@@ -12504,9 +11828,6 @@ Sources 1952: V520028c
 1960: V600025c
 1964: V640026c
 1968: V680033c
-
-
-233
 1952-1968 MENTION 3: DISLIKE ABOUT DEMOCRATIC
 VCF0484d
 PRESIDENTIAL CAND COLLAPSED
@@ -12561,9 +11882,6 @@ Sources 1976: V763121
 1996: V960215
 2000: V000315
 2004: V043013d
-
-
-234 VARIABLE DESCRIPTION
 1972-2004 MENTION 4: DISLIKE ABOUT DEMOCRATIC
 VCF0485b
 PRESIDENTIAL CAND COLLAPSED
@@ -12613,9 +11931,6 @@ Sources 1952: V520028d
 1960: V600025d
 1964: V640026d
 1968: V680033d
-
-
-235
 1952-1968 MENTION 4: DISLIKE ABOUT DEMOCRATIC
 VCF0485d
 PRESIDENTIAL CAND COLLAPSED
@@ -12670,9 +11985,6 @@ Sources 1976: V763122
 1996: V960216
 2000: V000316
 2004: V043013c
-
-
-236 VARIABLE DESCRIPTION
 1972-2004 MENTION 5: DISLIKE ABOUT DEMOCRATIC
 VCF0486b
 PRESIDENTIAL CAND COLLAPSED
@@ -12722,9 +12034,6 @@ Sources 1952: V520028e
 1960: V600025e
 1964: V640026e
 1968: V680033e
-
-
-237
 1952-1968 MENTION 5: DISLIKE ABOUT DEMOCRATIC
 VCF0486d
 PRESIDENTIAL CAND COLLAPSED
@@ -12780,9 +12089,6 @@ Sources 1972: V720042
 1984: V840081
 1988: V880103
 1992: V923109
-
-
-238 VARIABLE DESCRIPTION
 1996: V960217
 2000: V000317
 2004: V043006
@@ -12834,9 +12140,6 @@ Valid 11. People within party (0001-0097)
 24. Candidate party connections (0500-0597)
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
-
-
-239
 33. Domestic policies (0901-1097)
 34. Foreign policies (1101-1199,1300-1310)
 35. Group connections (1201-1299)
@@ -12885,9 +12188,6 @@ CANDIDATE} that might make you want to vote for him?
 What was that? Anything else [that you liked about this candidate]?
 Valid 21. Experience and abilities
 22. Character and background
-
-
-240 VARIABLE DESCRIPTION
 23. Personal attraction
 24. Issues - NA whether domestic or foreign
 25. Stand on domestic policies
@@ -12936,9 +12236,6 @@ Sources 1972: V720043b
 1996: V960219
 2000: V000319
 2004: V043007b
-
-
-241
 1972-2004 MENTION 2: LIKE ABOUT REPUBLICAN
 VCF0489b
 PRESIDENTIAL CAND COLLAPSED
@@ -12989,9 +12286,6 @@ Sources 1952: V520029b
 1960: V600026b
 1964: V640027b
 1968: V680034b
-
-
-242 VARIABLE DESCRIPTION
 1952-1968 MENTION 2: LIKE ABOUT REPUBLICAN
 VCF0489d
 PRESIDENTIAL CAND COLLAPSED
@@ -13047,9 +12341,6 @@ Sources 1972: V720043c
 1996: V960220
 2000: V000320
 2004: V043007c
-
-
-243
 1972-2004 MENTION 3: LIKE ABOUT REPUBLICAN
 VCF0490b
 PRESIDENTIAL CAND COLLAPSED
@@ -13100,9 +12391,6 @@ Sources 1952: V520029c
 1960: V600026c
 1964: V640027c
 1968: V680034c
-
-
-244 VARIABLE DESCRIPTION
 1952-1968 MENTION 3: LIKE ABOUT REPUBLICAN
 VCF0490d
 PRESIDENTIAL CAND COLLAPSED
@@ -13157,9 +12445,6 @@ Sources 1976: V763127
 1996: V960221
 2000: V000320
 2004: V043007d
-
-
-245
 1972-2004 MENTION 4: LIKE ABOUT REPUBLICAN
 VCF0491b
 PRESIDENTIAL CAND COLLAPSED
@@ -13209,9 +12494,6 @@ Sources 1952: V520029d
 1960: V600026d
 1964: V640027d
 1968: V680034d
-
-
-246 VARIABLE DESCRIPTION
 1952-1968 MENTION 4: LIKE ABOUT REPUBLICAN
 VCF0491d
 PRESIDENTIAL CAND COLLAPSED
@@ -13266,9 +12548,6 @@ Sources 1976: V763128
 1996: V960222
 2000: V000322
 2004: V043007c
-
-
-247
 1972-2004 MENTION 5: LIKE ABOUT REPUBLICAN
 VCF0492b
 PRESIDENTIAL CAND COLLAPSED
@@ -13318,9 +12597,6 @@ Sources 1952: V520029e
 1960: V600026e
 1964: V640027e
 1968: V680034e
-
-
-248 VARIABLE DESCRIPTION
 1952-1968 MENTION 5: LIKE ABOUT REPUBLICAN
 VCF0492d
 PRESIDENTIAL CAND COLLAPSED
@@ -13376,9 +12652,6 @@ Sources 1972: V720044
 1984: V840087
 1988: V880109
 1992: V923115
-
-
-249
 1996: V960223
 2000: V000323
 2004: V043008
@@ -13430,9 +12703,6 @@ Valid 11. People within party (0001-0097)
 24. Candidate party connections (0500-0597)
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
-
-
-250 VARIABLE DESCRIPTION
 33. Domestic policies (0901-1097)
 34. Foreign policies (1101-1199,1300-1310)
 35. Group connections (1201-1299)
@@ -13481,9 +12751,6 @@ CANDIDATE} that might make you want to vote against him?
 What was that? Anything else [that you liked about this candidate]?
 Valid 21. Experience and abilities
 22. Character and background
-
-
-251
 23. Personal attraction
 24. Issues - NA whether domestic or foreign
 25. Stand on domestic policies
@@ -13532,9 +12799,6 @@ Sources 1972: V720045b
 1996: V960225
 2000: V000325
 2004: V043009b
-
-
-252 VARIABLE DESCRIPTION
 1972-2004 MENTION 2: DISLIKE ABOUT REPUBLICAN
 VCF0495b
 PRESIDENTIAL CAND COLLAPSED
@@ -13584,9 +12848,6 @@ Sources 1952: V520030b
 1960: V600027b
 1964: V640028b
 1968: V680035b
-
-
-253
 1952-1968 MENTION 2: DISLIKE ABOUT REPUBLICAN
 VCF0495d
 PRESIDENTIAL CAND COLLAPSED
@@ -13642,9 +12903,6 @@ Sources 1972: V720045c
 1996: V960226
 2000: V000326
 2004: V043009c
-
-
-254 VARIABLE DESCRIPTION
 1972-2004 MENTION 3: DISLIKE ABOUT REPUBLICAN
 VCF0496b
 PRESIDENTIAL CAND COLLAPSED
@@ -13695,9 +12953,6 @@ Sources 1952: V520030c
 1960: V600027c
 1964: V640028c
 1968: V680035c
-
-
-255
 1952-1968 MENTION 3: DISLIKE ABOUT REPUBLICAN
 VCF0496d
 PRESIDENTIAL CAND COLLAPSED
@@ -13752,9 +13007,6 @@ Sources 1976: V763133
 1996: V960227
 2000: V000327
 2004: V043009d
-
-
-256 VARIABLE DESCRIPTION
 1972-2004 MENTION 4: DISLIKE ABOUT REPUBLICAN
 VCF0497b
 PRESIDENTIAL CAND COLLAPSED
@@ -13804,9 +13056,6 @@ Sources 1952: V520030d
 1960: V600027d
 1964: V640028d
 1968: V680035d
-
-
-257
 1952-1968 MENTION 4: DISLIKE ABOUT REPUBLICAN
 VCF0497d
 PRESIDENTIAL CAND COLLAPSED
@@ -13861,9 +13110,6 @@ Sources 1976: V763134
 1996: V960228
 2000: V000328
 2004: V043009e
-
-
-258 VARIABLE DESCRIPTION
 1972-2004 MENTION 5: DISLIKE ABOUT REPUBLICAN
 VCF0498b
 PRESIDENTIAL CAND COLLAPSED
@@ -13913,9 +13159,6 @@ Sources 1952: V520030e
 1960: V600027e
 1964: V640028e
 1968: V680035e
-
-
-259
 1952-1968 MENTION 5: DISLIKE ABOUT REPUBLICAN
 VCF0498d
 PRESIDENTIAL CAND COLLAPSED
@@ -13970,9 +13213,6 @@ Sources 1952: V520017
 1990: V900336
 1992: V925901
 1994: V840708
-
-
-260 VARIABLE DESCRIPTION
 1996: V961182
 1998: V980370
 2000: V001435
@@ -14030,9 +13270,6 @@ Sources 1960: V600232
 2012: ptycons_cons,ptycons_ptyconswh
 2016: V162191,V162191a
 2020: V202217, V202218
-
-
-261
 WHICH MAJOR PARTY IS MORE CONSERVATIVE 4-
 VCF0502a
 CATEGORY
@@ -14089,9 +13326,6 @@ Missing 8. DK party placement
 0. NA party placement; DK/NA self-placement (1984-1996); refused to
 choose self-placement (1996); no Post IW; form III,IV (1972)
 INAP. question not used
-
-
-262 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 1972-1982: If self-placement was ‘DK,’ NA or ‘haven’t thought much’
 R was not asked for party placements on this scale.
@@ -14150,9 +13384,6 @@ Sources 1972: V720657
 1982: V820404
 1984: V840374
 1986: V860394
-
-
-263
 1988: V880234
 1990: V900414
 1992: V923517
@@ -14205,9 +13436,6 @@ plan which would cover all medical and hospital expenses (1988,1994:
 for everyone).
 Others feel that (1988,1994: all) medical expenses should be paid by
 individuals, and through private insurance like Blue Cross (1988,
-
-
-264 VARIABLE DESCRIPTION
 1994: or other company paid plans).
 Where would you place the Democratic Party on this scale [1988 ONLY:
 or haven’t you thought much about this]? (7-POINT SCALE SHOWN TO R)
@@ -14264,9 +13492,6 @@ Sources 1970: V700136(type 0)
 1972: V720213
 1976: V763277
 1978: V780384
-
-
-265
 1988: V880321
 1994: V940955
 2012: inspre_rep
@@ -14316,9 +13541,6 @@ Valid 1. Government see to job and good standard of living
 5.
 6.
 7. Government let each person get ahead on his own
-
-
-266 VARIABLE DESCRIPTION
 Missing 8. DK party placement
 9. NA party placement
 0. DK/NA/haven’t thought much about self-placement; form III,IV (1972);
@@ -14376,9 +13598,6 @@ Sources 1972: V720177,V720618
 1974: V742270
 1976: V763245
 1978: V780360
-
-
-267
 1980: V801121
 1982: V820428
 1984: V840418
@@ -14439,9 +13658,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1970: V700107(type 0)
 1972: V720633
 1974: V742300
-
-
-268 VARIABLE DESCRIPTION
 1976: V763267
 1978: V780375
 1980: V801074
@@ -14491,9 +13707,6 @@ the Democrats, the Republicans, or wouldn’t there be any difference
 between them on this?
 Valid 1. Democrats
 2. No difference
-
-
-269
 3. Republicans
 8. DK which party
 Missing 0. Filter response is that R has no opinion/interest for topic or DK
@@ -14553,9 +13766,6 @@ Post IW; form I (1972); telephone IW (1984)
 INAP. question not used
 Notes GENERAL NOTE:
 See notes VCF0521.
-
-
-270 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1964: V640073
 1968: V680063
@@ -14607,9 +13817,6 @@ Sources 1956: V560086
 1996: V960408
 2000: V000506
 2004: V043111
-
-
-271
 VCF0523 WHICH PARTY FAVORS MILITARY SPENDING CUT
 Question Which political party do you think is more in favor of cutting
 military spending - the Democrats, the Republicans, or wouldn’t there
@@ -14654,9 +13861,6 @@ Sources 1970: V700121(type 0)
 1976: V763251
 1978: V780367
 VCF0525 REPUBLICAN PARTY- RIGHTS OF ACCUSED SCALE
-
-
-272 VARIABLE DESCRIPTION
 Question Republican Party - R’s rating of party on rights of accused scale
 Valid 1. Protect rights of accused
 2.
@@ -14707,9 +13911,6 @@ Sources 1970: V700086(type 0)
 1972: V720674
 1974: V742277
 1976: V763770
-
-
-273
 VCF0529 REPUBLICAN PARTY- URBAN UNREST SCALE
 Question Republican Party - R’s rating of party on urban unrest scale
 Valid 1. Solve problems of poverty and unemployment
@@ -14757,9 +13958,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720206
 1974: V742292
 1976: V763260
-
-
-274 VARIABLE DESCRIPTION
 VCF0534 REPUBLICAN PARTY- SCHOOL BUSING SCALE
 Question Republican Party - R’s rating of party on school busing scale
 Valid 1. Bus to achieve integration
@@ -14811,9 +14009,6 @@ Sources 1972: V720236
 1982: V820437
 1988: V880391
 1998: V980453
-
-
-275
 VCF0538 REPUBLICAN PARTY- WOMEN EQUAL ROLE SCALE
 Question Republican Party - R’s rating of party on equal role for women scale
 Valid 1. Women and men should have an equal role
@@ -14870,9 +14065,6 @@ placements on this scale.
 1996 AND LATER NOTE: the order in which this rating was administered
 for the 2 major parties was randomized.
 1988 NOTE:
-
-
-276 VARIABLE DESCRIPTION
 If R’s self-placement was NA , then R was not asked for party
 placements.
 1992 NOTE:
@@ -14928,9 +14120,6 @@ Sources 1982: V820446
 2000: V000575
 2004: V043141
 2012: spsrvpr_ssrep
-
-
-277
 DEMOCRATIC PARTY- COOPERATION WITH U.S.S.R.
 VCF0545
 SCALE
@@ -14982,9 +14171,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1980: V801089
 1984: V840412
 1988: V880373
-
-
-278 VARIABLE DESCRIPTION
 VCF0549 DEMOCRATIC PARTY- DEFENSE SPENDING SCALE
 Question Some people believe that we should spend much less money for defense.
 (1996,2004: Suppose these people are at one end of a scale, at point
@@ -15042,9 +14228,6 @@ Valid 1. Greatly decrease defense spending
 3.
 4.
 5.
-
-
-279
 6.
 7. Greatly increase defense spending.
 Missing 8. DK party placement
@@ -15092,9 +14275,6 @@ Sources 1968: V680472
 1974: V742238
 VCF0602 APPROVE CIVIL DISOBEDIENCE
 Question
-
-
-280 VARIABLE DESCRIPTION
 How about refusing to obey a law which one thinks is unjust, if the
 person feels so strongly about it that he is willing to go to jail
 rather than obey the law? Would you approve of a person doing that,
@@ -15142,9 +14322,6 @@ Sources 1968: V680476
 TRUST THE FEDERAL GOVERNMENT TO DO WHAT IS
 VCF0604
 RIGHT
-
-
-281
 Question People have (1958,1964: I’d like to talk about some of the) different
 ideas about the government in Washington. These ideas don’t refer to
 Democrats or Republicans in particular, but just to government in
@@ -15205,9 +14382,6 @@ THE BENEFIT OF ALL
 Question Would you say the government is pretty much run by a few big interests
 looking out for themselves or that it is run for the benefit of all
 the people?
-
-
-282 VARIABLE DESCRIPTION
 Valid 1. Few big interests
 2. Benefit of all
 9. DK; pro-con; depends; other; refused to choose; both
@@ -15265,9 +14439,6 @@ Sources 1958: V580156
 1964: V640402
 1968: V680503
 1970: V700150(type 0)
-
-
-283
 1972: V720570
 1974: V742229
 1976: V763162
@@ -15317,9 +14488,6 @@ Question Do you think that quite a few of the people running the government are
 (1958-1972: a little) crooked, not very many are, or do you think
 hardly any of them are crooked (1958-1972: at all)?
 Valid
-
-
-284 VARIABLE DESCRIPTION
 1. Quite a few; quite a lot (1958-1972)
 2. Not many
 3. Hardly any
@@ -15379,9 +14547,6 @@ Valid 1. Agree
 Missing 0. NA; no Pre IW; no Post IW; split versions: not asked (2008); form B
 (1986)
 INAP. question not used
-
-
-285
 Notes GENERAL NOTE:
 Prior to 1988, response options were read to R. In 1988 and later
 (except 2000 telephone and 2002), response options were in the
@@ -15442,9 +14607,6 @@ INAP. question not used
 Notes See introductory text VCF0609.
 GENERAL NOTE:
 The order in which questions VCF0609-VCF0618 appeared may have varied.
-
-
-286 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680521
 1970: V700148(type 0)
@@ -15491,9 +14653,6 @@ This question was asked as a Likert Scale (i.e., strongly agree/ agree/
 disagree/ strongly disagree), collapsed here.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-287
 1952: V520120
 1956: V560109
 1960: V600108
@@ -15554,9 +14713,6 @@ Sources 1952: V520123
 1980: V801030
 1982: V820531
 1984: V840312
-
-
-288 VARIABLE DESCRIPTION
 1988: V880937
 1990: V900509
 1992: V926102
@@ -15617,9 +14773,6 @@ Sources 1952: V520125
 1976: V763817
 1978: V780353
 1980: V801032
-
-
-289
 1984: V840314
 1988: V880939
 1990: V900510
@@ -15671,9 +14824,6 @@ SHOULD THOSE WHO DON’T CARE ABOUT ELECTION
 VCF0616
 OUTCOME VOTE
 Question
-
-
-290 VARIABLE DESCRIPTION
 ‘If a person doesn’t (1988: if people don’t) care how an election
 comes out he (1980,1984: then that person; 1988,1992: they) shouldn’t
 vote in it.’
@@ -15723,9 +14873,6 @@ Sources 1952: V520117
 1976: V763348
 1978: V780422
 1980: V800143
-
-
-291
 VCF0618 A GOOD MANY LOCAL ELECTIONS UNIMPORTANT
 Question ‘A good many local elections aren’t important enough to bother with.’
 Valid 1. Agree
@@ -15780,9 +14927,6 @@ Sources 1964: V640398
 1998: V980532
 2000: V001475
 2002: V025101
-
-
-292 VARIABLE DESCRIPTION
 2004: V045186
 2008: V083092a
 PEOPLE ARE HELPFUL OR: PEOPLE LOOK OUT FOR
@@ -15831,9 +14975,6 @@ Sources 1964: V640400
 1968: V680502
 1972: V720583
 1974: V742402
-
-
-293
 1976: V763747
 1996: V960569
 1998: V980531
@@ -15884,9 +15025,6 @@ Valid 1. Not much
 2. Some
 3. A good deal
 9. DK; other; depends; can’t say
-
-
-294 VARIABLE DESCRIPTION
 Missing 0. NA; no Post IW; form III,IV 1972)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -15944,9 +15082,6 @@ Sources 1964: V640392
 2004: V045204
 2008: V085154
 2012: respons_elections
-
-
-295
 2016: V161220
 2020: V201238
 HOW MUCH ATTENTION CONGRESSMEN PAY TO
@@ -15997,9 +15132,6 @@ Valid 1. Have to change plans
 9. DK; pro-con; it depends; both other; refused to choose
 Missing 0. NA; no Post IW
 INAP. question not used
-
-
-296 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1958: V580164
 1960: V600240
@@ -16045,9 +15177,6 @@ Sources 1958: V580160
 1972: V720280
 1974: V742398
 1976: V763738
-
-
-297
 VCF0629 CAN RUN LIFE AS WANTED
 Question Some people feel they can run their lives pretty much the way they
 want to; others feel the problems of life are sometimes too big for
@@ -16091,9 +15220,6 @@ Valid 1. National government
 2. State government
 3. Local government
 9. DK; none; all; other; depends; refuses to choose; combination of two
-
-
-298 VARIABLE DESCRIPTION
 Missing 0. NA; no Post IW; form I,III,IV (1972)
 INAP. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -16136,9 +15262,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720451
 1974: V742242
 1976: V763591
-
-
-299
 VCF0634 BRANCH OF GOVERNMENT RESPONDENT TRUSTS LEAST
 Question Which {part of the government} do you least often trust to do what’s
 right {Congress, Supreme Court, President or political parties}?
@@ -16191,9 +15314,6 @@ Sources 1976: V763691
 1996: V961142
 1998: V980347
 2000: V000437
-
-
-300 VARIABLE DESCRIPTION
 VCF0648 EXTERNAL EFFICACY INDEX
 Question External efficacy index, 100-pt scale
 Valid 0. Least efficacious
@@ -16239,9 +15359,6 @@ Valid 0. Very poor job
 4. Fair job
 5.
 6. Good job
-
-
-301
 7.
 8. Very good job
 Missing 9. DK; NA; no opinion; haven’t thought about it; no Post IW
@@ -16286,9 +15403,6 @@ Notes GENERAL NOTE:
 See VCF0650.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-302 VARIABLE DESCRIPTION
 1974: V742253
 1976: V763550
 1980: V800764
@@ -16330,9 +15444,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1974: V742255
 1976: V763552
 1980: V800766
-
-
-303
 VCF0655 SUPREME COURT PERFORMANCE RATING
 Question The U.S. Supreme Court
 Valid 0. Very poor job
@@ -16377,9 +15488,6 @@ Valid 1. Just about always
 2. Most of the time
 3. Only some of the time
 4. Almost never
-
-
-304 VARIABLE DESCRIPTION
 5. None of the time [VOL]
 8. DK
 Missing 9. NA; no Post IW
@@ -16426,9 +15534,6 @@ vote in the November election if you wanted to?
 Valid 1. No
 2. Yes
 Missing
-
-
-305
 0. DK; NA; no Pre IW; form II (1972)
 INAP. question not used
 Notes This is a pre-election var.
@@ -16488,9 +15593,6 @@ Code 2 includes 8 respondents from 1958, 8 respondents from 1962 and
 1956 NOTE:
 Code 2 includes 3 cases from: ‘Nonvoter, NA preference; voted, but not
 for president’.
-
-
-306 VARIABLE DESCRIPTION
 1982 NOTE:
 For congressional districts GA04 and GA05, an additional question
 appeared: How about the special US Congressional elections held
@@ -16551,9 +15653,6 @@ No registration variable at all was present in 1958,1962,1966,1970 or
 1974.
 In some years a few respondents have declared that registration was not
 required in their state; these cases have been included with
-
-
-307
 ‘registered’.
 2004 NOTE:
 This is a summary variable of vote and registration status.
@@ -16613,9 +15712,6 @@ Sources 1948: V480018
 1980: V800994
 1984: V840788
 1988: V880763
-
-
-308 VARIABLE DESCRIPTION
 1992: V925609
 1996: V961082
 2000: V001249
@@ -16664,9 +15760,6 @@ not for president (1980-1992); DK/NA if voted for president (1980-
 1992); DK/NA who voted for; refused to say who voted for; no Post IW
 INAP. question not used
 Notes
-
-
-309
 GENERAL NOTE:
 See VCF0704.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -16724,9 +15817,6 @@ Sources 1948: V480018
 2012: presvote2012_x,rvote2012_x,prevote_presvt,postvote_presvt
 2016: V162062x,V162031x,V162034
 2020: V202110x
-
-
-310 VARIABLE DESCRIPTION
 VCF0707 VOTE FOR CONGRESSMAN
 Question 1952-1970:
 COUNTY OF REGISTRATION NOT DETERMINED [NO BALLOT CARD]:
@@ -16795,9 +15885,6 @@ for House of Representatives; forms III and IV (1972); special
 districts with no House race in 1978 (LA03,LA07,FL08,FL10); special
 districts with no House race in 1980 (LA03, LA07); special districts,
 with no House race in 1982 (LA05, LA07); special district with no House
-
-
-311
 race in 1986 (LA04)
 INAP. question not used
 Notes See also VCF0735,VCF0736,VCF1011-VCF1013
@@ -16869,9 +15956,6 @@ Sources 1952: V520187
 1966: V660112
 1968: V680323
 1970: V700215(type 0)
-
-
-312 VARIABLE DESCRIPTION
 1972: V720485
 1974: V742322
 1976: V763673
@@ -16933,9 +16017,6 @@ regular Senate election and a second ‘special’ Senate election were
 held. This variable codes data for the respondent’s vote in the
 regular Senate election only. [ NOTE special question wording was not
 used for Tennessee in 1994].
-
-
-313
 2002 NOTE:
 For respondents registered in county of interview, the order of
 candidate names was randomized in text read by telephone interviewers.
@@ -16990,9 +16071,6 @@ Derived from VCF0704 and VCF0707.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2016: V162062x,V162067x
 2020: VCF0704, VCF0707
-
-
-314 VARIABLE DESCRIPTION
 VCF0710 VOTE TICKET-SPLITTING- PRESIDENT/SENATE
 Question Ticket splitting Presidential vs. Senatorial vote
 Valid 1. Dem. Pres. - Dem. Senate
@@ -17039,9 +16117,6 @@ Sources 1952: V520072
 TIMING OF RESPONDENT’S PRESIDENTIAL VOTE
 VCF0712
 DECISION
-
-
-315
 Question How long before the election did you decide that you were going to
 vote the way you did?
 Valid 1. Knew all along (incl.: always vote for same party; 1948 ONLY: all pre-
@@ -17103,9 +16178,6 @@ NOT ‘NO’:) Do you plan to vote Republican, Democrat or something else?
 We all know the election is some time away and people are not certain at
 this point who they will vote for. Still, who do you think you will vote
 for in the election for President?
-
-
-316 VARIABLE DESCRIPTION
 2012 PRE-ELECTION: (IF R IS NOT REGISTERED BUT INTENDS TO REGISTER, OR
 IF R IS REGISTERED BUT DID NOT VOTE YET:) How about the election for
 President? Do you intend to vote for a candidate for PRESIDENT? (IF
@@ -17164,9 +16236,6 @@ win by quite a bit?
 Valid 1. Will win by quite a bit
 2. Close race
 9. DK; pro-con; depends; etc.
-
-
-317
 Missing 0. NA; no Pre IW; R replies DK who will win (1952-1976); R’s
 prediction NA
 INAP. question not used
@@ -17225,9 +16294,6 @@ was coded as ‘straight ticket.’
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1952: V520189
 1956: V560214
-
-
-318 VARIABLE DESCRIPTION
 1958: V580088
 1960: V600213
 1962: V620048
@@ -17280,9 +16346,6 @@ DURING THE CAMPAIGN
 Question 1952,1956,1960-1964:
 I have a list of some of the things that people do that help a party or
 a candidate win an election. I wonder if you could tell me whether you
-
-
-319
 did any of these things.
 1968,1972 AND LATER:
 Now I’d like to find out (1990 AND LATER: We’d/we would like to find
@@ -17341,9 +16404,6 @@ Valid 1. No
 Missing 0. DK; NA; no Post IW; form III,IV (1972); abbrev. telephone IW (1984)
 INAP. question not used
 Notes
-
-
-320 VARIABLE DESCRIPTION
 GENERAL NOTE:
 See VCF0717.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -17403,9 +16463,6 @@ Sources 1952: V520206
 1986: V860318
 1988: V880828
 1990: V900369
-
-
-321
 1992: V925812
 1994: V940811
 1996: V961168
@@ -17459,9 +16516,6 @@ Sources 1956: V560220
 2012: mobilpo_sign
 2016: V162012
 2020: V202015
-
-
-322 VARIABLE DESCRIPTION
 RESPONDENT DONATE MONEY TO PARTY OR CANDIDATE
 VCF0721
 DURING THE CAMPAIGN
@@ -17531,9 +16585,6 @@ the subsequent two contribution questions were not asked. If R’s
 response to the filter was ‘no,’ VCF0721 has been coded 1; if R’s
 response to the filter was DK or NA, then VCF0721 has been coded 0.
 For 1984 Rs who responded ‘yes’ to the filter question: if R responded
-
-
-323
 ‘yes’ to either or both of the following contribution questions, then
 VCF0721 has been coded 2. If R responded ‘yes’ to the filter but then
 responded ‘no’ to both follow-up contribution questions or if R
@@ -17589,9 +16640,6 @@ Sources 1964: V640318
 1968: V680425
 1972: V720474
 1976: V763537
-
-
-324 VARIABLE DESCRIPTION
 COUNT OF CAMPAIGN PARTICIPATION ACTIVITIES 6-
 VCF0723
 CATEGORY
@@ -17640,9 +16688,6 @@ on television.
 Did you watch any programs about the campaign on television? (1960-
 1972,1976: (IF YES:) How many television programs about the campaign
 would you say you watched – a good many,several, or just one or two?
-
-
-325
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 1960-1972,1976:
 Did you watch any programs about the campaign on television? (1960-
@@ -17703,9 +16748,6 @@ HEAR PROGRAMS ABOUT CAMPAIGNS ON THE RADIO 2-
 VCF0725
 CATEGORY
 Question
-
-
-326 VARIABLE DESCRIPTION
 1952,1956:
 How about radio–did you listen to any speeches or discussions about the
 campaign on the radio? (1952 only: IF YES:) Would you say you listened
@@ -17764,9 +16806,6 @@ several, just one or two, DK/NA frequency]
 Missing 0. DK; NA; no Post IW; form II,III,IV (1972); abbrev. telephone IW
 (1984); short form or Spanish language (1992)
 INAP. question not used
-
-
-327
 Notes GENERAL NOTE:
 See VCF0724.
 2008 NOTE:
@@ -17827,9 +16866,6 @@ In most years, this question was accompanied by a follow-up question
 which asked how much/how often R read campaign articles, how many
 campaign articles R read, or how much attention R paid to campaign
 articles. If the respondent had read articles at all, regardless how
-
-
-328 VARIABLE DESCRIPTION
 little, then R has been coded 2. Several 1986, 1990, 1992, and 1996
 respondents who replied ‘yes’ to the main question, but who replied in
 the followup question that they paid ‘no attention’ to articles, have
@@ -17888,9 +16924,6 @@ in VCF0724-VCF0727), then VCF0728 is coded 0. If at least 1 var is
 coded with valid data during a year when all 4 questions are used by
 NES, then this value is computed.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-329
 VCF0729 PARTY WITH HOUSE MAJORITY BEFORE THE ELECTION
 Question 1958-1968: Do you happen to know which party had the most Congressmen
 in Washington before the election this/last month? (IF NECESSARY:)
@@ -17946,9 +16979,6 @@ Valid 1. Incorrect party mentioned; DK; No
 Missing 0. NA; no Post IW; form II,III,IV (1972); abbrev. telephone IW (1984)
 INAP. question not used
 Notes
-
-
-330 VARIABLE DESCRIPTION
 GENERAL NOTE:
 For 1968 and 1970, 5 responses of ‘half and half’ in each year have
 been coded 1.
@@ -17999,9 +17029,6 @@ Question Do you ever discuss politics with your family or friends
 How often do you discuss politics with your family or friends –
 every day, 3 or 4 times a week, once or twice a week, or less often
 than that?
-
-
-331
 Valid 1. Every day
 2. 3 or 4 times a week
 3. Once or twice a week
@@ -18059,9 +17086,6 @@ Sources 1984: V840107
 2000: V001205
 2002: V025004
 2004: V045153a
-
-
-332 VARIABLE DESCRIPTION
 2008: V085108a
 2012: discuss_disc,discuss_discpstwk
 2016: V162174a
@@ -18113,9 +17137,6 @@ DISTRICTS W/ RUNNING INCUMBENT:
 83. Democratic incumbent
 84. Republican incumbent
 85. Democratic challenger
-
-
-333
 86. Republican challenger
 IF R VOTED OUTSIDE DISTRICT OF INTERVIEW:
 ALL ‘OUTSIDE’ DISTRICTS:
@@ -18175,9 +17196,6 @@ refused to say who voted for; name given by R not on candidate list
 (1978-1988); Washington D.C.; no Post IW; voted, but not for House of
 Representatives; DK/NA if voted for House of Representatives; forms
 III,IV (1972); special districts with no House race in 1978 (LA03,
-
-
-334 VARIABLE DESCRIPTION
 LA07, FL08, FL10); special districts with no House race in 1980 (LA03,
 LA07); special districts with no House race in 1982 (LA05, LA07);
 special district with no House race in 1986 (LA04)
@@ -18235,9 +17253,6 @@ in both the Pre and Post. Summary registration status for these years
 can be found in VCF0703.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-335
 1948: V480026
 1952: V520181
 1978: V780484
@@ -18297,9 +17312,6 @@ Sources 1978: V780471,V780485
 1982: V820502,V820520
 1984: V840784,V840803
 1986: V860262,V860277
-
-
-336 VARIABLE DESCRIPTION
 VCF0738a PARTY OF REGISTRATION PRE-ELECTION
 Question (IF R IS REGISTERED) Are you registered as being a Republican, a
 Democrat or anything else?
@@ -18345,9 +17357,6 @@ CONTRIBUTE TO POLITICAL PARTY DURING THE
 VCF0740
 CAMPAIGNS
 Question
-
-
-337
 1980-1982:
 Apart from contributions to specific candidates, how about contributions
 to any of the political parties? Did you give money to a political party
@@ -18408,9 +17417,6 @@ contribution to support campaigns. During the past year did you give
 any money to an individual candidate, or to a political party
 organization? (IF YES:) Did you give any money to any other group that
 supported or opposed candidates?
-
-
-338 VARIABLE DESCRIPTION
 ALL OTHER YEARS:
 Did you give any money to any other group that supported or opposed
 candidates?
@@ -18469,9 +17475,6 @@ Missing 0. DK; NA; no Post IW; abbrev. telephone IW (1984)
 INAP. question not used
 Notes 1984 NOTE:
 If R responded ‘no’ to the filter question, this has been coded 2.
-
-
-339
 1986 NOTE:
 same as 1984.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -18518,9 +17521,6 @@ Valid 1. Yes
 5. No
 Missing 9. DK; NA; no Post IW
 INAP. question not used
-
-
-340 VARIABLE DESCRIPTION
 Notes 2012 NOTE:
 In 2012, the question was asked about anyone in the household rather
 than asked about respondent’s access to the internet.
@@ -18560,9 +17560,6 @@ Sources 1996: V961175
 1998: V980355
 2000: V001235
 VCF0747 INFORMATION ABOUT CANDIDATES/PARTIES/ISSUES AT
-
-
-341
 CHURCH
 Question Was information about candidates, parties, or political issues made
 available in your place of worship before the election?
@@ -18608,9 +17605,6 @@ Valid 01. Less than one week, 1-6 days
 97. Other
 Missing 99. DK; NA; R did not vote; R did not vote before election day or
 DK/NA if voted before election day; no Post IW
-
-
-342 VARIABLE DESCRIPTION
 INAP. question not used
 Notes 2012 NOTE:
 Not yet coded for the 2012 Time Series.
@@ -18658,9 +17652,6 @@ Notes GENERAL NOTE:
 This index is constructed from the thermometer score for liberals
 (VCF0211) and the thermometer score for conservatives (VCF0212).
 The calculation used is the following: First, the value of VCF0211 is
-
-
-343
 subtracted from 97, and that difference is added to the value of
 VCF0212. This sum is then divided by 2, and .5 is added to the
 result. Finally, the solution is truncated to obtain an integer
@@ -18720,9 +17711,6 @@ Sources 1972: V720652
 1974: V742305
 1976: V763286
 1978: V780399
-
-
-344 VARIABLE DESCRIPTION
 1980: V800267
 1982: V820393
 1984: V840369
@@ -18774,9 +17762,6 @@ Question 1956,1960:
 Around election time people talk about different things that our
 government in Washington is doing or should be doing. Now I would like
 to talk to you about some of the things that our government might do.
-
-
-345
 Of course, different things are important to different people, so we
 don’t expect everyone to have an opinion about all of these. I would
 like you to look at this card as I read each question and tell me how
@@ -18836,9 +17821,6 @@ Valid 1. Government insurance plan
 4.
 5.
 6.
-
-
-346 VARIABLE DESCRIPTION
 7. Private insurance plan
 9. DK; haven’t thought much about it
 Missing 0. NA; split versions: not asked (2008); Form II (1972); no Post IW;
@@ -18898,9 +17880,6 @@ standard of living
 this (2002)
 Missing 0. NA; no Pre IW; no Post IW
 INAP. question not used
-
-
-347
 Notes See also: VCF0809.
 GENERAL NOTE:
 For 1956, 1958 and 1960, ‘agree strongly’ and ‘agree but not very
@@ -18959,9 +17938,6 @@ Sources 1972: V721067
 1988: V880323
 1990: V900446
 1992: V923718
-
-
-348 VARIABLE DESCRIPTION
 1994: V940930
 1996: V960483
 1998: V980457
@@ -19011,9 +17987,6 @@ In the past few years, we have heard a lot about improving the position
 of black people in this country. How much real change do you think
 there has been in the position of black people in the past few years: a
 lot, some, or not much at all?
-
-
-349
 Valid 1. Not much at all
 2. Some
 3. A lot
@@ -19071,9 +18044,6 @@ Sources 1964: V640105
 1968: V680081
 1970: V700071(type 2)
 1972: V720112
-
-
-350 VARIABLE DESCRIPTION
 1974: V742264
 1976: V763213
 1980: V801132
@@ -19123,9 +18093,6 @@ interested) enough about [in] this question to favor one side over the
 other? (IF YES)
 Do you think the government in Washington should —
 Valid
-
-
-351
 1. Yes, R has an opinion: see to it that white and black children go
 (1962-1970: are allowed to go) to the same schools
 2. Yes, R has an opinion: stay out of this area (except 1962: as it
@@ -19182,9 +18149,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720202
 1974: V742288
 1976: V763257
-
-
-352 VARIABLE DESCRIPTION
 1980: V801133
 1984: V841074
 SHOULD GOVERNMENT ENSURE FAIR JOBS/HOUSING
@@ -19234,9 +18198,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 Weight variable VCF0011/VCF0011A must be used if
 distributions including 1970 data are desired: see VCF0011.
-
-
-353
 Note that use of VCF0011/VCF0011A as a weight reduces the
 1970 total N for this variable: form 1 whites who should appear as
 code 0 INAP cases are excluded from the 1970 total N.
@@ -19287,9 +18248,6 @@ Sources 1964: V640126
 1970: V700076(type 2)
 1972: V720117
 1976: V763216
-
-
-354 VARIABLE DESCRIPTION
 VCF0821 DO BLACKS IN THE AREA FAVOR DESEGREGATION
 Question In general, how many of the black people (1964,1968,1970: Negroes) in
 this area would you say are in favor of desegregation – all of them,
@@ -19339,9 +18297,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1972: V720512
 1974: V742317
 1976: V763748
-
-
-355
 BETTER OFF IF U.S. UNCONCERNED WITH REST OF
 VCF0823
 WORLD
@@ -19400,9 +18355,6 @@ Question We hear a lot of talk these days about liberals and conservatives.
 Here is (1972,1974: I’m going to show you) a 7-point scale on which
 the political views that people might hold are arranged from extremely
 liberal to extremely conservative. Where would you place yourself on
-
-
-356 VARIABLE DESCRIPTION
 this scale, or haven’t you thought much about this? (7-POINT SCALE
 SHOWN TO R).
 (IF R RESPONDS ‘DON’T KNOW’ OR ‘HAVEN’T THOUGHT MUCH ABOUT THIS’ IN
@@ -19461,9 +18413,6 @@ Valid 1. Less likely
 3. More likely
 9. DK; depends
 Missing
-
-
-357
 0. NA; Form II (1972)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -19512,9 +18461,6 @@ Sources 1952: V520054
 2008: V085298
 VCF0827 HOW SHOULD U.S. PROCEED IN CURRENT WAR
 Question
-
-
-358 VARIABLE DESCRIPTION
 1952:
 Which of the following things do you think it would be best for us to do
 now in Korea? (OPTIONS CORRESPONDING TO CODE CATEGORIES READ TO R)
@@ -19571,9 +18517,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1968: V680470
 1970: V700092(type 0)
 1972: V721069
-
-
-359
 VCF0828 SHOULD GOVERNMENT CUT MILITARY SPENDING
 Question Some people believe that our armed forces are already powerful enough
 and that we should spend less money for defense. Others feel that
@@ -19627,9 +18570,6 @@ Sources 1964: V640071
 1978: V780453,V780454
 1980: V801128,V801129
 1984: V841059,V841060
-
-
-360 VARIABLE DESCRIPTION
 1988: V880847,V880848
 1992: V926016
 2000: V001512,V001513
@@ -19690,9 +18630,6 @@ Sources 1970: V700106(type 0)
 1998: V980462
 2000: V000641
 2004: V043158
-
-
-361
 2008: V083137
 2016: V161198
 2020: V201258
@@ -19735,9 +18672,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1976: V763799
 1978: V780452
 1980: V801126
-
-
-362 VARIABLE DESCRIPTION
 VCF0834 WOMEN EQUAL ROLE SCALE
 Question Recently there has been a lot of talk about women’s rights. Some
 people feel that women should have an equal role with men in running
@@ -19795,9 +18729,6 @@ Sources 1972: V720232
 VCF0836 SHOULD WOMEN STAY OUT OF POLITICS
 Question 1952 INTRO:
 Now I’d like to read some of the kinds of things people tell me when I
-
-
-363
 interview them, and ask you whether you agree or disagree with them.
 I’ll read them one at a time, and you just tell me whether you agree or
 disagree with them, and whether you agree or disagree a little or quite
@@ -19844,9 +18775,6 @@ Sources 1972: V720238
 1980: V801136
 VCF0838 BY LAW, WHEN SHOULD ABORTION BE ALLOWED
 Question
-
-
-364 VARIABLE DESCRIPTION
 ALL YEARS EXCEPT 2000 TELEPHONE:
 There has been some discussion about abortion during recent years.
 (RESPONDENT BOOKLET) Which one of the opinions on this page best agrees
@@ -19906,9 +18834,6 @@ points 2,3,4,5, or 6.)
 Where would you place yourself on this scale, or haven’t you thought
 much about this? (7-POINT SCALE SHOWN TO R)
 Valid
-
-
-365
 1. Government should provide many fewer services: reduce
 spending a lot
 2.
@@ -19965,9 +18890,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V923747
 1994: V940651
 1998: V980335
-
-
-366 VARIABLE DESCRIPTION
 VCF0841 COOPERATION WITH U.S.S.R. SCALE
 Question 1980:
 Some people feel it is important for us to try very hard to get along
@@ -20022,9 +18944,6 @@ face-to-face. Respondents interviewed by telephone were asked a
 branching series and are not represented here.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-367
 1996: V960537
 1998: V980497
 2000: V000771
@@ -20076,9 +18995,6 @@ Sources 1980: V800281
 2016: V161181
 2020: V201249
 VCF0844 HOW WILLING SHOULD U.S. BE TO USE MILITARY FORCE
-
-
-368 VARIABLE DESCRIPTION
 Question In the future, how willing should the United States be to use military
 force to solve international problems – extremely willing, very
 willing, somewhat willing, not very willing, or never willing?
@@ -20125,9 +19041,6 @@ Sources 1964: V640414
 1988: V880934
 1990: V900516
 VCF0846 IS RELIGION IMPORTANT TO RESPONDENT
-
-
-369
 Question (2002: Now on another topic. . .)
 Do you consider religion to be an important part of your life, or not?
 Valid 1. Yes, important
@@ -20184,9 +19097,6 @@ Sources 1980: V801174
 1990: V900512
 1992: V923821
 1994: V941044
-
-
-370 VARIABLE DESCRIPTION
 1996: V960572
 1998: V980493
 2000: V000873
@@ -20237,9 +19147,6 @@ Sources 1956: V560084
 VCF0848a CONCERN ABOUT NUCLEAR WAR
 Question How worried are you about our country getting into a nuclear war at this
 time? Are you very worried, somewhat worried, or not worried at all?
-
-
-371
 Valid 1. Not worried
 3. Somewhat worried
 5. Very worried
@@ -20298,9 +19205,6 @@ asked) and also of Rs who replied DK or ‘haven’t thought much’ to the
 For 1988, 1992, 1996 and later, code 3 is comprised of: 1) cases where
 R replied ‘moderate’ to the 7-point scale question and then refused to
 choose another category or replied DK/NA to the follow-up; and 2) Rs
-
-
-372 VARIABLE DESCRIPTION
 who replied DK or ‘haven’t thought much’ to the 7-point scale question
 and then replied ‘moderate’ in the follow-up.
 Code 5 is comprised of ‘extremely conservative,’ conservative,’ and
@@ -20355,9 +19259,6 @@ Sources 1990: V900517
 2012: relig_wordgod
 2016: V161243
 2020: V201434
-
-
-373
 NEWER LIFESTYLES CONTRIBUTE TO SOCIETY
 VCF0851
 BREAKDOWN
@@ -20415,9 +19316,6 @@ Valid 1. Agree strongly
 4. Disagree somewhat
 5. Disagree strongly
 8. DK
-
-
-374 VARIABLE DESCRIPTION
 Missing 9. NA; Form B (1990); no Post IW
 INAP. question not used
 Notes GENERAL NOTE:
@@ -20467,9 +19365,6 @@ Sources 1986: V860527
 2016: V162210
 2020: V202265
 VCF0854 TOLERANCE OF DIFFERENT MORAL STANDARDS
-
-
-375
 Question ALL YEARS:
 ‘We should be more tolerant of people who choose to live according to
 their own moral standards, even if they are very different from our own.’
@@ -20527,9 +19422,6 @@ If range of 2 adjacent numbers was given by respondent the value coded
 was the one towards the center of the scale (for example, 1 or 2 = 2;
 2 or 3 = 3)
 Weight VCF0011x/VCF0011y/VCF0011z
-
-
-376 VARIABLE DESCRIPTION
 Sources 1964: V640118
 1968: V680089
 1970: V700078(type 2)
@@ -20579,9 +19471,6 @@ Valid 1. All white
 Missing 8. DK
 0. NA; no junior high in area (1964,1968)
 INAP. question not used
-
-
-377
 Notes GENERAL NOTE:
 Weight variable VCF0011/VCF0011A must be used if
 distributions including 1970 data are desired: see VCF0011.
@@ -20632,9 +19521,6 @@ Sources 1964: V640121
 RACIAL COMPOSITION OF WORK PLACE- RESPONDENT
 VCF0864
 DESCRIPTION
-
-
-378 VARIABLE DESCRIPTION
 Question 1964,1968,1970:
 Are the people where you work: [CHOICES]
 1972:
@@ -20693,9 +19579,6 @@ Note that use of VCF0011/VCF0011A as a weight reduces the
 1970 total N for this variable: form 1 whites who should appear as
 code 0 INAP cases are excluded from the 1970 total N.
 1970 NOTE:
-
-
-379
 If range of 2 adjacent numbers was given by respondent the value coded
 was the one towards the center of the scale (for example, 1 or 2 = 2;
 2 or 3 = 3)
@@ -20744,9 +19627,6 @@ blacks advantages they haven’t earned. What about your opinion– are
 you for or against preferential hiring and promotion of blacks?
 Valid 1. For
 5. Against
-
-
-380 VARIABLE DESCRIPTION
 8. DK; 1990-1994: refused; 1996 and later: other
 Missing 9. NA; Form A (1986); form B (1990); no Post IW
 INAP. question not used
@@ -20804,9 +19684,6 @@ against whites’) are not included in this variable.
 1988 NOTE:
 Wording matched 1986 alternative wording for all cases; 1988 data are
 not included here.
-
-
-381
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1986: V860476
 1990: V900464
@@ -20857,9 +19734,6 @@ Sources 1980: V800149
 2012: econ_ecpast
 2016: V161140
 2020: V201325
-
-
-382 VARIABLE DESCRIPTION
 VCF0871 HOW MUCH BETTER OR WORSE ECONOMY IN PAST YEAR
 Question How about (1996-LATER: Now thinking about) the economy (1990,1994-
 later: in the country as a whole)?
@@ -20916,9 +19790,6 @@ This question was used in both the pre and post; the pre data are
 incorporated here.
 2000 NOTE:
 Respondents were randomly selected to be administered this question
-
-
-383
 using either the standard format or and alternative version with the
 order of options read aloud reversed.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -20969,9 +19840,6 @@ Congress take office in January?
 As you well know, there are many serious problems in this country and in
 other parts of the world. The question is, what should be done about
 them and who should do it. We want to ask you about problems you think
-
-
-384 VARIABLE DESCRIPTION
 the government in Washington should do something about and any problems
 it should stay out of. First, what would you personally feel are the
 most important problems the government should try to take care of when
@@ -21043,9 +19911,6 @@ and 1970, variables were coded in order of importance in cases where R
 mentioned more than one problem. Within the study documentation for
 these two years, it was also stated that, in cases of more than one
 mentioned problem, if order of importance was ‘not clear,’ responses
-
-
-385
 were then coded in order of mention. From the 1966 documentation, it
 is not apparent if multiple responses were coded in order of importance
 or if they were coded in order of mention. The first CODED response
@@ -21107,9 +19972,6 @@ problem mentioned; no second, third or fourth problem
 999. NA (1960,1964,1966,1968,1970,1972)
 000. no Post IW; Form I,III,IV (1972)
 INAP. question not used
-
-
-386 VARIABLE DESCRIPTION
 Notes See question wording and notes for 1974-later in VCF0875.
 See Appendix NOTE ‘MOST IMPORTANT PROBLEM 1960-1972’.
 GENERAL NOTE:
@@ -21160,9 +20022,6 @@ LAW TO PROTECT HOMOSEXUALS AGAINST
 VCF0876
 DISCRIMINATION
 Question
-
-
-387
 Do you favor or oppose laws to protect [homosexuals/gays and lesbians]
 against job discrimination?
 Valid 1. Favor
@@ -21212,9 +20071,6 @@ Sources 1988: V880853
 2012: gayrt_discstd_x,gayrt_discstd
 2016: V161229x,V161229,V161229a
 2020: V201413
-
-
-388 VARIABLE DESCRIPTION
 VCF0877 FAVOR OR OPPOSE GAYS IN THE MILITARY
 Question Do you think homosexuals should be allowed to serve in the United
 States Armed Forces or don’t you think so?
@@ -21259,9 +20115,6 @@ Question Do you think gay or lesbian couples, in other words, homosexual
 couples, should be legally permitted to adopt children?
 Valid 1. Yes
 5. No
-
-
-389
 8. DK
 Missing 9. NA; no Post IW
 INAP. question not used
@@ -21312,9 +20165,6 @@ the same as it is now?
 1996,1998:
 Do you think the number of immigrants from foreign countries who are
 permitted to come to the United States to live should be increased a
-
-
-390 VARIABLE DESCRIPTION
 lot, increased a little, decreased a little, decreased a lot, or left
 the same as it is now?
 2000:
@@ -21371,9 +20221,6 @@ Respondents were randomly assigned to be administered this
 question in either the Pre or Post.
 Weight VCF0010x/VCF0010y/VCF0010z
 Sources
-
-
-391
 1962: V620014
 1966: V660044
 1968: V680275
@@ -21434,9 +20281,6 @@ Sources 1984: V840140
 1988: V880207
 1990: V900417
 1992: V923426
-
-
-392 VARIABLE DESCRIPTION
 1994: V940903
 1996: V960338
 1998: V980415
@@ -21486,9 +20330,6 @@ distributions including 1970 data are desired: see VCF0010.
 Note that use of VCF0010/VCF0010A as a weight reduces the
 1970 total N for this variable: form 2 whites who should appear as
 code 0 INAP cases are excluded from the 1970 total N.
-
-
-393
 1992 NOTE:
 This question was asked in both the pre and post; the pre data have
 been incorporated here.
@@ -21541,9 +20382,6 @@ Valid 1. Increased
 2. Same
 3. Decreased (before 2012: or cut out entirely)
 8. DK
-
-
-394 VARIABLE DESCRIPTION
 Missing 9. NA; no Post IW; abbrev. telephone IW (1984)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -21592,9 +20430,6 @@ Sources 1988: V880382
 2016: V161210
 VCF0888 FEDERAL SPENDING- DEALING WITH CRIME
 Question Dealing with crime
-
-
-395
 Valid 1. Increased
 2. Same
 3. Decreased (before 2012: or cut out entirely)
@@ -21640,9 +20475,6 @@ VCF0890 FEDERAL SPENDING- PUBLIC SCHOOLS
 Question Public schools
 Valid 1. Increased
 2. Same
-
-
-396 VARIABLE DESCRIPTION
 3. Decreased (before 2012: or cut out entirely)
 8. DK
 Missing 9. NA; no Post IW; abbrev. telephone IW (1984)
@@ -21689,9 +20521,6 @@ Valid 1. Increased
 2. Same
 3. Decreased or cut out entirely
 8. DK
-
-
-397
 Missing 9. NA; no Post IW; abbrev. telephone IW (1984)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -21736,9 +20565,6 @@ VCF0886.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V923726
 1994: V940820
-
-
-398 VARIABLE DESCRIPTION
 1996: V960497
 2000: V000676
 2002: V025107x
@@ -21799,9 +20625,6 @@ Sources 1956: V560008
 1970: V700025(type 0)
 1972: V720006
 1974: V742007
-
-
-399
 1976: V763007
 1978: V780011
 1980: V800007
@@ -21844,9 +20667,6 @@ The 2004 study included a variable comparable to this, thus 2004
 data is not built from VCF0901b and VCF0900.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2004: V041202,V041204b
-
-
-400 VARIABLE DESCRIPTION
 VCF0901a STATE CODE- FIPS
 Question State of interview - FIPS code
 Missing 99. NA
@@ -21895,9 +20715,6 @@ NA, INAP in VCF0901a are represented here as 99. Washington D.C. is
 represented as ‘DC’.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2020: V203001
-
-
-401
 VCF0902 TYPE OF U.S. HOUSE RACE
 Question Type of House race for district of interviews
 Valid 12. Democratic incumbent running–Republican challenger
@@ -21966,9 +20783,6 @@ The resultant data in VCF0902 for these years have been checked
 somewhat, but perfect accuracy cannot be guaranteed due to the nature
 of attempting case-by-case coding. The type of race established in
 VCF0902 (and data in VCF0904-905 by derivation) for 1970, 1974 and 1976
-
-
-402 VARIABLE DESCRIPTION
 should be used with caution and at the user’s risk.
 1978 NOTE:
 1978 data in this variable do not exactly match the 1978 Study data:
@@ -22041,9 +20855,6 @@ the previous district that corresponded to R’s household location
 very small. Incumbents in VCF0902-VCF0905, VCF0908 can only identify
 whether or not a candidate running for Congress in 2012 was in office
 in Congress prior to the 2012 elections.
-
-
-403
 Note that VCF1014 (House winner) is coded at district level according
 to type House race in VCF0902.
 Louisiana district 3 is coded for House race type 45; a Democratic
@@ -22102,9 +20913,6 @@ either incumbent had previously represented the district then
 See VCF0902 NOTEs.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-404 VARIABLE DESCRIPTION
 1978: V780004
 1980: V800928
 1982: V820175
@@ -22165,9 +20973,6 @@ Sources 1978: V780196
 1996: V960097
 1998: V980065
 2000: V000194
-
-
-405
 2002: V024500a
 2004: V044502
 2012: typerace2012_hse
@@ -22217,9 +21022,6 @@ Sources 1978: V780004
 2020: V203515
 VCF0906 THERMOMETER - DEMOCRATIC HOUSE CANDIDATE
 Question House Democratic candidate - feeling thermometer
-
-
-406 VARIABLE DESCRIPTION
 Valid 0-100. Degrees as given
 Missing 990. No Democratic candidate
 997. R doesn’t recognize name
@@ -22277,9 +21079,6 @@ Sources 1978: V782006
 1996: V960279
 1998: V980240
 2000: V001299
-
-
-407
 2002: V025045
 2004: V045047, 044502
 2012: ftpo_hrc
@@ -22328,9 +21127,6 @@ GENERAL NOTE:
 Built from VCF0906,VCF0907.
 2012 NOTE:
 See notes VCF0908.
-
-
-408 VARIABLE DESCRIPTION
 2016 NOTE:
 Correction to 2016 data are in progress and will be provided in a future
 release.
@@ -22377,9 +21173,6 @@ Valid 1. Yes
 Missing 9. NA if contact made (9 in VCF0910); NA VCF0911-917; no Post IW;
 Washington D.C.; telephone IW (1984); short form IW (1992)
 0. No incumbent candidate running; no contact; only contact mentioned is
-
-
-409
 an unspecified ‘other’
 INAP. question not used
 Notes GENERAL NOTE:
@@ -22425,9 +21218,6 @@ Valid 1. Yes
 Missing 9. NA if contact made (9 in VCF0910); NA VCF0911-VCF0917; no Post IW;
 Washington D.C.; telephone IW (1984); short form IW (1992)
 0. No incumbent candidate running; no contact; only contact mentioned is
-
-
-410 VARIABLE DESCRIPTION
 an unspecified ‘other’
 INAP. question not used
 Notes GENERAL NOTE:
@@ -22474,9 +21264,6 @@ Washington D.C. telephone IW (1984); short form IW (1992)
 0. No incumbent candidate running; no contact; only contact mentioned is
 an unspecified ‘other’
 INAP. question not used
-
-
-411
 Notes GENERAL NOTE:
 See VCF0910.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -22523,9 +21310,6 @@ an unspecified ‘other’
 INAP. question not used
 Notes GENERAL NOTE:
 See VCF0910.
-
-
-412 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1978: V782040
 1980: V800925
@@ -22574,9 +21358,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 Districts in which the respondent’s U.S. House representative was not
 running for re-election have been coded 0.
-
-
-413
 1984 NOTE:
 if R was in a district where no incumbent was running or where the
 incumbent was unopposed (or opposed by a non-major party challenger)
@@ -22627,9 +21408,6 @@ Sources 1978: V782044
 CHALLENGER TO U.S. HOUSE RUNNING INCUMBENT:
 VCF0921
 ATTENDED MEETING
-
-
-414 VARIABLE DESCRIPTION
 Question Which ones?
 RESPONDENT ATTENDED A MEETING OR GATHERING WHERE [challenger] SPOKE
 Valid 1. Yes
@@ -22678,9 +21456,6 @@ Sources 1978: V782046
 1994: V940505,V940516
 VCF0923 CHALLENGER TO U.S. HOUSE RUNNING INCUMBENT:
 RECEIVED MAIL
-
-
-415
 Question Which ones?
 RESPONDENT RECEIVED SOMETHING IN MAIL FROM [challenger]
 Valid 1. Yes
@@ -22729,9 +21504,6 @@ Sources 1978: V782048
 CHALLENGER TO U.S. HOUSE RUNNING INCUMBENT:
 VCF0925
 HEARD ON RADIO
-
-
-416 VARIABLE DESCRIPTION
 Question Which ones?
 RESPONDENT HEARD [challenger] ON THE RADIO
 Valid 1. Yes
@@ -22780,9 +21552,6 @@ Sources 1978: V782050
 KNOW ANYONE WHO HAD CONTACT WITH CHALLENGER
 VCF0927
 TO RUNNING U.S. HOUSE INCUMBENT
-
-
-417
 Question Do you know anyone, any of your family, friends or people at work, who
 have had some contact with [challenger]
 Valid 1. Yes
@@ -22837,9 +21606,6 @@ Sources 1978: V782013
 1990: V900238,V900249,V900259
 1992: V925502
 1994: V940502
-
-
-418 VARIABLE DESCRIPTION
 VCF0929 U.S. HOUSE DEMOCRATIC CAND: MET HIM
 Question Which ones?
 RESPONDENT MET [Democratic candidate] PERSONALLY
@@ -22885,9 +21651,6 @@ Sources 1978: V782015
 1990: V900240,V900251,V900261
 1992: V925504
 1994: V940504
-
-
-419
 VCF0931 U.S. HOUSE DEMOCRATIC CAND: TALKED TO STAFF
 Question Which ones?
 RESPONDENT TALKED TO A MEMBER OF [Democratic candidate] STAFF OR
@@ -22933,9 +21696,6 @@ Sources 1978: V782017
 1990: V900242,V900253,V900263
 1992: V925506
 1994: V940506
-
-
-420 VARIABLE DESCRIPTION
 VCF0933 U.S. HOUSE DEMOCRATIC CAND: READ ABOUT
 Question Which ones?
 RESPONDENT READ ABOUT [Democratic candidate] IN A NEWSPAPER OR
@@ -22981,9 +21741,6 @@ Sources 1978: V782019
 1990: V900244,V900255,V900265
 1992: V925508
 1994: V940508
-
-
-421
 VCF0935 U.S. HOUSE DEMOCRATIC CAND: SAW ON TV
 Question Which ones?
 RESPONDENT SAW [Democratic candidate] ON TV
@@ -23029,9 +21786,6 @@ Sources 1978: V782022
 1990: V900247,V900258,V900268
 1992: V925511
 1994: V940511
-
-
-422 VARIABLE DESCRIPTION
 VCF0937 CONTACT WITH U.S. HOUSE REPUBLICAN CAND
 Question Think of [Republican candidate] [who has been the U.S. Representative
 from this district/ who ran for the U.S. House of Representatives from
@@ -23085,9 +21839,6 @@ Sources 1978: V782024
 1986: V860221,V860232,V860252
 1988: V880716,V880727,V880747
 1990: V900239,V900250,V900270
-
-
-423
 1992: V925514
 1994: V940514
 VCF0939 U.S. HOUSE REPUBLICAN CAND: ATTENDED MEETING
@@ -23134,9 +21885,6 @@ Sources 1978: V782026
 1986: V860223,V860234,V860254
 1988: V880718,V880729,V880749
 1990: V900241,V900252,V900272
-
-
-424 VARIABLE DESCRIPTION
 1992: V925516
 1994: V940516
 VCF0941 U.S. HOUSE REPUBLICAN CAND: RECEIVED MAIL
@@ -23182,9 +21930,6 @@ Sources 1978: V782028
 1986: V860225,V860236,V860256
 1988: V880720,V880731,V880751
 1990: V900243,V900254,V900274
-
-
-425
 1992: V925518
 1994: V940518
 VCF0943 U.S. HOUSE REPUBLICAN CAND: HEARD ON RADIO
@@ -23231,9 +21976,6 @@ Sources 1978: V782030
 1990: V900245,V900256,V900276
 1992: V925520
 1994: V940520
-
-
-426 VARIABLE DESCRIPTION
 KNOW ANYONE WHO HAD CONTACT WITH U.S. HOUSE
 VCF0945
 REPUBLICAN CAND
@@ -23281,9 +22023,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 YES/NO ANY CONTACT WITH RUNNING U.S. HOUSE
 VCF0946a
 INCUMBENT CAND
-
-
-427
 Question Contact with running incumbent? (YES/NO)
 Valid 1. Yes, contact
 5. No, no contact
@@ -23325,9 +22064,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 This var collapses VCF0947.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-428 VARIABLE DESCRIPTION
 COUNT OF CONTACT TYPES- U.S. HOUSE DEMOCRATIC
 VCF0948
 CAND
@@ -23374,9 +22110,6 @@ Valid 0. No contacts
 7. Seven contacts
 Missing 8. Republican not running
 9. NA; DK; no Post IW; Washington D.C.; telephone IW (1984); short form
-
-
-429
 IW (1992)
 INAP. question not used
 Notes Derived from VCF0937-944.
@@ -23420,9 +22153,6 @@ Sources 1978: V780227
 1990: V900303
 1992: V925701
 1994: V940628
-
-
-430 VARIABLE DESCRIPTION
 CONTACTED RUNNING U.S. HOUSE INCUMBENT TO
 VCF0951
 EXPRESS OPINION
@@ -23471,9 +22201,6 @@ Sources 1978: V780229
 1990: V900305
 1992: V925703
 1994: V940630
-
-
-431
 CONTACTED RUNNING U.S. HOUSE INCUMBENT TO SEEK
 VCF0953
 HELP
@@ -23524,9 +22251,6 @@ Sources 1978: V780231
 1990: V900307
 1992: V925705
 1994: V940632
-
-
-432 VARIABLE DESCRIPTION
 SATISFIED W/RESPONSE FROM RUNNING U.S. HOUSE
 VCF0955
 INCUMBENT
@@ -23581,9 +22305,6 @@ Sources 1978: V780233
 1990: V900309
 1992: V925707
 1994: V940634
-
-
-433
 OTHER PERSON GET RESPONSE FROM RUNNING U.S.
 VCF0957
 HOUSE INCUMBENT
@@ -23638,9 +22359,6 @@ Sources 1978: V780235
 1990: V900311
 1992: V925709
 1994: V940636
-
-
-434 VARIABLE DESCRIPTION
 WOULD RUNNING U.S. HOUSE INCUMBENT BE HELPFUL
 VCF0959
 WITH PROBLEM
@@ -23691,9 +22409,6 @@ Sources 1978: V780237
 1990: V900316
 1992: V925713
 1994: V940640
-
-
-435
 CONTACTED RUNNING OR RETIRING U.S. HOUSE
 VCF0961
 INCUMBENT
@@ -23740,9 +22455,6 @@ CONTACTED RUNNING OR RETIRING U.S. HOUSE
 VCF0963
 INCUMBENT TO SEEK INFORMATION
 Question
-
-
-436 VARIABLE DESCRIPTION
 Have you (or anyone in your family living here) ever contacted
 [retiring OR running U.S. House Representative] or anyone in his/her
 office?
@@ -23790,9 +22502,6 @@ office?
 someone in his/her office?
 Valid 1. Yes
 5. No
-
-
-437
 Missing 9. DK; NA; no Post IW; District of Columbia (1986)
 0. Never (or DK/NA if) contacted incumbent; no recent incumbent (1990,
 NJ01: 10 cases)
@@ -23840,9 +22549,6 @@ Missing 9. DK; NA; no Post IW; District of Columbia (1986)
 0. No recent incumbent (1990, NJ01: 10 cases)
 INAP. question not used
 Notes
-
-
-438 VARIABLE DESCRIPTION
 GENERAL NOTE:
 See VCF0961.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -23890,9 +22596,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 See VCF0961.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-439
 Sources 1978: V780235
 1980: V800967
 1986: V860290
@@ -23935,9 +22638,6 @@ Sources 1978: V780237
 1980: V800969
 1986: V860292
 1990: V900316
-
-
-440 VARIABLE DESCRIPTION
 VCF0972 RECALL NAMES OF U.S. HOUSE CANDIDATES
 Question ALL YEARS EXC. 2000: Do you happen to remember the names of the candidates
 for Congress–that is, for the House of Representatives in Washington–
@@ -23993,9 +22693,6 @@ name
 INAP. question not used
 Notes GENERAL NOTE:
 1958, 1964-1974 data were not coded comparably and are excluded.
-
-
-441
 1978 NOTE:
 Tthe second part of code 7 does not apply: it was combined with other
 missing data (code 9).
@@ -24053,9 +22750,6 @@ Sources 1978: V780121
 1992: V925117
 1994: V940218
 1996: V961014
-
-
-442 VARIABLE DESCRIPTION
 1998: V980231
 2000: V000351
 VCF0975 RECALL CORRECT NAME OF U.S. HOUSE CANDIDATE
@@ -24106,9 +22800,6 @@ ONE CORRECT NAME
 11. R’s recall correct for one name; party mention correct
 TWO CORRECT NAMES
 20. R’s recall correct for 2 names; both party mentions incorrect/ DK/NA
-
-
-443
 21. R’s recall correct for 2 names; one party mention correct
 22. R’s recall correct for 2 names; both party mentions correct
 THREE CORRECT NAMES
@@ -24166,9 +22857,6 @@ same as 1996
 2000 NOTE:
 same as 1996
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-444 VARIABLE DESCRIPTION
 Sources 1958: V580097
 1964: V640312
 1966: V660093
@@ -24230,9 +22918,6 @@ of the two incumbents’ names has been considered ‘correct’.
 1 case where respondent’s district was NA and 3 cases where respondent
 district was misidentified have been coded 9.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-445
 Sources 1958: V580097
 1964: V640312
 1966: V660094
@@ -24294,9 +22979,6 @@ abbreviated telephone interview (1984) or a short form interview
 whether there was anything R liked about the Democratic House candidate
 should have been coded ‘I don’t know anything about this candidate’ but
 has been correctly categorized in variables VCF0980 and VCF0981.
-
-
-446 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1978: V780160,V780161,V780162,V780163,V780164
 1980: V800892,V800893,V800894,V800895,V800896
@@ -24347,9 +23029,6 @@ DEMOCRATIC U.S. HOUSE CANDIDATE AFFECT (LIKES-
 VCF0982
 DISLIKES)
 Question Affect toward Democratic House candidate
-
-
-447
 Missing 99. MD (codes 6-9 in VCF0980,VCF0981)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -24399,9 +23078,6 @@ codes, unlike VCF0401-402 and VCF0405-406, because of the very high
 numbers of respondents falling into these categories [for consistency,
 NA responses to this question have also been retained as MD]. In
 addition, if R responded ‘yes’ to ‘Is there anything in particular
-
-
-448 VARIABLE DESCRIPTION
 that you liked about the US House Republican candidate’ but R provided
 no mentions (DK or NA in first mention), then R has been coded in
 the corresponding MD category in VCF0980.
@@ -24461,9 +23137,6 @@ Sources 1978: V780175,V780176,V780177,V780178,V780179
 1990: V900216,V900217,V900218,V900219,V900220,V900221
 1992: V925419,V925420,V925421,V925422,V925423,V925424
 1994: V940419,V940420,V940421,V940422,V940423,V940424
-
-
-449
 1996: V961062,V961063,V961064,V961065,V961066,V961067
 1998: V980293,V980294,V980295,V980296,V980297,V980298
 2000: V001346,V001347,V001348,V001349,V001350,V001351
@@ -24502,9 +23175,6 @@ Republican House candidate ‘dislikes’ MINUS the sum of Democratic
 House candidate ‘dislikes’ and Republican House candidate ‘likes:’
 [VCF0980+VCF0985] - [VCF0981+VCF0984], which is the same as:
 VCF0982-VCF0986.
-
-
-450 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 VCF0989 U.S. HOUSE CANDIDATE SALIENCE (LIKES-DISLIKES)
 Question Major party House candidate salience
@@ -24544,9 +23214,6 @@ Valid 1. Approve
 8. DK
 Missing 9. NA; no Post IW; abbrev. telephone IW (1984); short form (1992)
 0. No running incumbent (includes Washington D.C.)
-
-
-451
 INAP. question not used
 Notes 1984 NOTE:
 If R is in a district where no incumbent was running or where the
@@ -24600,9 +23267,6 @@ Sources 1980: V800783
 2012: congapp_job
 2016: V161080
 2020: V201124
-
-
-452 VARIABLE DESCRIPTION
 INCUMBENT U.S. HOUSE CAND: RESPONDENT LIKES -
 VCF0993
 NUMBER OF MENTIONS
@@ -24649,9 +23313,6 @@ Built from VCF0981,VCF0985.
 Weight VCF0009x/VCF0009y/VCF0009z
 VCF0995 INCUMBENT U.S. HOUSE CAND: AFFECT (LIKES-DISLIKES)
 Question Affect toward incumbent House candidates
-
-
-453
 Missing 99. MD (codes 6-9 in VCF0993,VCF0994)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -24694,9 +23355,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 Built from VCF0980,VCF0984.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-454 VARIABLE DESCRIPTION
 CHALLENGER TO INCUM U.S. HOUSE CAND:
 VCF0998
 RESPONDENT DISLIKES - NUMBER OF MENTIONS
@@ -24742,9 +23400,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 This is the number of House challenger candidate ‘likes’ plus the
 number of House challenger candidate ‘dislikes’ (VCF0997+VCF0998).
-
-
-455
 Weight VCF0009x/VCF0009y/VCF0009z
 VCF1001 U.S. HOUSE CANDIDATE AFFECT (LIKES-DISLIKES)
 Question Net affect toward incumbent and challenger House candidates
@@ -24784,9 +23439,6 @@ sum of ‘likes’ and ‘dislikes’ about the incumbent House candidate
 MINUS the sum of ‘likes’ and ‘dislikes’ about the challenger House
 candidate: [VCF0993+VCF0994] - [VCF0997+VCF0998], which is the same
 as: VCF0996-VCF1000.
-
-
-456 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 PARTY OF RESPONDENT/PARTY OF U.S. HOUSE
 VCF1004
@@ -24839,9 +23491,6 @@ Sources 1970: V700184(type 0)
 PARTY OF VOTER RESPONDENT/ PARTY OF U.S. HOUSE
 VCF1005
 INCUMBENT
-
-
-457
 Question Voter from same major party as House incumbent?
 Valid 1. R Voted: R is partisan of same party as incumbent
 2. R Voted: R is partisan of same major party as challenger OR
@@ -24901,9 +23550,6 @@ Valid 31. Democratic candidate in race without running incumbent
 80. Nonincumbent Independent/liberal/conservative/minor party candidate [not used
 after 1988: combined into code 97]
 Missing
-
-
-458 VARIABLE DESCRIPTION
 97. Name given not on candidate list for House
 99. R says s/he remembers names but when asked for name replies DK or NA;
 R says s/he does not remember any (or DK/NA if remembers any) names;
@@ -24967,9 +23613,6 @@ Sources 1970: V700203(type 0)
 1996: V961007
 1998: V980224
 2000: V001207
-
-
-459
 CANDIDATE CODE OF CORRECTLY RECALLED U.S. HOUSE
 VCF1007
 CANDIDATE FROM IW DISTRICT
@@ -25027,9 +23670,6 @@ Washington D.C.; California (1974 only, due to redistricting type of
 race could not be determined); no further mention; no Post IW; short
 form (1992)
 INAP. question not used
-
-
-460 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 See VCF1006.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -25077,9 +23717,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 Built from VCF0301 and VCF1009.
 This variable has been created from R’s party ID (VCF0301) and from
-
-
-461
 House recall summary VCF1009. The respondent has been considered a
 partisan if R was ‘strong’, ‘weak’ or ‘leaning’.
 If R has no major party candidate recall AND has no major party
@@ -25141,9 +23778,6 @@ party of the candidate correctly named in the first recall (name) var
 was ascertained and incorporated into VCF1011-1013. This procedure was
 not undertaken for 1970-1976 in vars VCF0707 and VCF0736, which retain
 these cases as missing data.
-
-
-462 VARIABLE DESCRIPTION
 Note that, because no ballot card was used, for 1968-1976 the party
 for which R claimed to have voted in the House election is represented
 in VCF1011-1013 even for so-called ‘impossible’ cases: e.g., when R
@@ -25204,9 +23838,6 @@ Notes See VCF1011.
 GENERAL NOTE:
 Beginning in 1990 Study data, third party and independent candidates
 were combined with unknown names coded in ‘name not on candidate list’
-
-
-463
 (code 97) whenever the non-major party candidate was not on the
 Candidate List; only independent or 3rd party candidates who were on
 the Candidate List were given a separate code (code 30).
@@ -25267,9 +23898,6 @@ Notes GENERAL NOTE:
 Built using VCF1014 (except 1974).
 See NOTEs VCF1011 describing process which establishes who R voted
 for. NOTE the following exception for 1974 California cases: Rs who
-
-
-464 VARIABLE DESCRIPTION
 gave the party of their vote BUT who gave an ‘incorrect’ [or DK/NA]
 name could not be traced to their congressional district number which
 was in effect after the 1974 redistricting in CA, so that party of
@@ -25330,9 +23958,6 @@ perfect accuracy cannot be completely guaranteed due to the nature of
 attempting case- by-case coding from reference material. The
 possibility of some error must be recognized and the ‘winner’
 established in VCF1014 should be used with caution and at the user’s
-
-
-465
 risk.
 1974 NOTE:
 See 1970 warning.
@@ -25384,9 +24009,6 @@ Sources 1952: V520010
 2016: V164004
 2020: V203055
 VCF1016 NUMBER OF DAYS POST-ELECTION IW CONDUCTED
-
-
-466 VARIABLE DESCRIPTION
 AFTER ELECTION
 Question Number of days from day of election until day of Post-election IW
 Valid Exact number of days is coded, except:
@@ -25443,9 +24065,6 @@ Valid 0-100 Degrees.
 Missing 998. DK in VCF0906 or VCF0907
 999. NA; no Post IW
 INAP. question not used
-
-
-467
 Notes GENERAL NOTE:
 Built from VCF0906 and VCF0907 as: (VCF0906+VCF0907)/2.
 Fractional results are rounded to the next highest integer.
@@ -25491,9 +24110,6 @@ Sources 1978: V780160
 1996: V961044
 1998: V980275
 2000: V001328
-
-
-468 VARIABLE DESCRIPTION
 1972-2004 MENTION 1: LIKE ABOUT DEMOCRATIC U.S.
 VCF1021a
 HOUSE CAND
@@ -25549,9 +24165,6 @@ Notes GENERAL NOTE:
 Collapsed from full code VCF1021a.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-469
 1978: V780161
 1980: V800893
 1982: V820149
@@ -25603,9 +24216,6 @@ Valid 11. People within party (0001-0097)
 22. Candidate leadership qualities (0301-0397)
 23. Candidate personal qualities (0401-0498)
 24. Candidate party connections (0500-0597)
-
-
-470 VARIABLE DESCRIPTION
 31. Government management (0601-0697)
 32. Government activity/philosophy (0801-0897)
 33. Domestic policies (0901-1097)
@@ -25656,9 +24266,6 @@ Sources 1978: V780163
 1996: V961047
 1998: V980278
 2000: V001331
-
-
-471
 1972-2004 MENTION 3: LIKE ABOUT DEMOCRATIC U.S.
 VCF1023b
 HOUSE CAND COLLAPSED
@@ -25714,9 +24321,6 @@ Sources 1978: V780164
 1982: V820152
 1984: V840912
 1986: V860188
-
-
-472 VARIABLE DESCRIPTION
 1988: V880678
 1990: V900202
 1992: V925405
@@ -25768,9 +24372,6 @@ Question Was there anything in particular that you liked about {NAME}, the
 Democratic candidate for the U.S. House of Representatives?
 What was that? Anything else [that you liked about this candidate]?
 Valid 0001-8877
-
-
-473
 Missing INAP. Inap. no further mention; 5,6,7,8,9 in VCF1020; no post IW; abbrev.
 telephone IW (1984); short form (1992); district NA (2000); district
 misidentified (2000); question not used
@@ -25820,9 +24421,6 @@ VCF1026
 CAND
 Question Was there anything in particular that you didn’t like about {NAME}, the
 Democratic candidate for the U.S. House of Representatives?
-
-
-474 VARIABLE DESCRIPTION
 Valid 1. Yes
 5. No
 Missing 8. DK
@@ -25873,9 +24471,6 @@ Sources 1978: V780166
 1996: V961051
 1998: V980282
 2000: V001335
-
-
-475
 1972-2004 MENTION 1: DISLIKE ABOUT DEMOCRATIC
 VCF1027b
 U.S. HOUSE CAND COLLAPSED
@@ -25931,9 +24526,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1978: V780167
 1980: V800899
 1982: V820155
-
-
-476 VARIABLE DESCRIPTION
 1984: V840915
 1986: V860191
 1988: V880682
@@ -25986,9 +24578,6 @@ U.S. HOUSE CAND
 Question Was there anything in particular that you didn’t like about {NAME}, the
 Democratic candidate for the U.S. House of Representatives?
 What was that? Anything else [that you didn’t like about this candidate]?
-
-
-477
 Valid 0001-8877
 Missing INAP. Inap. no further mention; 5,6,7,8,9 in VCF1026; no post IW; abbrev.
 telephone IW (1984); short form (1992); district NA (2000); district
@@ -26045,9 +24634,6 @@ Sources 1978: V780168
 1996: V961053
 1998: V980284
 2000: V001337
-
-
-478 VARIABLE DESCRIPTION
 1972-2004 MENTION 4: DISLIKE ABOUT DEMOCRATIC
 VCF1030a
 U.S. HOUSE CAND
@@ -26103,9 +24689,6 @@ Sources 1978: V780169
 1982: V820157
 1984: V840917
 1986: V860193
-
-
-479
 1988: V880684
 1990: V900208
 1992: V925411
@@ -26155,9 +24738,6 @@ Valid 11. People within party (0001-0097)
 Missing INAP. Inap. no further mention; 5,6,7,8,9 in VCF1026; no post IW; abbrev.
 telephone IW (1984); short form (1992); district NA (2000); district
 misidentified (2000); question not used
-
-
-480 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 Collapsed from full code VCF1031a.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -26206,9 +24786,6 @@ Missing 8888. DK (mention 1 only)
 INAP. 5,6,7,8,9 in VCF1032; no Post IW; abbrev. telephone IW (1984);
 short form (1992); district NA (2000); district misidentified (2000);
 question not used
-
-
-481
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1972-LATER’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -26263,9 +24840,6 @@ Sources 1978: V780171
 1996: V961057
 1998: V980288
 2000: V001341
-
-
-482 VARIABLE DESCRIPTION
 1972-2004 MENTION 2: LIKE ABOUT REPUBLICAN U.S.
 VCF1034a
 HOUSE CAND
@@ -26321,9 +24895,6 @@ Sources 1978: V780172
 1982: V820160
 1984: V840920
 1986: V860196
-
-
-483
 1988: V880688
 1990: V900212
 1992: V925415
@@ -26375,9 +24946,6 @@ Valid 11. People within party (0001-0097)
 35. Group connections (1201-1299)
 40. Miscellaneous (0701-0797,8877)
 50. Events unique to one campaign (5001-5004)
-
-
-484 VARIABLE DESCRIPTION
 Missing INAP. Inap. no further mention; 5,6,7,8,9 in VCF1032; no post IW; abbrev.
 telephone IW (1984); short form (1992); district NA (2000); district
 misidentified (2000); question not used
@@ -26427,9 +24995,6 @@ HOUSE CAND COLLAPSED
 Question Was there anything in particular that you liked about {NAME}, the
 Republican candidate for the U.S. House of Representatives?
 What was that? Anything else [that you liked about this candidate]?
-
-
-485
 Valid 11. People within party (0001-0097)
 12. Party characteristics (0101-0197)
 21. Candidate experience, ability (0201-0297)
@@ -26481,9 +25046,6 @@ Sources 1988: V880691
 1996: V961061
 1998: V980292
 2000: V001345
-
-
-486 VARIABLE DESCRIPTION
 1972-2004 MENTION 5: LIKE ABOUT REPUBLICAN U.S.
 VCF1037b
 HOUSE CAND COLLAPSED
@@ -26539,9 +25101,6 @@ Sources 1978: V780175
 1986: V860199
 1988: V880692
 1990: V900216
-
-
-487
 1992: V925419
 1994: V940419
 1996: V961062
@@ -26593,9 +25152,6 @@ Valid 11. People within party (0001-0097)
 35. Group connections (1201-1299)
 40. Miscellaneous (0701-0797,8877)
 50. Events unique to one campaign (5001-5004)
-
-
-488 VARIABLE DESCRIPTION
 Missing 88. DK (mention 1 only)
 89. RF; NA (mention 1 only)
 INAP. 5,6,7,8,9 in VCF1038; no Post IW; abbrev. telephone IW (1984);
@@ -26645,9 +25201,6 @@ Sources 1978: V780177
 VCF1040b
 U.S. HOUSE CAND COLLAPSED
 Question
-
-
-489
 Was there anything in particular that you didn’t like about {NAME}, the
 Republican candidate for the U.S. House of Representatives?
 What was that? Anything else [that you didn’t like about this candidate]?
@@ -26704,9 +25257,6 @@ Sources 1978: V780178
 1990: V900219
 1992: V925422
 1994: V940422
-
-
-490 VARIABLE DESCRIPTION
 1996: V961065
 1998: V980296
 2000: V001349
@@ -26757,9 +25307,6 @@ Valid 0001-8877
 Missing INAP. Inap. no further mention; 5,6,7,8,9 in VCF1038; no post IW; abbrev.
 telephone IW (1984); short form (1992); district NA (2000); district
 misidentified (2000); question not used
-
-
-491
 Notes GENERAL NOTE:
 See Appendix ‘PARTY-CANDIDATE 1972-LATER’ master code.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -26812,9 +25359,6 @@ Sources 1978: V780179
 1996: V961066
 1998: V980297
 2000: V001350
-
-
-492 VARIABLE DESCRIPTION
 1972-2004 MENTION 5: DISLIKE ABOUT REPUBLICAN
 VCF1043a
 U.S. HOUSE CAND
@@ -26867,9 +25411,6 @@ Sources 1988: V880697
 1996: V961067
 1998: V980298
 2000: V001351
-
-
-493
 VCF9001 LENGTH OF RESIDENCE IN COMMUNITY
 Question How long have you lived here in (1986 AND LATER: your present) (1984:
 this) city/town/township/county (2002: community) ?
@@ -26927,9 +25468,6 @@ Sources 1968: V680260
 2008: V083266a,V083266b
 2020: V201576
 VCF9002 LENGTH OF RESIDENCE IN HOME
-
-
-494 VARIABLE DESCRIPTION
 Question How long have you lived (2012: at this address?) in this house
 (condo/apartment) (2002: your current home) ?
 Valid 1. 4 years or less
@@ -26988,9 +25526,6 @@ Valid 00-96. Degrees as coded
 97. 97-100 Degrees
 Missing 98. DK; don’t recognize (1980 and later)
 99. NA; no Post IW; abbrev. telephone IW (1984)
-
-
-495
 INAP. question not used
 Notes GENERAL NOTE:
 See thermometer question text and notes preceding VCF0201.
@@ -27035,9 +25570,6 @@ Sources 1980: V800866
 2000: V001304
 2002: V025051
 2004: V045073
-
-
-496 VARIABLE DESCRIPTION
 2012: ftgr_ussc
 2016: V162102
 2020: V202165
@@ -27076,9 +25608,6 @@ Sources 1984: V840298
 WHICH PARTY WOULD BEST HANDLE POLLUTION AND
 VCF9008
 PROTECTING ENVIRONMENT
-
-
-497
 Question Which party do you think would do a better job of handling the
 problem of pollution and (1990,1994: protection of) the environment?
 Valid 1. Better by Democrats
@@ -27129,9 +25658,6 @@ Sources 1984: V840261
 2012: presapp_econ_x
 2016: V161083x,V161083,V161083a
 2020: V201130
-
-
-498 VARIABLE DESCRIPTION
 VCF9010 WHICH WOULD BEST HANDLE INFLATION
 Question Do you think inflation would be handled better by the Democrats, by
 the Republicans, or about the same by both?
@@ -27176,9 +25702,6 @@ Valid 1. Democrats
 8. DK; other (1972 only); neither
 Missing 9. NA; no Post IW; form I, II, IV (1972); short form (1992); question not
 administered in assigned half-sample (1996, 2000)
-
-
-499
 0. R has not identified any problem
 INAP. question not used
 Notes GENERAL NOTE:
@@ -27238,9 +25761,6 @@ studies varied by study.
 Egalitarianism series was administered with a break mid-sequence.
 1988 NOTE 1:
 Placement varied by form.
-
-
-500 VARIABLE DESCRIPTION
 1988 NOTE 2:
 The order of egalitarianism items was scrambled among form B
 respondents.
@@ -27289,9 +25809,6 @@ Question ALL YEARS:
 everyone an equal chance.’
 Valid 1. Agree strongly
 2. Agree somewhat
-
-
-501
 3. Neither agree nor disagree
 4. Disagree somewhat
 5. Disagree strongly
@@ -27339,9 +25856,6 @@ Sources 1984: V840255
 2016: V162245
 2020: V202262
 VCF9017 SHOULD WORRY LESS ABOUT HOW EQUAL PEOPLE ARE
-
-
-502 VARIABLE DESCRIPTION
 Question ALL YEARS:
 ‘The (2004: This_ country would be better off if we worried less
 about how equal people are.’
@@ -27396,9 +25910,6 @@ Sources 1984: V840253
 2012: egal_fewerprobs
 2016: V162246
 2020: V202263
-
-
-503
 VCF9019 MOST DESIRABLE GOAL FOR THE NATION: #1
 Question For a nation, it is not always possible to obtain everything one might
 wish. On this page (1988,1992: on page [PAGE] of the booklet)
@@ -27443,9 +25954,6 @@ Sources 1972: V720558
 1988: V880931
 1992: V926014
 VCF9021 DID ANYONE TALK TO R ABOUT VOTING OR
-
-
-504 VARIABLE DESCRIPTION
 REGISTERING
 Question During the campaign this year, did anyone talk to you about registering
 to vote or getting out to vote (1984,1986: or about voting)?
@@ -27499,9 +26007,6 @@ Sources 1980: V800995
 2000: V001250
 2004: V045026
 2012: prevote_presstr, postvote_presstr
-
-
-505
 2016: V162066x,V162035
 2020: V201030, V202074
 VCF9023 NONVOTER PREFERENCE- PRESIDENTIAL CAND
@@ -27552,9 +26057,6 @@ Sources 1952: V520178
 VCF9024 VOTER STRENGTH OF PREFERENCE- U.S. HOUSE CAND
 Question (ASKED OF Rs WHO VOTED): Here is a list of candidates for the major
 races in this district. How about the election for the House of
-
-
-506 VARIABLE DESCRIPTION
 Representative in Washington? Did you vote for a candidate for the
 U.S. House of Representatives? (IF YES:) Who did you vote for?
 Would you say that your preference for this candidate was strong or
@@ -27612,9 +26114,6 @@ In 1952, 1958, 1964-1968 (no ballot card), when an incorrect name–
 i.e., not on the candidate list–was given with a party association,
 the party given was coded. When a correct name was given with an
 incorrect party, then the actual party associated with the named
-
-
-507
 candidate was coded: ‘Smith, a Democrat’ was coded as a Republican if,
 in fact (contrary to R’s perception) Smith was indeed a Republican.
 In 1970-1976 (no ballot card), R’s perception of candidate’s party was
@@ -27677,9 +26176,6 @@ SOUTH CAROLINA, MISSISSIPPI)
 1988:
 This state held a presidential primary/caucus election in [month]. In
 talking to people about elections, we find that a lot of people were not
-
-
-508 VARIABLE DESCRIPTION
 able to vote because they weren’t registered, they didn’t meet party
 qualifications, they were sick or just didn’t have the time. How about
 you–did you vote in that primary election/ caucus? (IF YES:) Did you
@@ -27747,9 +26243,6 @@ Sources 1972: V720167
 1980: V800372
 1988: V880149
 1992: V923302
-
-
-509
 VCF9027 VOTE IN PREVIOUS PRESIDENTIAL ELECTION - PARTY
 Question 1948:
 Do you remember whether you voted in [year] when [Democratic
@@ -27818,9 +26311,6 @@ specified nonmajor party candidates were individually coded, and there
 also appeared a combination category labeled ‘other or NA or DK who’
 (9 cases). Rs who said they had voted for the specified nonmajor
 party candidates in 1948 have been coded 5 here, while Rs from the
-
-
-510 VARIABLE DESCRIPTION
 combination category of the original 1952 dataset have been coded 3
 here.
 1956 NOTE:
@@ -27877,9 +26367,6 @@ Sources 1952: V520015
 2012: preswin_state
 2016: V161148
 2020: V201219
-
-
-511
 VCF9029 WHICH PRESIDENTIAL RACE IN STATE BE CLOSE
 Question How about here in [R’s state]. Which candidate for President do you
 think will carry this state? (1988,1984, IF NECESSARY: Which
@@ -27936,9 +26423,6 @@ Valid 1. Yes, contact: Democratic party
 7. No contact
 Missing 8. DK if contact
 9. NA if contact; no Post IW; form II,III,IV (1972); abbrev. telephone
-
-
-512 VARIABLE DESCRIPTION
 IW (1984)
 INAP. question not used
 Notes See also VCF9030a,VCF9030b,VCF9030c.
@@ -27996,9 +26480,6 @@ Sources 1956: V560221
 1982: V820464,V820465
 1984: V840812,V84081
 1986: V860309,V86031
-
-
-513
 1988: V880820,V880821
 1990: V900361,V900362
 1992: V925801,V925802
@@ -28048,9 +26529,6 @@ Sources 1956: V560221
 2020: V202004, V202006
 VCF9030c CONTACTED BY REPUBLICAN PARTY
 Question Did Republican Party contact R about election campaign
-
-
-514 VARIABLE DESCRIPTION
 Valid 1. Yes, contact by Republican party
 2. No contact by Republican party
 Missing 8. DK if contact; contact but DK/NA which party
@@ -28108,9 +26586,6 @@ Sources 1980: V800787
 1986: V860310
 1988: V880822
 1990: V900363
-
-
-515
 1992: V925802
 1994: V940803
 1996: V961164
@@ -28162,9 +26637,6 @@ Sources 1960: V600192
 2012: mediapo_radio, mediapo_radioamt
 2016: V162003
 VCF9033 NUMBER OF DAYS READ NEWSPAPER IN LAST WEEK
-
-
-516 VARIABLE DESCRIPTION
 Question How many days in the past week did you read a daily newspaper?
 [2012: During a typical week, how many days do you read news in a
 printed newspaper, not including sports?]
@@ -28212,9 +26684,6 @@ Sources 1974: VV74204
 NUMBER OF DAYS WATCHED NATIONAL TV NEWS IN
 VCF9035
 PAST WEEK
-
-
-517
 Question How many days in the past week did you watch national news (1986: a
 national news program) (1984,1988-1994: the news; 1996-2000: the
 national news) (2002,2004: the national network news) on TV?
@@ -28271,9 +26740,6 @@ Sources 1982: V820525
 1998: V980480
 2000: V001357
 2004: V045090
-
-
-518 VARIABLE DESCRIPTION
 VCF9037 GOVERNMENT SHOULD ENSURE FAIR JOBS FOR BLACKS
 Question Some people feel that if black people (1964,1968: negroes) are not
 getting fair treatment in jobs, the government in Washington ought
@@ -28331,9 +26797,6 @@ Valid 1. Agree strongly
 4. Disagree somewhat
 5. Disagree strongly
 8. DK
-
-
-519
 Missing 9. NA; no Post IW
 INAP. question not used
 Notes 1988 NOTE:
@@ -28384,9 +26847,6 @@ Sources 1986: V860580
 BLACKS SHOULD NOT HAVE SPECIAL FAVORS TO
 VCF9040
 SUCCEED
-
-
-520 VARIABLE DESCRIPTION
 Question 2004: Now I’m going to read several more statements. After each
 one, I would like you to tell me how strongly you agree or disagree.
 The first statement is:
@@ -28443,9 +26903,6 @@ Sources 1986: V860579
 1994: V941050
 2000: V001510
 2004: V045196
-
-
-521
 2012: resent_try
 2016: V162214
 2020: V202303
@@ -28494,9 +26951,6 @@ INAP. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1986: V860481
 1988: V880866
-
-
-522 VARIABLE DESCRIPTION
 1990: V900467
 1992: V925945
 1994: V941020
@@ -28545,9 +26999,6 @@ Missing 8. DK if better/worse/same
 INAP. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-523
 1984: V840245
 1986: V860374,V86037
 1988: V880245,V880246
@@ -28596,9 +27047,6 @@ Sources 1958: V580058
 1964: V640137
 1968: V680114
 1984: V840246
-
-
-524 VARIABLE DESCRIPTION
 1986: V860523
 1988: V880252
 1990: V900494
@@ -28648,9 +27096,6 @@ Valid 1. Increased
 Missing 9. NA; no Post IW; abbrev. telephone IW (1984)
 INAP. question not used
 Notes
-
-
-525
 GENERAL NOTE:
 See federal spending question text and notes preceding VCF0886.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -28697,9 +27142,6 @@ Valid 1. Increased
 8. DK
 Missing 9. NA; no Post IW (1984); abbrev. telephone IW (1984)
 INAP. question not used
-
-
-526 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 See federal spending question text and notes preceding VCF0886.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -28748,9 +27190,6 @@ each day with a prayer or religion does not belong in the schools?
 Valid 1. Schools should be allowed to start with prayer
 5. Religion does not belong in the school
 8. Other; depends; both (1964-1968); DK; no interest
-
-
-527
 Missing 9. NA opinion; DK/NA if interested; no Post IW; abbrev. telephone IW (1984)
 INAP. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -28797,9 +27236,6 @@ Sources 1984: V840154,V84015
 1986: V860362,V86036
 1988: V880210,V880211
 1992: V923429,V923430
-
-
-528 VARIABLE DESCRIPTION
 VCF9054 SENATE RACE IN STATE
 Question Checkpoint: Senate race in state of IW?
 Valid 1. U.S. Senate race in state
@@ -28855,9 +27291,6 @@ Valid 12. DEMOCRATIC INCUMBENT- REPUBLICAN CHALLENGER
 84. 1 REPUBLICAN AND 1 OTHER INCUMBENT: NO RACE IN STATE
 85. 1 DEMOCRATIC AND 1 REPUBLICAN INCUMBENT: NO RACE IN STATE
 95. 2 Senate elections in state [regular Senate election and special Senate
-
-
-529
 election] (1992: CA ONLY; note that regular Senate election is open race
 with 2 nonincumbent candidates) (1994: TN ONLY)
 Missing 00. Washington D.C.; no Post IW
@@ -28916,9 +27349,6 @@ Democratic candidate in the regular Senate election only.
 1994 NOTE:
 same as 1992, for Tennessee
 2016 NOTE:
-
-
-530 VARIABLE DESCRIPTION
 Web respondents who did not recognize or know where to rate the candidate
 were instructed to skip the question and are included in code 999. Code
 999 also includes 51 cases of preload failure for candidate name.
@@ -28977,9 +27407,6 @@ Sources 1978: V782002
 2002: V025048,V025049
 2004: V044507,V045051
 2012: ftpo_src
-
-
-531
 2016: V162086
 2020: V202149
 VCF9058 THERMOMETER - SENATE INCUMBENT CANDIDATE
@@ -29028,9 +27455,6 @@ same as 1992, for Tennessee
 2016 NOTE:
 Correction to 2016 data are in progress and will be provided in a future
 release.
-
-
-532 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 VCF9060 THERMOMETER - SENATOR IN STATE WITH SENATE RACE
 Question Senator not up for re-election in state with Senate race - feeling
@@ -29078,9 +27502,6 @@ Notes GENERAL NOTE:
 See Appendix NOTE ‘STATES AND PARTIES OF ELECTIONS/CANDIDATES’.
 See thermometer question text and notes preceding VCF0201.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-533
 Sources 1978: V780148
 1980: V800852
 1982: V820129
@@ -29129,9 +27550,6 @@ Missing 9. NA; no Post IW; Washington D.C.
 INAP. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-534 VARIABLE DESCRIPTION
 1974: VV74217
 1978: V780126
 1980: V800834
@@ -29184,9 +27602,6 @@ Sources 1978: V780129
 1988: V880583
 1990: V900125
 1992: V925206,V925216,V92521
-
-
-535
 VCF9065 RECALL CORRECT NAME OF U.S. SENATE CANDIDATE
 Question How about the candidates who ran in this state for the United States
 Senate in Washington? Do you happen to remember what the candidates’
@@ -29240,9 +27655,6 @@ See notes VCF9064.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1978: V780135
 1980: V800843
-
-
-536 VARIABLE DESCRIPTION
 1982: V820121
 1986: V860129
 1988: V880591
@@ -29295,9 +27707,6 @@ Valid 1. Approve strongly
 4. Disapprove not strongly
 5. Disapprove strongly
 8. DK strongly or not strongly; DK if approve/ disapprove (8 in VCF0991)
-
-
-537
 Missing 9. NA strongly or not strongly; NA if approve/ disapprove; no Post IW
 (presidential years); short form (1992)
 0. No running incumbent (includes Washington D.C.)
@@ -29357,9 +27766,6 @@ The 1978 version of this variable was not coded comparably.
 Study data included variables for 2 running incumbents due to
 redistricting in two congressional districts (19 cases affected). For
 this year, the running incumbent who represented R’s sampling location
-
-
-538 VARIABLE DESCRIPTION
 BEFORE the 1982 redistricting has been considered R’s ‘incumbent’ for
 Cumulative Data File definition. See NOTE VCF0902 describing the
 congressional districts affected and designation of candidates as the
@@ -29408,9 +27814,6 @@ running incumbent] voted on in the last couple of years?
 Valid 1. Agreed
 5. Disagreed
 Missing
-
-
-539
 8. DK
 9. NA; no Post IW
 0. No running incumbent (includes Washington D.C.); R does not remember or
@@ -29467,9 +27870,6 @@ Sources 1980: V800282
 1988: V880317
 1990: V900440
 1992: V923708
-
-
-540 VARIABLE DESCRIPTION
 1996: V960466
 2004: V043144
 VCF9074 PRESIDENT ON COOPERATION WITH USSR SCALE
@@ -29520,9 +27920,6 @@ business, industry and government. Others feel that women’s place is
 in the home.
 Where would you place [president] on this scale? (7-POINT SCALE SHOWN
 TO R)
-
-
-541
 Valid 1. Women and men should have an equal role
 2.
 3.
@@ -29582,9 +27979,6 @@ Valid 1. Government should help minority blacks/minorities
 6.
 7. Blacks/minorities should help themselves
 Missing
-
-
-542 VARIABLE DESCRIPTION
 8. DK
 9. NA; no Post IW; telephone IW (2000)
 0. R self-rating is DK or ‘haven’t thought much about it’ on same 7pt scale
@@ -29644,9 +28038,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 See NOTE VCF9073.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-543
 Sources 1970: V700137(type 0)
 1972: V720209
 1976: V763274
@@ -29706,9 +28097,6 @@ Sources 1982: V820444
 2000: V000551
 2004: V043138
 2012: spsrvpr_ssdpc
-
-
-544 VARIABLE DESCRIPTION
 VCF9079 PRESIDENT ON GUARANTEED JOBS AND LIVING SCALE
 Question Please look at page 9 of the booklet.
 Some people feel the government in Washington should see
@@ -29766,9 +28154,6 @@ Valid 1. Extremely liberal
 2. Liberal
 3. Slightly liberal
 4. Moderate; middle of the road
-
-
-545
 5. Slightly conservative
 6. Conservative
 7. Extremely conservative
@@ -29828,9 +28213,6 @@ Valid 1. Greatly decrease defense spending
 7. Greatly increase defense spending
 Missing 8. DK
 9. NA; short-form or Spanish language IW (1992); telephone IW (2000)
-
-
-546 VARIABLE DESCRIPTION
 0. R self-rating is DK or ‘haven’t thought much about it’ (before 1996)
 INAP. question not used
 Notes GENERAL NOTE:
@@ -29887,9 +28269,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1980: V801079
 1984: V840410
 1988: V880369
-
-
-547
 DEMOCRATIC PRESIDENTIAL CAND- WOMEN EQUAL
 VCF9083
 ROLE SCALE
@@ -29949,9 +28328,6 @@ effort to improve the social and economic position of blacks. Others
 feel that the government should not make any special effort to help
 blacks because they should help themselves.
 2004:
-
-
-548 VARIABLE DESCRIPTION
 Please look at page [page] of the booklet.
 Some people feel that the government in Washington
 should make every effort to improve the social and
@@ -30011,9 +28387,6 @@ Valid 1. Government insurance plan
 3.
 4.
 5.
-
-
-549
 6.
 7. Private insurance plan
 Missing 8. DK
@@ -30072,9 +28445,6 @@ See NOTE VCF9081.
 1980 NOTE:
 The 1980 version of the question in not comparable.
 1984 NOTE:
-
-
-550 VARIABLE DESCRIPTION
 In 1984 this question appeared in both the Pre and Post; Pre data are
 included here.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -30134,9 +28504,6 @@ Sources 1972: V720174
 1996: V960484
 2000: V000621
 2004: V043155
-
-
-551
 2012: guarpr_dpc
 2016: V161190
 DEMOCRATIC PRESIDENTIAL CAND- LIBERAL-
@@ -30195,9 +28562,6 @@ Sources 1972: V720654
 2004: V043088
 2016: V161128
 2020: V201202
-
-
-552 VARIABLE DESCRIPTION
 REPUBLICAN PRESIDENTIAL CAND- DEFENSE SPENDING
 VCF9089
 SCALE
@@ -30257,9 +28621,6 @@ Some people feel it is important for us to try very hard to get along
 with Russia. Others feel it is a big mistake to try too hard to get
 along with Russia.
 1984,1988:
-
-
-553
 Some people feel it is important for us to try to cooperate more with
 Russia, while others believe we should be much tougher in our dealings
 with Russia.
@@ -30318,9 +28679,6 @@ Missing 8. DK
 9. NA; no Post IW; telephone IW (2000)
 0. R self-rating is DK or ‘Haven’t thought much about it’ (before 1996)
 INAP. question not used
-
-
-554 VARIABLE DESCRIPTION
 Notes GENERAL NOTE:
 See NOTE VCF9089.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -30381,9 +28739,6 @@ Form A asked about ‘blacks’ only, while Form B asked about ‘blacks and
 other minorities’ (to filter for Form A/B responses, use variable
 VCF0012).
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-555
 Sources 1972: V720630
 1976: V763265
 1980: V801064
@@ -30436,9 +28791,6 @@ Please look at page [page] of the booklet.
 Some people think the government should provide fewer
 services even in areas such as health and education
 in order to reduce spending. Suppose these people are at
-
-
-556 VARIABLE DESCRIPTION
 one end of a scale, at point 1. Other people feel it is
 important for the government to provide many more services
 even if it means an increase in spending. Suppose these
@@ -30499,9 +28851,6 @@ points 2, 3, 4, 5, or 6.
 Where would you place [the Republican presidential
 candidate] (on this issue)?
 ALL YEARS:
-
-
-557
 Some people feel the government in Washington should see to it that
 every person has a job and a good standard of living.
 Others think the government should just let each person get ahead on
@@ -30560,9 +28909,6 @@ GENERAL NOTE:
 Republican Presidential candidates: Reagan 1980,1984; George Bush Sr.
 1988,1992; Dole 1996; George W. Bush 2000.
 In 1996 and later, randomization occurred for the order of the major
-
-
-558 VARIABLE DESCRIPTION
 Presidential candidate names for this placement.
 In 1972-1980, if R replied DK or ‘haven’t thought much about it’ in
 rating self on same 7-point scale, then R was not asked this question.
@@ -30623,9 +28969,6 @@ included here for districts having only one major party candidate
 (opposite party)..
 In all years before 1998, if R replied DK or ‘haven’t thought much
 about it’ in rating self on this same scale, then R was not asked this
-
-
-559
 question.
 1998 NOTE 1:
 Randomization occurred for the order of the 2 major party House
@@ -30675,9 +29018,6 @@ services even in areas such as health and education
 in order to reduce spending. Suppose these people are at
 one end of a scale, at point 1. Other people feel it is
 important for the government to provide many more services
-
-
-560 VARIABLE DESCRIPTION
 even if it means an increase in spending. Suppose these
 people are at the other end, at point 7. And, of course,
 some other people have opinions somewhere in between,
@@ -30738,9 +29078,6 @@ Valid 1. Government see to job and good standard of living
 2.
 3.
 4.
-
-
-561
 5.
 6.
 7. Government let each person get ahead on own
@@ -30798,9 +29135,6 @@ Sources 1978: V780404
 1990: V900409
 1994: V940843
 1996: V960375
-
-
-562 VARIABLE DESCRIPTION
 1998: V980407
 2000: V001378
 2004: V045046,V045119
@@ -30852,9 +29186,6 @@ make any special effort to help minorities because they should help
 themselves.
 Where would you place [the Republican U.S. House Candidate] on this
 scale? (7-POINT SCALE SHOWN TO R)
-
-
-563
 Valid 1. Government should help Blacks/minorities
 2.
 3.
@@ -30914,9 +29245,6 @@ See NOTE VCF9102.
 Randomization occurred for the order of the 2 major party House
 candidate names for this placement.
 1996 NOTE 2:
-
-
-564 VARIABLE DESCRIPTION
 If R did not recognize the name of the Democratic candidate for the
 thermometer rating, then this question was not asked.
 2000 NOTE:
@@ -30967,9 +29295,6 @@ VCF9106
 SCALE
 Question We hear a lot of talk these days about liberals and conservatives.
 Here is a 7-point scale on which the political views that people might
-
-
-565
 hold are arranged from extremely liberal to extremely conservative.
 Where would you place [the Republican U.S. House Candidate] on this
 scale? (7-POINT SCALE SHOWN TO R)
@@ -31028,9 +29353,6 @@ INAP. question not used
 Notes GENERAL NOTE:
 For all years, this var has been built from placements of Democratic
 and Republican House candidates. See VCF9097, VCF9102.
-
-
-566 VARIABLE DESCRIPTION
 1982 NOTE:
 1982 study data included 2 sets of vars for 2 running incumbents due to
 redistricting in two congressional districts (19 cases affected). For
@@ -31080,9 +29402,6 @@ Valid 1. Government should provide many fewer services: reduce spending a lot
 6.
 7. Government should provide many more services: increase spending a lot
 Missing
-
-
-567
 8. DK/Don’t Recognize
 9. NA; telephone IW (1984,2000); no Post IW
 0. R self-rating was DK or ‘haven’t thought much about it’ (see above); no
@@ -31134,9 +29453,6 @@ INCUMBENT U.S. HOUSE CAND- LIBERAL-CONSERVATIVE
 VCF9111
 SCALE
 Question Liberal/conservative – incumbent House cand placement on 7-point scale
-
-
-568 VARIABLE DESCRIPTION
 Valid 1. Extremely liberal
 2. Liberal
 3. Slightly liberal
@@ -31193,9 +29509,6 @@ district (i.e., not previously representing the district of R’s sample
 location) has been considered the ‘challenger’ to the running
 incumbent.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-569
 CHALLENGER TO INCUMBENT U.S. HOUSE CAND- AID TO
 VCF9113
 BLACKS SCALE
@@ -31253,9 +29566,6 @@ redistricting in two congressional districts (19 cases affected). For
 this year, the incumbent who represented R’s sampling location BEFORE
 the 1982 redistricting has been considered R’s ‘incumbent’. The other
 candidate, the incumbent previously representing another Congressional
-
-
-570 VARIABLE DESCRIPTION
 district (i.e., not previously representing the district of R’s sample
 location) has been considered the ‘challenger’ to the running
 incumbent.
@@ -31306,9 +29616,6 @@ Missing 8. DK/Don’t Recognize
 9. NA; no Post IW; R selected for branching
 series version of this question (2000)
 0. R self-rating was DK or ‘haven’t thought much about
-
-
-571
 it’ (see above); no incumbent candidate in district
 race (incl. Washington D.C.); incumbent unopposed
 INAP. question not used
@@ -31360,9 +29667,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1980: V801091
 1984: V840413
 1988: V880372
-
-
-572 VARIABLE DESCRIPTION
 VCF9118 FEDERAL GOVERNMENT ON DEFENSE SPENDING SCALE
 Question Some people believe that we should spend much less money for defense.
 Others feel that defense spending should be greatly increased.
@@ -31418,9 +29722,6 @@ Missing 8. DK
 0. R self-rating was DK/‘haven’t thought much about it’
 INAP. question not used
 Notes
-
-
-573
 GENERAL NOTE:
 In all years, if R replied DK or ‘haven’t thought much about it’ in
 rating self on this same 7-point scale, then R was not asked this
@@ -31471,9 +29772,6 @@ Sources 1982: V820451
 FEDERAL GOVERNMENT ON GUARANTEED JOBS AND
 VCF9121
 LIVING SCALE
-
-
-574 VARIABLE DESCRIPTION
 Question Some people feel the government in Washington should see to it that
 every person has a job and a good standard of living.
 Others think the government should just let each person get ahead on
@@ -31531,9 +29829,6 @@ election day and U.S. citizens.
 2002 NOTE:
 Respondents were politically eligible if they were 18 or older on
 the day of interview and U.S. citizens.
-
-
-575
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1966: V660016
 1968: V680020
@@ -31581,9 +29876,6 @@ Notes GENERAL NOTE:
 The actual number of telephone calls or personal trips made to the
 household by the interviewer is coded here.
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-576 VARIABLE DESCRIPTION
 Sources 1978: V780035
 1980: V800038
 1982: V820043
@@ -31634,9 +29926,6 @@ extent with both, but we want to know which one is closer to your
 (2000: own) views:
 ONE, the less government the better; or
 TWO, there are more things that government should be doing
-
-
-577
 Valid 1. Less government the better
 2. More things government should be doing
 8. DK; both, depends (1990,1992)
@@ -31685,9 +29974,6 @@ Sources 1990: V900331
 2012: govrole_market
 2016: V162184
 VCF9133 GOVT TOO INVOLVED IN THINGS OR PROBLEMS REQUIRE
-
-
-578 VARIABLE DESCRIPTION
 Question Next, I am going to ask you to choose which of two statements
 I read comes closer to your own opinion. You might agree to some
 extent with both, but we want to know which one is closer to your
@@ -31734,9 +30020,6 @@ Sources 1990: V900334
 2000: V001423
 VCF9149 ELECTION OFFICE NUMBER
 Question VOTE VALIDATION STUDY: Election Office Number
-
-
-579
 Valid 3-DigitNumber 1-182 Coded, Except:
 Missing 998. R self-report registered outside of area, attempt made by phone to
 elicit registration and vote information from outside area election
@@ -31794,9 +30077,6 @@ Sources 1978: V780470,V780484
 1988: V881144
 1990: V900279,V900280
 2012: prevote_voted, postvote_rvote
-
-
-580 VARIABLE DESCRIPTION
 VCF9151 R TURNOUT (SELF-REPORTED)
 Question VOTE VALIDATION STUDY: R Turnout (Self-reported)
 Valid 1. Yes, voted
@@ -31852,9 +30132,6 @@ Codes 3-7: All years: complications in the ability to carry out
 registration records-checks prevented the validation of registration
 status for some Rs for whom validation was originally intended.
 Validation was intended in 1984-90 for all Rs except nonvoters who
-
-
-581
 didn’t report being registered. Prior to 1984, vote validation was
 intended for all ANES respondents [exception: alidation was not
 intended for 1964 no-posts (code 5). Validation was not intended for
@@ -31915,9 +30192,6 @@ established, and minimal information about condition/accessibility of
 office records was collected. Information available from 1978 is
 that in 32 cases (8 in original var 1409) of Rs with active
 registration (coded 1 in VCF9152), interviewers were unable to check
-
-
-582 VARIABLE DESCRIPTION
 voting records at all: these cases have been coded 5 in VCF9153.
 Similarly, information available from 1976 indicates that in 31 cases
 of Rs (weighted: code 8 in original var 5012) with active
@@ -31978,9 +30252,6 @@ Missing 8. DK (1980 ONLY: code 9 in original var 1207, 31 cases registered at
 different address)
 0. 3,7 in VCF9152 (all years); 2 in VCF9152 (1984-1990 only); 5 in VCF9152
 (1964,1976,1980 only); 4 in VCF9152 (1964,1980 only)
-
-
-583
 9. 1976 non-Panel Rs
 INAP. question not used
 Notes See NOTE VCF9149,VCF9152.
@@ -32040,9 +30311,6 @@ election interview.
 registration. Registration was not ‘checked’ in such cases but voting
 records WERE checked (4 in VCF9152 and [1980] 1 in VCF9153). The
 results of the vote record checks for “same-day registration” Rs in
-
-
-584 VARIABLE DESCRIPTION
 1964 and 1980 are represented here in codes 1 (voted) and 3 (did not
 vote), with nocases of same-day registration coded 5.
 1976 NOTE;
@@ -32094,9 +30362,6 @@ Sources 1996: V961470
 2012: cses_dptylike
 2016: V162283
 2020: V202433
-
-
-585
 CSES: LIKE-DISLIKE (11PT) SCALE PLACEMENT FOR
 VCF9202
 REPUBLICAN PARTY
@@ -32148,9 +30413,6 @@ Sources 2004: V045248
 2008: V085185
 2016: V162278
 2020: V202428
-
-
-586 VARIABLE DESCRIPTION
 CSES: WHICH POLITICAL PARTY IS IT THAT REPRESENTS
 VCF9204
 R’S VIEWS BEST
@@ -32205,9 +30467,6 @@ Sources 1990: V900390
 2012: ptyperf_ptyecon
 2016: V161144
 2020: V201239
-
-
-587
 BETTER WHEN ONE PARTY CONTROLS BOTH THE
 VCF9206 PRESIDENCY AND U.S. CONGRESS OR WHEN CONTROL IS
 SPLIT
@@ -32264,9 +30523,6 @@ Valid 0. Strongly dislike
 8.
 9.
 10. Strongly like
-
-
-588 VARIABLE DESCRIPTION
 Missing -7. Haven’t heard of (2008,2012 only)
 -8. DK
 -9. NA; no post data
@@ -32325,9 +30581,6 @@ Administration for Presidential candidates were asked after
 administration for parties, without separate introduction.
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources
-
-
-589
 1996: V961474
 2008: V085188a
 2012: cses_rpclike
@@ -32376,9 +30629,6 @@ well, or not well at all?
 /
 (What about)
 ‘really cares about people like you’?
-
-
-590 VARIABLE DESCRIPTION
 (Does this phrase describe
 -Democratic Presidential candidate name-
 extremely well, very well, moderately well, slightly well, or
@@ -32429,9 +30679,6 @@ Sources 2008: V083100d
 2012: ctrait_dpcknow
 2016: V161161
 2020: V201210
-
-
-591
 HOW WELL DOES HONEST DESCRIBE: DEMOCRATIC
 VCF9212
 PRESIDENTIAL CANDIDATE (NO RB, 5 CAT)
@@ -32487,9 +30734,6 @@ Valid 1. Extremely well
 Missing -8. DK
 -9. RF; NA; half sample administration (2008)
 INAP. Inap. question not used
-
-
-592 VARIABLE DESCRIPTION
 Notes The order of candidates and order of traits were randomized.
 For the first trait administered, wording begain “Think about…”
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -32539,9 +30783,6 @@ describe -name- extremely well, very well, moderately well, slightly
 well, or not well at all?
 /
 (What about)
-
-
-593
 ‘knowledgeable’?
 (Does this phrase describe
 -Republican Presidential candidate name-
@@ -32593,9 +30834,6 @@ Sources 2008: V083102f
 2012: ctrait_rpchonst
 2016: V161167
 2020: V201215
-
-
-594 VARIABLE DESCRIPTION
 DOES R APPROVE OR DISAPPROVE OF THE WAY
 VCF9217 CURRENT U.S. PRESIDENT IS HANDLING FOREIGN
 RELATIONS
@@ -32643,9 +30881,6 @@ Sources 1996: V960303
 2012: presapp_health
 2016: V161085
 2020: V201136
-
-
-595
 CURRENT U.S. PRESIDENT RETROSPECTIVE: U.S. MORE OR
 VCF9219
 LESS SECURE, OR NOT CHANGED
@@ -32700,9 +30935,6 @@ was first elected. 1992: George Bush Sr., 2000: Bill Clinton,
 2004: George W. Bush, 2016: Barack Obama.
 Wording in 1998 was not comparable (“since Clinton took office”).
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-596 VARIABLE DESCRIPTION
 Sources 1992: V923535
 2000: V000814,V001596
 2004: V043213
@@ -32748,9 +30980,6 @@ Sources 1992: V923526
 2012: presapp_track
 2016: V161081
 2020: V201114
-
-
-597
 HOW LIKELY IS IT THAT RECENT IMMIGRATION LEVELS
 VCF9223
 WILL TAKE JOBS AWAY FROM PEOPLE ALREADY HERE
@@ -32795,9 +31024,6 @@ PAST YEAR
 Question Would you say that over the past year, the level of unemployment
 in the country has gotten better, stayed about the same, or
 gotten worse?
-
-
-598 VARIABLE DESCRIPTION
 Valid 1. Better
 2. Stayed same
 3. Worse
@@ -32845,9 +31071,6 @@ ABOUT THE SAME AS 20 YEARS AGO
 Question Do you think the difference in incomes between rich people and
 poor people in the United States today is larger, smaller, or
 about the same as it was 20 years ago?
-
-
-599
 Valid 1. Larger
 2. About the same
 3. Smaller
@@ -32895,9 +31118,6 @@ Valid 1. More unemployment
 3. Less unemployment
 Missing -8. DK
 -9. RF; NA; no post data; programming error (2004)
-
-
-600 VARIABLE DESCRIPTION
 INAP. Inap. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V926152
@@ -32942,9 +31162,6 @@ INAP. Inap. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1988: V880376
 1992: V923802
-
-
-601
 1996: V961327
 1998: V980490
 2000: V000511a
@@ -32992,9 +31209,6 @@ Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2008: V085232x
 2012: dhs_torture,dhs_torturefav,dhs_tortureopp
 2016: V162295x
-
-
-602 VARIABLE DESCRIPTION
 ABORTION ISSUE PLACEMENT FOR DEMOCRATIC
 VCF9234
 PRESIDENTIAL CANDIDATE
@@ -33051,9 +31265,6 @@ Missing -8. DK
 (1992,1996,2000,2004,2008,2012)
 INAP. Inap. question not used
 Notes
-
-
-603
 Respondent booklet was used.
 After 1992, the order of Presidential candidates was randomized.
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -33103,9 +31314,6 @@ Valid 1. Favor strongly
 5. Oppose strongly
 Missing -8. DK
 -9. RF; NA; DK/RF/NA whether favor or oppose; no post data
-
-
-604 VARIABLE DESCRIPTION
 INAP. Inap. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1988: V880855
@@ -33153,9 +31361,6 @@ Valid 1. Extremely important
 3. Somewhat important
 4. Not too important
 5. Not at all important
-
-
-605
 Missing -8. DK
 -9. RF; NA; half sample administration (2008)
 INAP. Inap. question not used
@@ -33205,9 +31410,6 @@ Missing -7. Haven’t heard of (2004,2008,2012)
 -8. DK
 -9. NA; no Post data
 INAP. Inap. question not used
-
-
-606 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2004: V045260
 2008: V085189a
@@ -33257,9 +31459,6 @@ experience?
 Do you consider yourself a born-again Christian?
 1990,1992,1996-2000,2008-later:
 Would you call yourself a born-again Christian, that is,
-
-
-607
 have you personally had a conversion experience related to
 Jesus Christ?
 Valid 1. Yes
@@ -33306,9 +31505,6 @@ Would you say that you are extremely satisfied, very satisfied,
 moderately satisfied, slightly satisfied, or not satisfied at all?
 Valid 1. Extremely satisfied
 2. Very satisfied
-
-
-608 VARIABLE DESCRIPTION
 3. Moderately satisfied
 4. Slightly satisfied
 5. Not satisfied at all
@@ -33357,9 +31553,6 @@ Valid 1. Obedience
 3. Self-reliance
 4. Neither (2020)
 Missing
-
-
-609
 -8. DK
 -9. RF; NA; short questionnaire (1992); no post data
 INAP. Inap. question not used
@@ -33409,9 +31602,6 @@ Valid 1. Independence
 Missing -8. DK
 -9. RF; NA; short questionnaire (1992); no post data
 INAP. Inap. question not used
-
-
-610 VARIABLE DESCRIPTION
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1992: V926019
 2000: V001586
@@ -33460,9 +31650,6 @@ Missing -8. DK
 -9. RF; NA; half sample administration (2008,2012); no post data
 INAP. Inap. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
-
-
-611
 Sources 2008: V083080b
 2012: effic_undrev
 2016: V162218
@@ -33510,9 +31697,6 @@ Notes 1996,2004 wording not comparable
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 2008: V085182
 2012: cses_diffpower
-
-
-612 VARIABLE DESCRIPTION
 2016: V162281
 2020: V202431
 CSES: HOW SATISFIED IS R WITH THE WAY DEMOCRACY
@@ -33552,9 +31736,6 @@ Sources 2004: V045241
 2012: cses_satisdem
 2016: V162290
 2020: V202440
-
-
-613
 WAS R ABLE TO DEVOTE ANY TIME TO VOLUNTEER
 VCF9256
 WORK IN THE LAST 12 MONTHS
@@ -33600,9 +31781,6 @@ VCF9258 COMMUNITY OR SCHOOLS DURING THE PAST 12
 MONTHS
 Question During the past twelve months, did you attend a meeting about
 an issue facing your community or schools?
-
-
-614 VARIABLE DESCRIPTION
 Valid 1. Yes
 2. No
 Missing -8. DK
@@ -33652,9 +31830,6 @@ WHAT’S YOUR BEST GUESS?” DK KEY IS NOT ALLOWED FOR THIS
 QUESTION}
 Valid 1. Correctly identifies
 2. No identification; identification is incomplete or wrong
-
-
-615
 Missing -9. no post data
 INAP. Inap. question not used
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -33706,9 +31881,6 @@ the like.
 (The first name is) -name-.
 (What job or political office does he now hold?)
 {BEFORE 2004: PAUSE AFTER EACH NAME. RECORD EXACTLY WHAT IS
-
-
-616 VARIABLE DESCRIPTION
 SAID BUT DO NOT PROBE}
 {2004-LATER: INTERVIEWER: DOUBLE-CHECK THAT SCREEN IS NOT
 WITHIN VIEW OF THE RESPONDENT. PROBE DON’T KNOWS WITH, “WELL,
@@ -33766,9 +31938,6 @@ Sources 1980: V800804,V800806,V800808
 1994: V940813
 1996: V961170
 1998: V980366
-
-
-617
 2000: V001230
 2004: V045014a
 2008: V085033a
@@ -33825,9 +31994,6 @@ Sources 1972: V720473
 2012: mobilpo_ctbwhpty
 2016: V162016a
 2020: V202020 (restricted)
-
-
-618 VARIABLE DESCRIPTION
 PRE-ELECTION: DID R VOTE IN THE STATE PRESIDENTIAL
 VCF9265
 PRIMARY ELECTION OR CAUCUS
@@ -33891,9 +32057,6 @@ Sources 1968: V680139
 2012: prevote_primv
 2016: V161021
 2020: V201020
-
-
-619
 (HISPANIC RS) FOR INFORMATION ABOUT POLITICS
 DOES R GET THE MOST INFORMATION FROM SPANISH
 VCF9266
@@ -33938,9 +32101,6 @@ rich people
 {PROBE FOR “DON’T KNOW” RESPONSE: when you say don’t know
 do you mean that you don’t know who this is or do you
 have something else in mind?
-
-
-620 VARIABLE DESCRIPTION
 Valid 1-100
 Missing -7. Don’t recognize
 -8. DK where to rate
@@ -33989,9 +32149,6 @@ Now I have some questions about different groups in our
 society. Imagine a seven-point scale on which the
 characteristics of the people in a group can be rated.
 In the first question a score of 1 means that you think
-
-
-621
 almost all of the people in that group tend to be
 “hard-working.” A score of 7 means that you think most
 people in the group are “lazy.” A score of 4
@@ -34050,9 +32207,6 @@ Valid 1. Hard-working
 Missing -8. DK
 -9. RF; NA; no post data
 INAP. Inap. question not used
-
-
-622 VARIABLE DESCRIPTION
 Notes Scale administered first for whites, then for other racial
 groups in random order.
 2008 NOTE:
@@ -34108,9 +32262,6 @@ Sources 1992: V926224
 2012: stype_hwkhisp
 2016: V162347
 2020: V202517
-
-
-623
 HARDWORKING-LAZY (7PT) SCALE PLACEMENT FOR
 VCF9273
 ASIAN AMERICANS
@@ -34168,9 +32319,6 @@ I am going to read you a list of groups, for each one please
 tell me whether that group has too much influence, just about
 the right amount of influence or too little influence.
 What about blacks?
-
-
-624 VARIABLE DESCRIPTION
 (Would you say they have too much influence, just about the
 right amount of influence, or too little influence?)
 Valid 1. Too much influence
@@ -34214,9 +32362,6 @@ Missing -8. DK
 -9. RF; NA; not currently working or temporarily laid off
 INAP. Inap. question not used
 Notes Applies to all working Rs, regardless of number of hours
-
-
-625
 Weight VCF0009x/VCF0009y/VCF0009z
 Sources 1986: V860624
 1988: V880438
@@ -34265,9 +32410,6 @@ Valid 1. Heterosexual or straight
 Missing -8. DK
 -9. RF; NA; Inap
 INAP. Inap. question not used
-
-
-626 VARIABLE DESCRIPTION
 Notes 2008 NOTE:
 ACASI administration
 Weight VCF0009x/VCF0009y/VCF0009z
@@ -34310,9 +32452,6 @@ Sources 1992: V923714
 2012: health_insured
 2016: V161112
 2020: V201620
-
-
-627
 VCF9282 IS R LIVING WITH FAMILY MEMBERS
 Question Are you living at home with one or more persons who are family members?
 Valid 1. Yes
@@ -34325,4 +32464,3 @@ Sources 2008: V083056
 2012: finance_finfam
 2016: V161109
 2020: V201501
-

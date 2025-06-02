@@ -1,14 +1,17 @@
 import re
 import pandas as pd
+import Extract_Text_pdfplumer
 
 # Function to extract IDs and sources from the file
-def extract_ids_and_sources(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+def extract_ids_and_sources(anes_pdf_path, formatted_text_path):
+    
+    Extract_Text_pdfplumer.extract_prepared_text_from_pdf(anes_pdf_path)
+    
+    with open(formatted_text_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
     
     # Regular expressions to identify IDs and sources
     id_pattern = re.compile(r'^(VCF\d{4,5}[a-zA-Z]?)')
-    #source_header_pattern = re.compile(r'^Sources\s(.+)')
     source_header_pattern = re.compile(r'^Sources\s*\n*(.+)*')
     source_line_pattern = re.compile(r'^(\d{4}):\s(.+)')
     
@@ -65,13 +68,14 @@ def extract_ids_and_sources(file_path):
     return extracted_data
 
 # File path to input file
-file_path = './output2.txt'
+anes_pdf_path = './TableSourceFinal.pdf'
+formatted_text_path = './formatted_pdf.txt'
 # Extract data from file
-data = extract_ids_and_sources(file_path)
+data = extract_ids_and_sources(anes_pdf_path, formatted_text_path)
 
 # Convert data to DataFrame and save as Excel file
 df = pd.DataFrame(data, columns=['ID', 'Sources'])
-df.to_excel('extracted_ids_sources1.xlsx', index=False)
+df.to_excel('extracted_ids_sources.xlsx', index=False)
 
 # Print confirmation message
 print("Excel file created: extracted_ids_sources.xlsx")

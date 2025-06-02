@@ -1,13 +1,16 @@
 import pdfplumber
 import os
-from PIL import Image
 
-def extract_text_from_pdf(pdf_path, output_file="output1.txt"):
+def extract_raw_text_from_pdf(anes_pdf_path, output_file="raw_pdf.txt"):
     extracted_text = ""
-
+    
+    if os.path.exists(output_file):
+        print("An extract raw text of the pdf file already exists. Please delete the file 'raw_pdf.txt' to run this function.")
+        return
+    
     # Open the PDF
-    with pdfplumber.open(pdf_path) as pdf:
-        for page_number, page in enumerate(pdf.pages, start=1):
+    with pdfplumber.open(anes_pdf_path) as pdf:
+        for _, page in enumerate(pdf.pages, start=1):
             text = page.extract_text()
             extracted_text += f"{text}~!^&"
     
@@ -17,22 +20,19 @@ def extract_text_from_pdf(pdf_path, output_file="output1.txt"):
             file.write(extracted_text)
         print(f"Extracted text saved to {output_file}")
 
-
-#extract_text_from_pdf("TableSourceFinal.pdf")
-
-
-# Define input and output file paths
-input_file = "output1.txt"
-output_file = "output2.txt"
-# Open the input file and process each line
-with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8") as outfile:
-    for line in infile:
-        index = line.find("~!^&")  # Find the index of "~!^&"
-        if index != -1:
-            line = line[:index]  # Keep only the part before "~!^&"
-            outfile.write(line + "\n")
-        else:
-            outfile.write(line)  # Write the cleaned line
+def extract_prepared_text_from_pdf(anes_pdf_path, output_file_path="formatted_pdf.txt"):
+    extract_raw_text_from_pdf(anes_pdf_path)
+    # Define input and output file paths
+    input_file_path = "raw_pdf.txt"
+    # Open the input file and process each line
+    with open(input_file_path, "r", encoding="utf-8") as infile, open(output_file_path, "w", encoding="utf-8") as outfile:
+        for line in infile:
+            index = line.find("~!^&")  # Find the index of "~!^&"
+            if index != -1:
+                line = line[:index]  # Keep only the part before "~!^&"
+                outfile.write(line + "\n")
+            else:
+                outfile.write(line)  # Write the cleaned line
 
 
-print(f"Processed file saved as {output_file}")
+    print(f"Processed file saved as {output_file_path}")
